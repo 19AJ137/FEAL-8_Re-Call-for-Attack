@@ -1,0 +1,13 @@
+key 39287fc26939a7df truth t=33b1d0 e=4f63 kappa=30 e8=56 r=14
+N=981 r1=3.9175 rpre=2.486 r2=8.500 setup 4.3s, 8192 DK7 values, stage2 smem 83328 B
+processed 8192 DK7 in 18.4s (stage1 1.1s, stage2 17.3s) -> 0.0022 s/DK7; full 2^22: 2.62 h
+survivors/DK7 3812 (expect 3901, overflow DK7s 0); pre/DK7 1.25e+08, full 1.34e+07 (10.69%); cands(r>=8.50)/DK7 0.00
+true hypothesis: stage1 z0=-3.934 z1=3.674 r=5.382 survived=yes
+true key in candidates: z0=-7.631 z1=8.333 r=11.299 (rank 0)
+candidates by r threshold (wrong DK7 -> full-space estimate | from the true DK7 row):
+  r>=6.0: wrong 0 -> 0 | true-row 40
+  r>=6.5: wrong 0 -> 0 | true-row 40
+  r>=7.0: wrong 0 -> 0 | true-row 40
+  r>=7.5: wrong 0 -> 0 | true-row 40
+  r>=8.0: wrong 0 -> 0 | true-row 40
+  r>=8.5: wrong 0 -> 0 | true-row 40

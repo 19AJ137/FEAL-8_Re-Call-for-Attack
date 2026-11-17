@@ -1,0 +1,18 @@
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=180
+processing 3 candidates from f3.txt
+  cand 2 (z2=7.50) passed 3-round test: z3=8.01, pairs 1
+  cand 1 (z2=-7.38) passed 3-round test: z3=-8.01, pairs 1
+  cand 0 (z2=-7.38) passed 3-round test: z3=8.01, pairs 1
+filter: 3 cands, pass(a)=3 (100.0%), pass(c)=3 (100.0% of a), pass(t)=3; wall 8.4s (2.809 s/cand wall), thread time 8.03 s/cand
+recovering from cand 0:\n  (a) 339 hyps >= 5.0, best z=-5.84 nrm=1 g0=15 g3=47 k=ea7b  (3.80s)
+  (c) 540 hyps >= 5.0, best z=-6.10 nrm=0 g0=40 g3=0d k=1c28  (4.68s)
+  (t) best 3-round z=8.01; 1 of 339 x 540 pairs pass 8.0 (0.01s)
+  (e) tried 1 pair(s), no key (0.0s)
+recovering from cand 1:\n  (a) 492 hyps >= 5.0, best z=5.91 nrm=0 g0=22 g3=63 k=b11f  (4.00s)
+  (c) 491 hyps >= 5.0, best z=6.10 nrm=1 g0=42 g3=50 k=4921  (4.06s)
+  (t) best 3-round z=-8.01; 1 of 492 x 491 pairs pass 8.0 (0.02s)
+  (e) tried 1 pair(s), no key (0.0s)
+recovering from cand 2:\n  (a) 585 hyps >= 5.0, best z=-6.55 nrm=1 g0=46 g3=60 k=0e49  (4.29s)
+  (c) 305 hyps >= 5.0, best z=6.03 nrm=0 g0=2a g3=07 k=850a  (3.38s)
+  (t) best 3-round z=8.01; 1 of 585 x 305 pairs pass 8.0 (0.01s)
+  (e) tried 1 pair(s), no key (0.1s)

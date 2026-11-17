@@ -1,0 +1,5 @@
+s3true6: 240 keys, recovered 215
+Mon Nov 16 16:13:58 UTC 2026
+batch 81920-83967: 9498 cands, 620.0s elapsed
+== Mon Nov 16 16:08:32 UTC 2026 lines=181211 tier_new=1100
+filter: 1100 cands, pass(a)=1100 (100.0%), pass(c)=1100 (100.0% of a), pass(t)=0; wall 215.6s (0.196 s/cand wall), thread time 36.56 s/cand

@@ -1,0 +1,26 @@
+keys 30000; r1(3.5)=3.9174 r1(3.0)=3.4394 rpre=2.4860
+correct key, fwd: mean|zA0| 7.830 mean|zA1| 7.836 mean|zB0| 3.499 mean|zB1| 3.512
+correct key, fwd: corr(zA0,zA1)=-0.059 corr(|zB0|,|zB1|)=-0.009 corr(zB0,zB1)=0.924
+correct key: |zA0| fwd vs rev identical in 1.9% of keys; |zA1| fwd = |zA0| rev in 1.9%; |zA1| fwd = |zA1| rev in 1.9%
+
+false candidates per direction (model):
+  current |zA0|>=6.5: 2.58e+07   (attackC measured: 6.5→2e7, 7.0→7.5e5, 7.3→1e5, 7.5→2.5e4)
+  current |zA0|>=7.0: 1.08e+06   (attackC measured: 6.5→2e7, 7.0→7.5e5, 7.3→1e5, 7.5→2.5e4)
+  current |zA0|>=7.3: 1.4e+05   (attackC measured: 6.5→2e7, 7.0→7.5e5, 7.3→1e5, 7.5→2.5e4)
+  current |zA0|>=7.5: 3.4e+04   (attackC measured: 6.5→2e7, 7.0→7.5e5, 7.3→1e5, 7.5→2.5e4)
+  new sqrt(zA0^2+zA1^2)>=7.5: 2.34e+05
+  new sqrt(zA0^2+zA1^2)>=8.0: 6.2e+03
+  new sqrt(zA0^2+zA1^2)>=8.5: 123
+  new sqrt(zA0^2+zA1^2)>=9.0: 1.84
+  new sqrt(zA0^2+zA1^2)>=9.5: 0.0206
+
+success of stages 1-2 (correct key; stage 3 not included):
+  current thr1=3.5, |zA0|>=6.5                 fwd  48.0%  rev  48.5%  either  73.5%
+  current thr1=3.5, |zA0|>=7.3 (sequential set) fwd  42.0%  rev  42.2%  either  66.5%
+  current thr1=3.0, |zA0|>=6.5                 fwd  65.4%  rev  65.6%  either  88.1%
+  step1 only: |zB0|>=3.5                       fwd  50.1%  rev  50.5%  either  75.5%
+  step1 only: hypot(zB0,zB1)>=3.917            fwd  87.9%  rev  88.1%  either  98.6%
+  new r1=3.917 (same survivors), r2=8.0        fwd  87.9%  rev  88.1%  either  98.6%
+  new r1=3.917 (same survivors), r2=8.5        fwd  87.8%  rev  88.0%  either  98.6%
+  new r1=3.917 (same survivors), r2=9.0        fwd  87.3%  rev  87.5%  either  98.4%
+  new r1=3.440 (same as thr 3.0), r2=8.5       fwd  95.0%  rev  95.0%  either  99.8%

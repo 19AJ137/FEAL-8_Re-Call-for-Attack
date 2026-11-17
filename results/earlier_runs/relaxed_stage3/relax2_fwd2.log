@@ -1,0 +1,8 @@
+N=981 T1=1.00 T2=4.50 T3=8.00 threads=300
+processing 65 candidates from all_fwd2.txt
+  cand 23 (z2=8.54) passed 3-round test: z3=8.33, pairs 9
+filter: 65 cands, pass(a)=65 (100.0%), pass(c)=65 (100.0% of a), pass(t)=1; wall 58.2s (0.895 s/cand wall), thread time 53.47 s/cand
+recovering from cand 23:\n  (a) 4096 hyps >= 4.5, best z=-6.74 nrm=1 g0=27 g3=2f k=6019  (28.03s)
+  (c) 4096 hyps >= 4.5, best z=-6.67 nrm=0 g0=5a g3=16 k=ba14  (26.91s)
+  (t) best 3-round z=8.33; 9 of 4096 x 4096 pairs pass 8.0 (0.21s)
+  (e) tried 9 pair(s), no key (0.1s)

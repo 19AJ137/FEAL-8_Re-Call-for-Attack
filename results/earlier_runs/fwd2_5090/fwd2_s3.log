@@ -1,0 +1,40 @@
+== Tue Nov 17 03:44:29 UTC 2026 new=4
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=300
+processing 4 candidates from fwd2_new.txt
+filter: 4 cands, pass(a)=4 (100.0%), pass(c)=4 (100.0% of a), pass(t)=0; wall 8.6s (2.141 s/cand wall), thread time 7.41 s/cand
+== Tue Nov 17 03:46:38 UTC 2026 new=7
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=300
+processing 7 candidates from fwd2_new.txt
+filter: 7 cands, pass(a)=7 (100.0%), pass(c)=7 (100.0% of a), pass(t)=0; wall 9.4s (1.346 s/cand wall), thread time 7.89 s/cand
+== Tue Nov 17 03:48:47 UTC 2026 new=5
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=300
+processing 5 candidates from fwd2_new.txt
+filter: 5 cands, pass(a)=5 (100.0%), pass(c)=5 (100.0% of a), pass(t)=0; wall 8.2s (1.637 s/cand wall), thread time 7.63 s/cand
+== Tue Nov 17 03:50:55 UTC 2026 new=9
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=300
+processing 9 candidates from fwd2_new.txt
+filter: 9 cands, pass(a)=9 (100.0%), pass(c)=9 (100.0% of a), pass(t)=0; wall 9.0s (0.998 s/cand wall), thread time 7.68 s/cand
+== Tue Nov 17 03:53:05 UTC 2026 new=7
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=300
+processing 7 candidates from fwd2_new.txt
+filter: 7 cands, pass(a)=7 (100.0%), pass(c)=7 (100.0% of a), pass(t)=0; wall 8.6s (1.232 s/cand wall), thread time 7.41 s/cand
+== Tue Nov 17 03:55:13 UTC 2026 new=4
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=300
+processing 4 candidates from fwd2_new.txt
+filter: 4 cands, pass(a)=4 (100.0%), pass(c)=4 (100.0% of a), pass(t)=0; wall 8.0s (1.993 s/cand wall), thread time 7.62 s/cand
+== Tue Nov 17 03:57:21 UTC 2026 new=7
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=300
+processing 7 candidates from fwd2_new.txt
+filter: 7 cands, pass(a)=7 (100.0%), pass(c)=7 (100.0% of a), pass(t)=0; wall 8.6s (1.229 s/cand wall), thread time 7.37 s/cand
+== Tue Nov 17 03:59:30 UTC 2026 new=6
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=300
+processing 6 candidates from fwd2_new.txt
+filter: 6 cands, pass(a)=6 (100.0%), pass(c)=6 (100.0% of a), pass(t)=0; wall 8.3s (1.391 s/cand wall), thread time 7.41 s/cand
+== Tue Nov 17 04:01:39 UTC 2026 new=7
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=300
+processing 7 candidates from fwd2_new.txt
+filter: 7 cands, pass(a)=7 (100.0%), pass(c)=7 (100.0% of a), pass(t)=0; wall 8.7s (1.244 s/cand wall), thread time 7.54 s/cand
+== Tue Nov 17 04:03:47 UTC 2026 new=9
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=300
+processing 9 candidates from fwd2_new.txt
+filter: 9 cands, pass(a)=9 (100.0%), pass(c)=9 (100.0% of a), pass(t)=0; wall 9.3s (1.032 s/cand wall), thread time 7.76 s/cand

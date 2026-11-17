@@ -1,0 +1,23 @@
+# build outputs
+src/attackC2
+src/stage3
+src/mkct
+src/mkdt
+src/mkct_seed
+src/attackC2_gpu
+src/bs_gpu
+src/analysis/attackC
+src/analysis/attackC_gpu
+src/analysis/corr
+src/analysis/null
+src/analysis/null2
+src/analysis/refstat
+src/analysis/bias
+src/analysis/mlc
+*.o
+*.exe
+__pycache__/
+*.pyc
+
+# output of scripts/run_search.sh
+search_*/

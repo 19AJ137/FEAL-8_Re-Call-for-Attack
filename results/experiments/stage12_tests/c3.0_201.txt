@@ -1,0 +1,18 @@
+key 37e32e5b52208368 N=981  truth: t=0dc72b e=722c kappa=e4 e8=af r=7d consistent=yes
+reference scores (true intermediates): zA=-8.269 zB=-4.148
+setup 0.10s, threads 240, thr1=3.00 thr2pre=2.00 thrrec=6.00
+processed 2400 DK7 values in 150.4s wall (0.063 s/DK7 wall)
+per DK7 (thread time): stage1 0.389s, stage2 14.117s; survivors 22522 (expect 22648); pre-compares 7.38e+08, full 8.44e+07 (11.44%); candidates(|z|>=6.0) 174.37
+extrapolated full 2^22 DK7: 73.0 h wall on this machine (240 threads), 704.2 core-days (thread time)
+true hypothesis: stage1 zB=4.148 survived=yes
+true key in candidates: yes zA=8.269; wrong candidates with |z|>=|z_true| in processed set: 0
+wrong candidates from random DK7: >=6.5: 12365, >=7.0: 418, >=7.5: 13  -> full space x1748: 2.16e+07, 7.31e+05, 2.27e+04
+top candidates:
+  t=0dc72b e=722c kap=e4 e8=af r=7d z=8.269  <== TRUE
+  t=11aa0a e=53fd kap=e1 e8=23 r=3c z=-7.822
+  t=381038 e=4050 kap=11 e8=bd r=71 z=-7.758
+  t=38d8ab e=2d91 kap=e5 e8=08 r=34 z=7.631
+  t=0dc72b e=722c kap=e4 e8=a7 r=6d z=7.567
+  t=3ff3fb e=602b kap=2c e8=f3 r=02 z=7.567
+  t=38b7a0 e=6c9f kap=64 e8=f4 r=23 z=7.567
+  t=38b7a0 e=6c9f kap=64 e8=f5 r=23 z=7.567

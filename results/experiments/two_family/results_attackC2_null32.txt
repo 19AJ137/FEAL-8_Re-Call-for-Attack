@@ -1,0 +1,22 @@
+key 4ef464db5271a8a1 N=981 truth: t=08c18b e=1787 kappa=7e e8=97 r=7b
+reference (true intermediates): zA0=-8.589 zA1=-7.375 zB0=-3.752 zB1=-3.313
+setup 0.63s, threads 2, r1=3.9175 rpre=2.486 r2=6.000
+processed 33 DK7 values in 101.5s wall (3.076 s/DK7 wall)
+per DK7 (thread time): stage1 0.421s, stage2 5.633s; survivors 3591 (expect 3901); pre 1.18e+08, full 1.22e+07 (10.34%); cands(r>=6.00) 379.85
+extrapolated full 2^22 DK7: 293.9 core-days (thread time)
+true hypothesis: stage1 z0=-3.752 z1=-3.313 r=5.005 survived=yes
+true key in candidates: z0=-8.589 z1=-7.375 r=11.321
+candidates by r threshold (wrong DK7 -> full-space estimate | from the true DK7 row):
+  r>=6.0: wrong 12012 -> 1.57e+09 | true-row 523
+  r>=6.5: wrong 889 -> 1.17e+08 | true-row 78
+  r>=7.0: wrong 43 -> 5.64e+06 | true-row 32
+  r>=7.5: wrong 2 -> 2.62e+05 | true-row 20
+  r>=8.0: wrong 0 -> 0 | true-row 13
+  r>=8.5: wrong 0 -> 0 | true-row 12
+top candidates:
+  t=08c18b e=1787 kap=7e e8=97 r=7b z0=-8.589 z1=-7.375 r=11.321  <== TRUE
+  t=08c18b e=1787 kap=7e e8=9f r=6b z0=-7.758 z1=-6.290 r=9.988
+  t=08c18b e=1787 kap=7e e8=87 r=78 z0=-7.056 z1=-6.481 r=9.581
+  t=08c18b e=1787 kap=7e e8=87 r=7a z0=-7.311 z1=-5.843 r=9.359
+  t=08c18b e=1787 kap=7e e8=8f r=69 z0=-7.120 z1=-5.779 r=9.170
+  t=08c18b e=1787 kap=7e e8=8f r=6a z0=-6.864 z1=-5.907 r=9.056

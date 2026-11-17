@@ -1,0 +1,4 @@
+N=981 r1=3.4400 rpre=2.486 r2=8.500 setup 3.8s, 2048 DK7 values, stage2 smem 83328 B
+batch 3386832-3388879: 40 cands, 14.0s elapsed
+processed 2048 DK7 in 14.0s (stage1 0.3s, stage2 13.7s) -> 0.0068 s/DK7; full 2^22: 7.94 h
+survivors/DK7 22229 (expect 22597, overflow DK7s 0); pre/DK7 7.28e+08, full 6.69e+07 (9.19%); cands(r>=8.50)/DK7 0.00

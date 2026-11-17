@@ -1,0 +1,21 @@
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=240
+key 37e32e5b52208368
+true EK0=11acf2ad EK1=824ffae2 EK2=119ed7ad  DK7=3d2bc753 DK6=64e1337e DK5=3dc2af53
+true candidate: e1=2c e2=72 DK7=3d2bc753 d1=e1 d2=33
+expect (a): g0=11 g3=2d EK1 mid=4ff8 ; (c): g0=64 g3=7e DK5 mid=c2af (top bits of mid only via XOR)
+  (a) 429 hyps >= 5.0, best z=-7.18 nrm=1 g0=11 g3=2d k=cf78  (9.15s)
+  (c) 375 hyps >= 5.0, best z=-6.61 nrm=0 g0=24 g3=7e k=432f  (9.78s)
+  (t) best 3-round z=15.29; 550 of 429 x 375 pairs pass 8.0 (0.02s)
+  (e) key found at pair 0 (EK0=11acf22d EK1mid=cf78 DK6=64e1337e, z3=15.29)
+  (e) tried 1 pair(s), key recovered (0.8s)
+TRUE candidate result: RECOVERED key=37e32e5b52208368 (matches)
+processing 40 candidates from true_cluster.txt
+  cand 12 (z2=6.93) passed 3-round test: z3=9.23, pairs 3
+  cand 0 (z2=8.27) passed 3-round test: z3=15.29, pairs 550
+filter: 40 cands, pass(a)=40 (100.0%), pass(c)=40 (100.0% of a), pass(t)=2; wall 23.2s (0.580 s/cand wall), thread time 19.51 s/cand
+recovering from cand 0:\n  (a) 429 hyps >= 5.0, best z=-7.18 nrm=1 g0=11 g3=2d k=cf78  (9.22s)
+  (c) 375 hyps >= 5.0, best z=-6.61 nrm=0 g0=24 g3=7e k=432f  (9.80s)
+  (t) best 3-round z=15.29; 550 of 429 x 375 pairs pass 8.0 (0.02s)
+  (e) key found at pair 0 (EK0=11acf22d EK1mid=cf78 DK6=64e1337e, z3=15.29)
+  (e) tried 1 pair(s), key recovered (0.5s)
+KEY 37e32e5b52208368\n

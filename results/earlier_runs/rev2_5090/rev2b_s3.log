@@ -1,0 +1,36 @@
+== Tue Nov 17 03:25:10 UTC 2026 new=5
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=300 REVERSE
+processing 5 candidates from rev2b_new.txt
+filter: 5 cands, pass(a)=5 (100.0%), pass(c)=5 (100.0% of a), pass(t)=0; wall 8.2s (1.632 s/cand wall), thread time 7.66 s/cand
+== Tue Nov 17 03:27:18 UTC 2026 new=4
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=300 REVERSE
+processing 4 candidates from rev2b_new.txt
+filter: 4 cands, pass(a)=4 (100.0%), pass(c)=4 (100.0% of a), pass(t)=0; wall 9.2s (2.295 s/cand wall), thread time 7.80 s/cand
+== Tue Nov 17 03:29:27 UTC 2026 new=8
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=300 REVERSE
+processing 8 candidates from rev2b_new.txt
+filter: 8 cands, pass(a)=8 (100.0%), pass(c)=8 (100.0% of a), pass(t)=0; wall 8.7s (1.092 s/cand wall), thread time 7.92 s/cand
+== Tue Nov 17 03:31:36 UTC 2026 new=8
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=300 REVERSE
+processing 8 candidates from rev2b_new.txt
+filter: 8 cands, pass(a)=8 (100.0%), pass(c)=8 (100.0% of a), pass(t)=0; wall 8.9s (1.114 s/cand wall), thread time 7.98 s/cand
+== Tue Nov 17 03:33:45 UTC 2026 new=7
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=300 REVERSE
+processing 7 candidates from rev2b_new.txt
+filter: 7 cands, pass(a)=7 (100.0%), pass(c)=7 (100.0% of a), pass(t)=0; wall 9.4s (1.341 s/cand wall), thread time 7.81 s/cand
+== Tue Nov 17 03:35:55 UTC 2026 new=11
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=300 REVERSE
+processing 11 candidates from rev2b_new.txt
+filter: 11 cands, pass(a)=11 (100.0%), pass(c)=11 (100.0% of a), pass(t)=0; wall 9.5s (0.864 s/cand wall), thread time 8.01 s/cand
+== Tue Nov 17 03:38:04 UTC 2026 new=11
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=300 REVERSE
+processing 11 candidates from rev2b_new.txt
+filter: 11 cands, pass(a)=11 (100.0%), pass(c)=11 (100.0% of a), pass(t)=0; wall 8.2s (0.744 s/cand wall), thread time 7.32 s/cand
+== Tue Nov 17 03:40:12 UTC 2026 new=3
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=300 REVERSE
+processing 3 candidates from rev2b_new.txt
+filter: 3 cands, pass(a)=3 (100.0%), pass(c)=3 (100.0% of a), pass(t)=0; wall 7.9s (2.631 s/cand wall), thread time 7.24 s/cand
+== Tue Nov 17 03:42:20 UTC 2026 new=2
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=300 REVERSE
+processing 2 candidates from rev2b_new.txt
+filter: 2 cands, pass(a)=2 (100.0%), pass(c)=2 (100.0% of a), pass(t)=0; wall 8.2s (4.114 s/cand wall), thread time 7.93 s/cand

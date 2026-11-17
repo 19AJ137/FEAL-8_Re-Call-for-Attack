@@ -1,0 +1,77 @@
+		　　ＦＥＡＬ－８暗号アルゴリズム
+
+		　　Fast Data Encipherment Algorithm FEAL-8
+
+　　　宮口　庄司    　　　　　白石　旭　　　　    清水　明宏
+    Shoji MIYAGUCHI       Akira SHIRAISHI       Akihiro SHIMIZU
+
+あらまし
+
+　ＦＥＡＬ－８は、暗号文生成手順（アルゴリズム）を公開した「アルゴリズム公開型暗号」であり、パソコンや端末などのソフトウエアにより容易に実現出来ることを目標として開発した。ＦＥＡＬ－８は、秘密鍵暗号アルゴリズムであり、６４ビットの秘密鍵によって、６４ビットの平文から６４ビットの暗号文を作り出す。暗号化処理で必要となる非線形変換は、法２５６の加算、２ビット左循環シフト、および、排他的論理和演算の組合せにより実現される。ＦＥＡＬ－８は、安全性を考慮した特別のデータランダム化構造を持つ。本文は、ＦＥＡＬ－８の設計、仕様、評価等について報告する。
+
+１　まえがき
+
+　暗号は、通信データの秘匿や、改ざん検出、通信相手の本人確認、更にはファイル情報の秘匿などに使えるセキュリティの基本技術である。網の任意の端末間で暗号通信を行うためには、全ての端末が同じ暗号アルゴリズムを使うのが経済的であり、暗号文生成手順を公開したアルゴリズム公開型暗号が有効である。アルゴリズム公開型暗号としてＤＥＳ［１］がある。ＤＥＳの開発当時は、マイクロプロセッサ（μＰ）もあまり普及しておらず、暗号化手順をμＰのプログラムで処理することは考慮されていなかったと思われる。我々は、μＰのプログラムでも実用的に使える暗号を開発することとし、次の方針でＦＥＡＬ－８の設計を進めた。
+（ａ）パソコン、端末等のμＰプログラムで簡易に使える、プログラム処理向き暗号アルゴリズムを開発する。
+（ｂ）ＤＥＳとの互換性を重視し、平文／暗号文ブロックが６４ビットで秘密鍵が６４ビットのアルゴリズム公開型のブロック暗号とする。尚、安全性を考慮し、有効鍵は６４ビットとする。
+（ｃ）暗号化／復号化速度は、１６ビットμＰプログラムで、６４ｋｂｐｓ以上を達成する。ここで、６４ｋｂｐｓは、ＣＣＩＴＴ・Ｉインタフェース勧告・基本インタフェースによる情報転送速度を参考とした。
+
+２　暗号アルゴリズムの設計
+
+（１）設計のアプローチ：　次の方法によった。
+①　アルゴリズム公開型暗号として最も有力なＤＥＳの暗号化手順のうち、プログラム処理向きでない部分（布線論理やＲＯＭによる論理）を見直すことにより、新しい暗号アルゴリズムを開発する。
+②　暗号化処理能力を評価する手法［２］を開発しており、この評価基準で、暗号アルゴリズムの強度を評価しながら設計を進める。
+（２）暗号処理における非線形変換：　暗号文生成において、鍵や平文を混ぜ合わるため、非線形変換が必要である。ＤＥＳは、Shannon の秘密の論文に基づいて、① Substi-
+tution（ブロック入れ換え）、② Coordinate permutation（ビット入れ換え）、の２つの変換の合成により非線形変換を実現している［３］。これらの変換は、１ビットや、４ビット、６ビット、２８ビット毎のデータ処理が必要であり、プログラム処理量が大きくなる要因となっている。ＦＥＡＬ－８の暗号化処理は、①１バイトデータ間の法２５６の加算、②１バイトデータの２ビット左循環、③１バイトデータ間の排他的論理和、の変換の合成により実現し、プログラム処理を減らす方法を考案した。
+（３）固有のアルゴリズム構造：　ＦＥＡＬ－８は、６４ビット長からなる鍵の各ビットを混ぜ合せ、その長さを２５６ビットに拡大する「鍵処理部」と、拡大した鍵と平文とを混ぜ合せる「データランダム化部」とから構成する。  
+
+Fast Data Encipherment Algorithm FEAL-8
+
+      Shoji MIYAGUCHI*      Akira SHIRAISHI**     Akihiro SHIMIZU***
+
+  This paper describes the design, evaluation and specifications of FEAL-8. This is an open encipherment algorithm in which ciphertext generation procedures are public. FEAL-8 is developed as a secret key encipherment algorithm which is easy used for software implementation in personal computers. Non-linear data processing for FEAL-8 encipherment is achieved by combinations of additions with mudulus 256, 2-bit left rotation of 8-bit data and bitwise exclusive-or operations. FEAL-8 has a special streucuter for security.
+
+1 Introduction
+
+  Encipherment is a basic security technique for concealing communica-
+tion data or file data, detecting illegal modifications to data, or 
+verifying a peer communication entity. For economical cryptographic com-munications between terminals in a network, all terminals should use thesame open encipherment algorithm in which ciphertext generation procedu-
+res are public. DES[1] is one open encipherment algorithm. DES was 
+probably not designed for microproccessors since they were not so commonwhen DES was developed in around 1976. 
+We designed FEAL-8 as a practical encipherment algorithm according to 
+the following principles:
+(1) The program-oriented encipherment algorithm is suitable for micro-
+processors of personal computers and terminals.
+(2) The new algorithm emphasizes compatibility with DES. It is an open 
+algorithm with 64 bits for both plaintext and ciphertext blocks, and 
+a 64-bit secret key where the effective key length is 64 bits to 
+increase security.
+(3) Both encipherment and decipherment speeds exceed 64 kbps, 64 kbps is the information transmission speed recommended for the CCITT basic 
+I-interface.
+
+2  Encipherment Algorithm Design
+
+2.1 Approach
+
+(1) The new encipherment algorithm was designed by reviewing the DES 
+wired-logic parts which are not program oriented. 
+(2) We developed criteria for evaluating the data randomization ability in the enciphering process[2], and designed the new enciphement algo-
+rithm on these criteria.
+(3) Non-linear transformation in the encipherment process 
+Non-linear transformations are necessary to mix plaintext with a key to
+generate ciphertext. DES achieves non-linear transformations using 
+Shanon's secret paper as follows[3]:
+  (a) Substitutions (exchanges of block data),
+  (b) Permutations (exchanges of bit data).
+These transformations need 1-bit, 4-bit, 6-bit, and 28-bit data proces-
+sing, requiring many program steps. We cut the number of programming 
+steps in the FEAL-8 enciphering operations by:
+  (a) an addition with modulo 256 between 8-bit data
+  (b) a 2-bit left rotation of 8-bit data
+  (c) an exclusive-or operation between 8-bit data.
+8-bit data handling can easily cut the number of programming steps.
+
+2.2 Unique algorithm structure
+
+  FEAL-8 has both a key processing part and a data randomization part. 
+The key processing part mixes each bit of the 64-bit key and 

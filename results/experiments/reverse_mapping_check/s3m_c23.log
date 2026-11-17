@@ -1,0 +1,8 @@
+N=981 T1=1.00 T2=4.50 T3=8.00 threads=180
+processing 1 candidates from c23.txt
+  cand 0 (z2=8.54) passed 3-round test: z3=8.33, pairs 9
+filter: 1 cands, pass(a)=1 (100.0%), pass(c)=1 (100.0% of a), pass(t)=1; wall 54.6s (54.565 s/cand wall), thread time 54.54 s/cand
+recovering from cand 0:\n  (a) 4096 hyps >= 4.5, best z=-6.74 nrm=1 g0=27 g3=2f k=6019  (27.67s)
+  (c) 4096 hyps >= 4.5, best z=-6.67 nrm=0 g0=5a g3=16 k=ba14  (26.68s)
+  (t) best 3-round z=8.33; 9 of 4096 x 4096 pairs pass 8.0 (0.21s)
+  (e) tried 9 pair(s), no key (0.2s)

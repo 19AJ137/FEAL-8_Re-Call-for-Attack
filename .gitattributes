@@ -1,0 +1,4 @@
+# Keep LF line endings everywhere so that data/sha256sum.txt and the shell scripts stay valid on Windows.
+* text=auto eol=lf
+*.bin binary
+*.gz binary

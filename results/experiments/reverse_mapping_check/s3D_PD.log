@@ -1,0 +1,12 @@
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=96
+processing 12 candidates from candD_PD.txt
+  cand 9 (z2=9.04) passed 3-round test: z3=-8.91, pairs 11
+  cand 4 (z2=10.80) passed 3-round test: z3=16.76, pairs 11729
+filter: 12 cands, pass(a)=12 (100.0%), pass(c)=12 (100.0% of a), pass(t)=2; wall 10.5s (0.872 s/cand wall), thread time 9.34 s/cand
+recovering from cand 4:\n  (a) 1742 hyps >= 5.0, best z=-9.29 nrm=1 g0=5b g3=2c k=a018  (5.16s)
+  (c) 1258 hyps >= 5.0, best z=9.16 nrm=1 g0=67 g3=07 k=4d43  (4.65s)
+  (t) best 3-round z=16.76; 11729 of 1742 x 1258 pairs pass 8.0 (0.06s)
+  (e) key found with the OTHER mapping (data satisfies X = E(Y), i.e. Y = D(X))
+  (e) key found at pair 0 (EK0=5bd0b12c EK1mid=a018 DK6=67aaf807, z3=16.76)
+  (e) tried 1 pair(s), key recovered (0.1s)
+KEY 39287fc26939a7df\n

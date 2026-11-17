@@ -1,0 +1,3095 @@
+### seed 1001
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 586f70befa22bca2
+true EK0=2fbaaf99 EK1=99d14bb5 EK2=2f2aac99  DK7=7f1e802a DK6=be0c4ac6 DK5=7fb9272a
+true candidate: e1=3a e2=2f DK7=7f1e802a d1=0c d2=4a
+expect (a): g0=2f g3=19 EK1 mid=d149 ; (c): g0=3e g3=46 DK5 mid=bb25 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=32 q0=99
+  (a) 1066 hyps >= 5.0, best z=7.82 nrm=1 g0=2f g3=19 k=d149  (11.43s)
+  (c) 722 hyps >= 5.0, best z=-7.25 nrm=0 g0=3e g3=46 k=bb25  (12.09s)
+  (t) best 3-round z=-14.97; 4230 of 1066 x 722 pairs pass 8.0 (0.06s)
+  (e) key found at pair 0 (EK0=2fbaaf19 EK1mid=d149 DK6=3e0c4a46, z3=14.85)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=586f70befa22bca2 (matches)
+### seed 1002
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key f58b6a20da17e50b
+true EK0=78de2d98 EK1=7e4f976a EK2=789eaa98  DK7=92896d97 DK6=dd241445 DK5=92043797
+true candidate: e1=de e2=2d DK7=12896d17 d1=26 d2=16
+expect (a): g0=78 g3=18 EK1 mid=4f95 ; (c): g0=5f g3=47 DK5 mid=0637 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=5e q0=7e
+  (a) 688 hyps >= 5.0, best z=-8.01 nrm=0 g0=78 g3=18 k=cf15  (13.99s)
+  (c) 646 hyps >= 5.0, best z=-8.01 nrm=0 g0=7f g3=47 k=8737  (12.82s)
+  (t) best 3-round z=-15.93; 5124 of 688 x 646 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=78de2d18 EK1mid=cf15 DK6=5f261647, z3=15.87)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=f58b6a20da17e50b (matches)
+### seed 1003
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key cd96a69fa5d00b5a
+true EK0=8b41fa6c EK1=2e480bfa EK2=8b711a6c  DK7=ab77c41f DK6=b143b8e2 DK5=ab948e1f
+true candidate: e1=c1 e2=7a DK7=2b77c41f d1=c1 d2=38
+expect (a): g0=0b g3=6c EK1 mid=4a0b ; (c): g0=33 g3=62 DK5 mid=968c (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=35 q0=2e
+  (a) 610 hyps >= 5.0, best z=8.01 nrm=1 g0=0b g3=6c k=4a0b  (13.46s)
+  (c) 621 hyps >= 5.0, best z=-8.59 nrm=1 g0=13 g3=62 k=970c  (13.27s)
+  (t) best 3-round z=-15.74; 2626 of 610 x 621 pairs pass 8.0 (0.04s)
+  (e) key found at pair 1 (EK0=0b41fa6c EK1mid=4a0b DK6=3341b862, z3=15.61)
+  (e) tried 2 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=cd96a69fa5d00b5a (matches)
+### seed 1004
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 47636bd3f54b944f
+true EK0=56968248 EK1=d5af9e2d EK2=56a27c48  DK7=d91e23fe DK6=481bd6be DK5=d9b3f3fe
+true candidate: e1=16 e2=02 DK7=591e237e d1=99 d2=54
+expect (a): g0=56 g3=48 EK1 mid=af9e ; (c): g0=4a g3=3c DK5 mid=b3f1 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=6c q0=d5
+  (a) 523 hyps >= 5.0, best z=8.21 nrm=1 g0=56 g3=48 k=2f1e  (13.16s)
+  (c) 1082 hyps >= 5.0, best z=-8.27 nrm=1 g0=4a g3=3c k=3371  (12.02s)
+  (t) best 3-round z=16.31; 5771 of 523 x 1082 pairs pass 8.0 (0.11s)
+  (e) key found at pair 0 (EK0=56968248 EK1mid=2f1e DK6=4a19d43c, z3=-16.19)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=47636bd3f54b944f (matches)
+### seed 1005
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key b00f99bad70b3497
+true EK0=29f8f161 EK1=24096519 EK2=2985bb61  DK7=72e235d7 DK6=95c986d1 DK5=7253f3d7
+true candidate: e1=78 e2=71 DK7=72e23557 d1=49 d2=04
+expect (a): g0=29 g3=61 EK1 mid=0965 ; (c): g0=15 g3=53 DK5 mid=51f1 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=38 q0=24
+  (a) 566 hyps >= 5.0, best z=-7.69 nrm=1 g0=29 g3=61 k=0965  (12.27s)
+  (c) 406 hyps >= 5.0, best z=-8.27 nrm=1 g0=15 g3=53 k=d171  (10.95s)
+  (t) best 3-round z=-15.36; 1718 of 566 x 406 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=29f8f161 EK1mid=0965 DK6=15c98453, z3=-15.36)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=b00f99bad70b3497 (matches)
+### seed 1006
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key b813b08787884915
+true EK0=356fc903 EK1=d1898831 EK2=35606403  DK7=8c313033 DK6=e162ce4b DK5=8c167533
+true candidate: e1=ef e2=49 DK7=0c313033 d1=e0 d2=4e
+expect (a): g0=35 g3=03 EK1 mid=8988 ; (c): g0=63 g3=4b DK5 mid=1475 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=54 q0=d1
+  (a) 1000 hyps >= 5.0, best z=-7.18 nrm=1 g0=35 g3=03 k=0908  (12.26s)
+  (c) 606 hyps >= 5.0, best z=-7.25 nrm=1 g0=63 g3=4b k=0475  (9.20s)
+  (t) best 3-round z=15.29; 1629 of 1000 x 606 pairs pass 8.0 (0.06s)
+  (e) key found at pair 1 (EK0=356fc903 EK1mid=0908 DK6=6360ce4b, z3=15.23)
+  (e) tried 2 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=b813b08787884915 (matches)
+### seed 1007
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key d561c6a22b89a5d7
+true EK0=155017c8 EK1=0e82b09e EK2=150ac7c8  DK7=ec464240 DK6=5673e612 DK5=ec8b2240
+true candidate: e1=50 e2=17 DK7=6c464240 d1=f1 d2=66
+expect (a): g0=15 g3=48 EK1 mid=82b2 ; (c): g0=54 g3=12 DK5 mid=8b22 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=46 q0=0e
+  (a) 795 hyps >= 5.0, best z=-6.93 nrm=0 g0=75 g3=48 k=8132  (13.66s)
+  (c) 286 hyps >= 5.0, best z=-6.29 nrm=1 g0=34 g3=12 k=0a22  (10.00s)
+  (t) best 3-round z=14.91; 409 of 795 x 286 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=15501748 EK1mid=0232 DK6=5471e612, z3=14.91)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=d561c6a22b89a5d7 (matches)
+### seed 1008
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 375ee1d6bdaa9619
+true EK0=4b6f1ec0 EK1=bea92b1c EK2=4b1348c0  DK7=0fd3009b DK6=212c5aa1 DK5=0f246a9b
+true candidate: e1=6f e2=1e DK7=0fd3001b d1=2c d2=58
+expect (a): g0=4b g3=40 EK1 mid=a929 ; (c): g0=21 g3=23 DK5 mid=2468 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=2a q0=be
+  (a) 447 hyps >= 5.0, best z=7.63 nrm=0 g0=4b g3=40 k=a929  (12.19s)
+  (c) 573 hyps >= 5.0, best z=-10.31 nrm=0 g0=21 g3=23 k=2468  (13.38s)
+  (t) best 3-round z=-16.83; 2469 of 447 x 573 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=4b6f1e40 EK1mid=a929 DK6=212c5823, z3=-16.83)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=375ee1d6bdaa9619 (matches)
+### seed 1009
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key b6d91340ff8aa2ad
+true EK0=3a7175ce EK1=5831c09a EK2=3ad641ce  DK7=467725a2 DK6=9025b35f DK5=469643a2
+true candidate: e1=71 e2=75 DK7=46772522 d1=a5 d2=31
+expect (a): g0=3a g3=4e EK1 mid=31c2 ; (c): g0=10 g3=5d DK5 mid=9443 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=5a q0=58
+  (a) 252 hyps >= 5.0, best z=5.78 nrm=0 g0=5c g3=70 k=3821  (10.73s)
+  (c) 469 hyps >= 5.0, best z=-7.63 nrm=1 g0=10 g3=5d k=9443  (14.03s)
+  (t) best 3-round z=-5.97; 0 of 252 x 469 pairs pass 8.0 (0.04s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1010
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 957c75d2fdf36952
+true EK0=950acde9 EK1=939f6027 EK2=95f57ae9  DK7=63a3ccde DK6=0d04a3b5 DK5=63df88de
+true candidate: e1=8a e2=4d DK7=63a3cc5e d1=84 d2=21
+expect (a): g0=15 g3=69 EK1 mid=9d62 ; (c): g0=0d g3=37 DK5 mid=df8a (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=2b q0=93
+  (a) 348 hyps >= 5.0, best z=6.10 nrm=0 g0=09 g3=6c k=361d  (12.20s)
+  (c) 330 hyps >= 5.0, best z=7.69 nrm=1 g0=0d g3=37 k=5f0a  (9.79s)
+  (t) best 3-round z=-6.03; 0 of 348 x 330 pairs pass 8.0 (0.02s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1011
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 89e98f76e6f477db
+true EK0=47b9a5f8 EK1=8024f92e EK2=473560f8  DK7=9cb74941 DK6=7b327e98 DK5=9c20c241
+true candidate: e1=39 e2=25 DK7=1cb74941 d1=30 d2=7e
+expect (a): g0=47 g3=78 EK1 mid=24fb ; (c): g0=79 g3=18 DK5 mid=20c0 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=66 q0=80
+  (a) 422 hyps >= 5.0, best z=8.59 nrm=1 g0=47 g3=78 k=a47b  (11.22s)
+  (c) 535 hyps >= 5.0, best z=6.93 nrm=0 g0=79 g3=18 k=a040  (15.61s)
+  (t) best 3-round z=-15.17; 572 of 422 x 535 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=47b9a578 EK1mid=a47b DK6=79307e18, z3=-15.17)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=89e98f76e6f477db (matches)
+### seed 1012
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 9cf26f1ea151952e
+true EK0=d5752d3b EK1=fc774a9d EK2=d5c1413b  DK7=cc241b5c DK6=992e6c5c DK5=ccf6f85c
+true candidate: e1=75 e2=2d DK7=4c241b5c d1=2c d2=6c
+expect (a): g0=55 g3=3b EK1 mid=754a ; (c): g0=1b g3=5c DK5 mid=f4f8 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=15 q0=fc
+  (a) 1053 hyps >= 5.0, best z=9.67 nrm=0 g0=55 g3=3b k=754a  (9.44s)
+  (c) 1135 hyps >= 5.0, best z=7.95 nrm=0 g0=3b g3=5c k=f478  (12.30s)
+  (t) best 3-round z=-15.80; 4892 of 1053 x 1135 pairs pass 8.0 (0.08s)
+  (e) key found at pair 1 (EK0=55752d3b EK1mid=754a DK6=1b2c6c5c, z3=15.74)
+  (e) tried 2 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=9cf26f1ea151952e (matches)
+### seed 1013
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key f54fbd155de5a7f1
+true EK0=870d8d38 EK1=359eeb2a EK2=87c34138  DK7=0f6e51bc DK6=7711523c DK5=0f2a25bc
+true candidate: e1=8d e2=0d DK7=0f6e513c d1=11 d2=50
+expect (a): g0=07 g3=38 EK1 mid=9ceb ; (c): g0=77 g3=3e DK5 mid=2a25 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=49 q0=35
+  (a) 344 hyps >= 5.0, best z=6.23 nrm=0 g0=35 g3=2f k=6409  (9.76s)
+  (c) 182 hyps >= 5.0, best z=-5.59 nrm=1 g0=3e g3=24 k=3822  (10.53s)
+  (t) best 3-round z=6.16; 0 of 344 x 182 pairs pass 8.0 (0.02s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1014
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key c84478a88ac416ec
+true EK0=d61a5a23 EK1=46f04659 EK2=d63ade23  DK7=6752d06b DK6=578ba061 DK5=67668a6b
+true candidate: e1=1a e2=5a DK7=6752d06b d1=0b d2=20
+expect (a): g0=56 g3=23 EK1 mid=f246 ; (c): g0=57 g3=61 DK5 mid=668a (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=01 q0=46
+  (a) 300 hyps >= 5.0, best z=7.38 nrm=0 g0=56 g3=23 k=f246  (9.19s)
+  (c) 438 hyps >= 5.0, best z=-7.95 nrm=1 g0=17 g3=61 k=e50a  (10.28s)
+  (t) best 3-round z=16.00; 1153 of 300 x 438 pairs pass 8.0 (0.02s)
+  (e) key found at pair 0 (EK0=561a5a23 EK1mid=f246 DK6=578ba061, z3=16.00)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=c84478a88ac416ec (matches)
+### seed 1015
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 0a6cbbeb05e8005f
+true EK0=6551ba6b EK1=6be2e0d5 EK2=65b71a6b  DK7=c683fc35 DK6=5a653a04 DK5=c6209835
+true candidate: e1=d1 e2=3a DK7=4683fc35 d1=67 d2=3a
+expect (a): g0=65 g3=6b EK1 mid=e2e0 ; (c): g0=58 g3=04 DK5 mid=2098 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=44 q0=6b
+  (a) 667 hyps >= 5.0, best z=6.74 nrm=1 g0=65 g3=6b k=6260  (16.14s)
+  (c) 514 hyps >= 5.0, best z=7.89 nrm=0 g0=58 g3=04 k=a018  (12.76s)
+  (t) best 3-round z=-15.80; 453 of 667 x 514 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=6551ba6b EK1mid=6260 DK6=58673a04, z3=-15.80)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=0a6cbbeb05e8005f (matches)
+### seed 1016
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key ec34088980474e68
+true EK0=9eae6e07 EK1=a79b0087 EK2=9e775c07  DK7=214ac8c3 DK6=9755a9f3 DK5=21c4f4c3
+true candidate: e1=ae e2=6e DK7=214ac843 d1=d5 d2=2b
+expect (a): g0=1e g3=07 EK1 mid=9900 ; (c): g0=17 g3=71 DK5 mid=c6f6 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=39 q0=a7
+  (a) 1060 hyps >= 5.0, best z=8.33 nrm=0 g0=1e g3=07 k=9900  (11.78s)
+  (c) 3459 hyps >= 5.0, best z=9.04 nrm=1 g0=17 g3=71 k=4676  (13.65s)
+  (t) best 3-round z=-15.87; 9511 of 1060 x 3459 pairs pass 8.0 (0.20s)
+  (e) key found at pair 1 (EK0=1eae6e07 EK1mid=9900 DK6=1755ab71, z3=-15.80)
+  (e) tried 2 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=ec34088980474e68 (matches)
+### seed 1017
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 257d1446abcdfb9f
+true EK0=b430eb55 EK1=60310d6c EK2=b47fb455  DK7=2df2743e DK6=8089f269 DK5=2d2cab3e
+true candidate: e1=b0 e2=6b DK7=2df2743e d1=09 d2=72
+expect (a): g0=34 g3=55 EK1 mid=330d ; (c): g0=00 g3=69 DK5 mid=2eab (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=11 q0=60
+  (a) 970 hyps >= 5.0, best z=-6.67 nrm=1 g0=14 g3=55 k=b30d  (16.51s)
+  (c) 374 hyps >= 5.0, best z=-6.74 nrm=1 g0=00 g3=69 k=ae2b  (8.66s)
+  (t) best 3-round z=13.63; 459 of 970 x 374 pairs pass 8.0 (0.06s)
+  (e) key found at pair 0 (EK0=3430eb55 EK1mid=330d DK6=0089f269, z3=13.63)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=257d1446abcdfb9f (matches)
+### seed 1018
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key c87f3d4b57472e30
+true EK0=af36f177 EK1=430d8b5d EK2=af731877  DK7=2eb49eee DK6=c48e0ebf DK5=2e9b67ee
+true candidate: e1=b6 e2=71 DK7=2eb49e6e d1=8e d2=0c
+expect (a): g0=2f g3=77 EK1 mid=0f8b ; (c): g0=44 g3=3d DK5 mid=9965 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=79 q0=43
+  (a) 731 hyps >= 5.0, best z=-8.59 nrm=1 g0=2f g3=77 k=8f0b  (14.58s)
+  (c) 610 hyps >= 5.0, best z=6.74 nrm=0 g0=44 g3=3d k=9965  (13.65s)
+  (t) best 3-round z=-16.63; 1152 of 731 x 610 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=2f36f177 EK1mid=8f0b DK6=448e0c3d, z3=16.51)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=c87f3d4b57472e30 (matches)
+### seed 1019
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key f24eef4b66f10236
+true EK0=b0ddd28d EK1=df2c1251 EK2=b0dc498d  DK7=21a2ae51 DK6=3c52f655 DK5=211e2951
+true candidate: e1=5d e2=52 DK7=21a2ae51 d1=d2 d2=76
+expect (a): g0=30 g3=0d EK1 mid=2e10 ; (c): g0=3c g3=55 DK5 mid=1e29 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=03 q0=df
+  (a) 593 hyps >= 5.0, best z=7.95 nrm=1 g0=30 g3=0d k=2e10  (10.55s)
+  (c) 193 hyps >= 5.0, best z=6.10 nrm=1 g0=3e g3=3a k=653c  (8.46s)
+  (t) best 3-round z=-5.97; 0 of 593 x 193 pairs pass 8.0 (0.02s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1020
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 4f665061e567a1d6
+true EK0=7f95bad5 EK1=7702420b EK2=7f10c5d5  DK7=b5fced5e DK6=536a7624 DK5=b5f2805e
+true candidate: e1=15 e2=3a DK7=35fced5e d1=68 d2=76
+expect (a): g0=7f g3=55 EK1 mid=0240 ; (c): g0=51 g3=24 DK5 mid=f280 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=06 q0=77
+  (a) 708 hyps >= 5.0, best z=-8.33 nrm=1 g0=7f g3=55 k=0240  (9.45s)
+  (c) 663 hyps >= 5.0, best z=6.99 nrm=0 g0=51 g3=24 k=7200  (13.11s)
+  (t) best 3-round z=16.51; 1029 of 708 x 663 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=7f95ba55 EK1mid=0240 DK6=51687624, z3=16.51)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=4f665061e567a1d6 (matches)
+### seed 1021
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key e5616d459fe10bf8
+true EK0=193a4412 EK1=fd90f156 EK2=1958e412  DK7=a01173c8 DK6=1f92c449 DK5=a06c63c8
+true candidate: e1=3a e2=44 DK7=20117348 d1=10 d2=46
+expect (a): g0=19 g3=12 EK1 mid=90f1 ; (c): g0=1d g3=4b DK5 mid=6c63 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=4c q0=fd
+  (a) 837 hyps >= 5.0, best z=-8.08 nrm=0 g0=19 g3=12 k=1071  (14.44s)
+  (c) 1246 hyps >= 5.0, best z=8.52 nrm=1 g0=1d g3=4b k=6c63  (18.66s)
+  (t) best 3-round z=-15.29; 2065 of 837 x 1246 pairs pass 8.0 (0.08s)
+  (e) key found at pair 0 (EK0=193a4412 EK1mid=1071 DK6=1d90c64b, z3=15.17)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=e5616d459fe10bf8 (matches)
+### seed 1022
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 28c60e1845cf48cf
+true EK0=376f597d EK1=7ac33be2 EK2=370b067d  DK7=c22a485e DK6=4fb21639 DK5=c2371f5e
+true candidate: e1=6f e2=59 DK7=422a485e d1=b0 d2=16
+expect (a): g0=37 g3=7d EK1 mid=c33b ; (c): g0=4d g3=39 DK5 mid=371f (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=04 q0=7a
+  (a) 966 hyps >= 5.0, best z=-7.89 nrm=0 g0=37 g3=7d k=d33b  (14.75s)
+  (c) 1172 hyps >= 5.0, best z=8.46 nrm=0 g0=4d g3=39 k=371f  (14.27s)
+  (t) best 3-round z=16.38; 4490 of 966 x 1172 pairs pass 8.0 (0.11s)
+  (e) key found at pair 0 (EK0=376f597d EK1mid=c33b DK6=4db01639, z3=-16.31)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=28c60e1845cf48cf (matches)
+### seed 1023
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 5b310024e84cdf61
+true EK0=e2550709 EK1=83742496 EK2=e2d2de09  DK7=000efd61 DK6=39bddef6 DK5=003c8861
+true candidate: e1=55 e2=07 DK7=000efd61 d1=3d d2=5e
+expect (a): g0=62 g3=09 EK1 mid=7624 ; (c): g0=39 g3=76 DK5 mid=3c8a (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=21 q0=83
+  (a) 542 hyps >= 5.0, best z=7.31 nrm=0 g0=62 g3=09 k=7624  (11.18s)
+  (c) 832 hyps >= 5.0, best z=-9.61 nrm=1 g0=59 g3=76 k=3c0a  (13.46s)
+  (t) best 3-round z=-15.55; 2154 of 542 x 832 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=62550709 EK1mid=7624 DK6=39bdde76, z3=-15.55)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=5b310024e84cdf61 (matches)
+### seed 1024
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 737e2419b4ce244e
+true EK0=116ee4d9 EK1=c0b2fb15 EK2=11741ed9  DK7=fb5c17cf DK6=6d25798f DK5=fb2be3cf
+true candidate: e1=ee e2=64 DK7=7b5c174f d1=27 d2=7b
+expect (a): g0=11 g3=59 EK1 mid=b2f9 ; (c): g0=6f g3=0d DK5 mid=2be1 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=6e q0=c0
+  (a) 580 hyps >= 5.0, best z=8.14 nrm=1 g0=11 g3=59 k=3279  (16.03s)
+  (c) 518 hyps >= 5.0, best z=-6.48 nrm=0 g0=6f g3=0d k=ab61  (14.13s)
+  (t) best 3-round z=14.78; 476 of 580 x 518 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=116ee459 EK1mid=3279 DK6=6f277b0d, z3=14.78)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=737e2419b4ce244e (matches)
+### seed 1025
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key a791e548260ca5ed
+true EK0=add5b555 EK1=d7509888 EK2=ad9b2955  DK7=677749fb DK6=06924476 DK5=67846efb
+true candidate: e1=55 e2=35 DK7=6777497b d1=92 d2=46
+expect (a): g0=2d g3=55 EK1 mid=5298 ; (c): g0=06 g3=74 DK5 mid=846e (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=49 q0=d7
+  (a) 847 hyps >= 5.0, best z=8.97 nrm=1 g0=2d g3=55 k=d218  (14.25s)
+  (c) 657 hyps >= 5.0, best z=8.78 nrm=0 g0=06 g3=74 k=846e  (8.46s)
+  (t) best 3-round z=15.29; 4297 of 847 x 657 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=2dd5b555 EK1mid=d218 DK6=06924674, z3=15.23)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=a791e548260ca5ed (matches)
+### seed 1026
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 7457847aae51071f
+true EK0=3cb01d87 EK1=6cd6efaf EK2=3cc1d987  DK7=5d8ae087 DK6=3db98208 DK5=5da43087
+true candidate: e1=b0 e2=1d DK7=5d8ae007 d1=39 d2=00
+expect (a): g0=3c g3=07 EK1 mid=d6ed ; (c): g0=3d g3=0a DK5 mid=a430 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=4a q0=6c
+  (a) 744 hyps >= 5.0, best z=-8.78 nrm=0 g0=3c g3=07 k=566d  (13.27s)
+  (c) 1305 hyps >= 5.0, best z=-8.21 nrm=1 g0=3d g3=0a k=a430  (13.87s)
+  (t) best 3-round z=16.70; 6953 of 744 x 1305 pairs pass 8.0 (0.08s)
+  (e) key found at pair 0 (EK0=3cb01d07 EK1mid=566d DK6=3db9800a, z3=-16.70)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=7457847aae51071f (matches)
+### seed 1027
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 4943a1e9b6695796
+true EK0=ed6168df EK1=efab64aa EK2=edc225df  DK7=c8bb17bb DK6=8364fd7c DK5=c82c16bb
+true candidate: e1=61 e2=68 DK7=48bb173b d1=e6 d2=7f
+expect (a): g0=6d g3=5f EK1 mid=a966 ; (c): g0=01 g3=7e DK5 mid=2e16 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=1f q0=ef
+  (a) 507 hyps >= 5.0, best z=7.63 nrm=0 g0=6d g3=5f k=a966  (12.22s)
+  (c) 1067 hyps >= 5.0, best z=8.65 nrm=1 g0=01 g3=7e k=2e16  (13.68s)
+  (t) best 3-round z=15.74; 3236 of 507 x 1067 pairs pass 8.0 (0.08s)
+  (e) key found at pair 0 (EK0=6d61685f EK1mid=a966 DK6=0166ff7e, z3=15.68)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=4943a1e9b6695796 (matches)
+### seed 1028
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 6d0e962f9360422c
+true EK0=2b840474 EK1=59e4ebb9 EK2=2b3d1c74  DK7=1e6a4b21 DK6=f80ff022 DK5=1e7be421
+true candidate: e1=84 e2=04 DK7=1e6a4b21 d1=8f d2=70
+expect (a): g0=2b g3=74 EK1 mid=e4eb ; (c): g0=78 g3=22 DK5 mid=79e4 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=50 q0=59
+  (a) 931 hyps >= 5.0, best z=-8.72 nrm=0 g0=2b g3=74 k=646b  (15.38s)
+  (c) 620 hyps >= 5.0, best z=7.69 nrm=1 g0=78 g3=22 k=f964  (15.09s)
+  (t) best 3-round z=-15.10; 1477 of 931 x 620 pairs pass 8.0 (0.06s)
+  (e) key found at pair 0 (EK0=2b840474 EK1mid=646b DK6=780ff022, z3=15.10)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=6d0e962f9360422c (matches)
+### seed 1029
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 893a7010f9548715
+true EK0=fd5f2ea8 EK1=1acff2b8 EK2=fdd88da8  DK7=95ad26ec DK6=9bde348f DK5=95f228ec
+true candidate: e1=5f e2=2e DK7=15ad266c d1=dc d2=36
+expect (a): g0=7d g3=28 EK1 mid=cdf0 ; (c): g0=19 g3=0d DK5 mid=f02a (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=7f q0=1a
+  (a) 629 hyps >= 5.0, best z=8.40 nrm=0 g0=7d g3=28 k=4d70  (10.75s)
+  (c) 779 hyps >= 5.0, best z=-7.12 nrm=0 g0=19 g3=0d k=f02a  (11.81s)
+  (t) best 3-round z=-14.72; 1828 of 629 x 779 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=7d5f2e28 EK1mid=4d70 DK6=19dc360d, z3=14.65)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=893a7010f9548715 (matches)
+### seed 1030
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 21de4a1becdc4963
+true EK0=f01aa881 EK1=98b3fd15 EK2=f02db881  DK7=0aa5f1ae DK6=96fd8a22 DK5=0a675dae
+true candidate: e1=9a e2=28 DK7=0aa5f12e d1=7d d2=08
+expect (a): g0=70 g3=01 EK1 mid=b1ff ; (c): g0=16 g3=20 DK5 mid=655d (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=5b q0=98
+  (a) 446 hyps >= 5.0, best z=5.97 nrm=0 g0=11 g3=18 k=8a60  (13.83s)
+  (c) 733 hyps >= 5.0, best z=8.52 nrm=1 g0=16 g3=20 k=655d  (12.88s)
+  (t) best 3-round z=-15.87; 407 of 446 x 733 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=701aa801 EK1mid=317f DK6=16fd8820, z3=-15.87)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=21de4a1becdc4963 (matches)
+### seed 1031
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 81fe008aceba7b51
+true EK0=0dc4d696 EK1=f4255efb EK2=0d01c396  DK7=6e912170 DK6=b6fa3375 DK5=6e389e70
+true candidate: e1=44 e2=56 DK7=6e912170 d1=fa d2=33
+expect (a): g0=0d g3=16 EK1 mid=255c ; (c): g0=36 g3=75 DK5 mid=3a9e (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=12 q0=f4
+  (a) 1411 hyps >= 5.0, best z=8.65 nrm=1 g0=2d g3=16 k=b55c  (13.46s)
+  (c) 823 hyps >= 5.0, best z=8.01 nrm=0 g0=76 g3=75 k=bb1e  (17.21s)
+  (t) best 3-round z=-15.36; 6721 of 1411 x 823 pairs pass 8.0 (0.08s)
+  (e) key found at pair 0 (EK0=0dc4d616 EK1mid=255c DK6=36fa3375, z3=-15.36)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=81fe008aceba7b51 (matches)
+### seed 1032
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 6de829bc3a9e57fe
+true EK0=917cb011 EK1=87eb0d6f EK2=91c7d611  DK7=a706c38d DK6=1672a5f3 DK5=a7a1dd8d
+true candidate: e1=fc e2=30 DK7=2706c30d d1=f0 d2=27
+expect (a): g0=11 g3=11 EK1 mid=e90d ; (c): g0=14 g3=71 DK5 mid=a1df (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=2d q0=87
+  (a) 1487 hyps >= 5.0, best z=-9.04 nrm=1 g0=11 g3=11 k=e90d  (14.30s)
+  (c) 957 hyps >= 5.0, best z=8.59 nrm=1 g0=14 g3=71 k=215f  (14.32s)
+  (t) best 3-round z=-16.25; 6614 of 1487 x 957 pairs pass 8.0 (0.09s)
+  (e) key found at pair 0 (EK0=117cb011 EK1mid=e90d DK6=1470a771, z3=-16.25)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=6de829bc3a9e57fe (matches)
+### seed 1033
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key be7157544933740e
+true EK0=427f5b8d EK1=c7fe64b4 EK2=422b9b8d  DK7=c3b022d3 DK6=7944c9ef DK5=c32f86d3
+true candidate: e1=7f e2=5b DK7=43b02253 d1=c6 d2=4b
+expect (a): g0=42 g3=0d EK1 mid=fe66 ; (c): g0=7b g3=6d DK5 mid=2f84 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=2e q0=c7
+  (a) 425 hyps >= 5.0, best z=-7.76 nrm=0 g0=42 g3=0d k=fe66  (11.69s)
+  (c) 303 hyps >= 5.0, best z=-6.29 nrm=1 g0=70 g3=2d k=7b12  (10.23s)
+  (t) best 3-round z=-6.61; 0 of 425 x 303 pairs pass 8.0 (0.03s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1034
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key e96790c6ecadebcf
+true EK0=9d583a24 EK1=2d59de6e EK2=9d2c4a24  DK7=58ef00bc DK6=2f57e24d DK5=588a99bc
+true candidate: e1=58 e2=3a DK7=58ef003c d1=d7 d2=60
+expect (a): g0=1d g3=24 EK1 mid=5bde ; (c): g0=2f g3=4f DK5 mid=8a99 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=49 q0=2d
+  (a) 800 hyps >= 5.0, best z=8.97 nrm=0 g0=1d g3=24 k=db5e  (13.60s)
+  (c) 577 hyps >= 5.0, best z=-8.33 nrm=1 g0=2f g3=4f k=0a19  (11.05s)
+  (t) best 3-round z=-16.70; 3020 of 800 x 577 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=1d583a24 EK1mid=db5e DK6=2f57e04f, z3=-16.70)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=e96790c6ecadebcf (matches)
+### seed 1035
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 50cc890647355555
+true EK0=ac944057 EK1=06aa7452 EK2=acdedb57  DK7=7fabf1eb DK6=8c98270e DK5=7f6cfceb
+true candidate: e1=94 e2=40 DK7=7fabf16b d1=98 d2=25
+expect (a): g0=2c g3=57 EK1 mid=a874 ; (c): g0=0c g3=0c DK5 mid=6efc (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=19 q0=06
+  (a) 3012 hyps >= 5.0, best z=9.93 nrm=0 g0=2c g3=57 k=a874  (18.38s)
+  (c) 3909 hyps >= 5.0, best z=7.89 nrm=0 g0=0c g3=0c k=ee7c  (15.63s)
+  (t) best 3-round z=-16.83; 12231 of 3012 x 3909 pairs pass 8.0 (0.38s)
+  (e) key found at pair 0 (EK0=2c944057 EK1mid=a874 DK6=0c98250c, z3=-16.83)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=50cc890647355555 (matches)
+### seed 1036
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 362c25f368f2ae40
+true EK0=7580eb24 EK1=36a55225 EK2=75d08724  DK7=b7b56ee5 DK6=e1fca802 DK5=b766ace5
+true candidate: e1=00 e2=6b DK7=37b56e65 d1=7e d2=2a
+expect (a): g0=75 g3=24 EK1 mid=a552 ; (c): g0=63 g3=00 DK5 mid=64ac (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=1c q0=36
+  (a) 649 hyps >= 5.0, best z=7.69 nrm=1 g0=75 g3=24 k=a552  (14.33s)
+  (c) 386 hyps >= 5.0, best z=8.84 nrm=1 g0=63 g3=00 k=e42c  (10.30s)
+  (t) best 3-round z=15.93; 1366 of 649 x 386 pairs pass 8.0 (0.06s)
+  (e) key found at pair 0 (EK0=7580eb24 EK1mid=a552 DK6=63feaa00, z3=15.93)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=362c25f368f2ae40 (matches)
+### seed 1037
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 1c9656cf83ef30e1
+true EK0=540a5673 EK1=4fc36267 EK2=54540c73  DK7=3b6a9eb5 DK6=f8cd5fa8 DK5=3b1452b5
+true candidate: e1=0a e2=56 DK7=3b6a9e35 d1=cd d2=5d
+expect (a): g0=54 g3=73 EK1 mid=c362 ; (c): g0=78 g3=2a DK5 mid=1650 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=38 q0=4f
+  (a) 570 hyps >= 5.0, best z=7.38 nrm=0 g0=54 g3=73 k=c362  (13.34s)
+  (c) 575 hyps >= 5.0, best z=6.99 nrm=0 g0=78 g3=2a k=1650  (11.07s)
+  (t) best 3-round z=14.21; 766 of 570 x 575 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=540a5673 EK1mid=c362 DK6=78cd5d2a, z3=-14.21)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=1c9656cf83ef30e1 (matches)
+### seed 1038
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key de6ad5fa0ebbada1
+true EK0=cab4ddc0 EK1=73d69d92 EK2=caea5ac0  DK7=55d11203 DK6=bcd70751 DK5=559ae003
+true candidate: e1=34 e2=5d DK7=55d11203 d1=d7 d2=07
+expect (a): g0=4a g3=40 EK1 mid=d49f ; (c): g0=3c g3=51 DK5 mid=98e0 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=53 q0=73
+  (a) 1246 hyps >= 5.0, best z=-7.44 nrm=1 g0=4a g3=40 k=541f  (18.50s)
+  (c) 678 hyps >= 5.0, best z=-8.78 nrm=0 g0=3c g3=51 k=1860  (11.96s)
+  (t) best 3-round z=-14.91; 3231 of 1246 x 678 pairs pass 8.0 (0.07s)
+  (e) key found at pair 0 (EK0=4ab4dd40 EK1mid=541f DK6=3cd70751, z3=14.78)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=de6ad5fa0ebbada1 (matches)
+### seed 1039
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key edbe755447c3261d
+true EK0=e9e95029 EK1=b1055ee5 EK2=e9486c29  DK7=f0a7de33 DK6=e08fd077 DK5=f04fbf33
+true candidate: e1=e9 e2=50 DK7=70a7de33 d1=0d d2=50
+expect (a): g0=69 g3=29 EK1 mid=075e ; (c): g0=62 g3=77 DK5 mid=4dbf (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=15 q0=b1
+  (a) 651 hyps >= 5.0, best z=-5.97 nrm=1 g0=09 g3=21 k=8527  (21.96s)
+  (c) 398 hyps >= 5.0, best z=6.35 nrm=1 g0=51 g3=34 k=5310  (10.55s)
+  (t) best 3-round z=-6.16; 0 of 651 x 398 pairs pass 8.0 (0.04s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1040
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 6cc2ecadfc864825
+true EK0=28fb4329 EK1=8b4af1b3 EK2=28dace29  DK7=5956944a DK6=d689548e DK5=590a664a
+true candidate: e1=fb e2=43 DK7=5956944a d1=89 d2=54
+expect (a): g0=28 g3=29 EK1 mid=4af1 ; (c): g0=56 g3=0e DK5 mid=0864 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=70 q0=8b
+  (a) 526 hyps >= 5.0, best z=7.31 nrm=0 g0=28 g3=29 k=ca71  (10.58s)
+  (c) 496 hyps >= 5.0, best z=7.44 nrm=0 g0=16 g3=0e k=0b64  (11.62s)
+  (t) best 3-round z=-14.72; 1874 of 526 x 496 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=28fb4329 EK1mid=ca71 DK6=5689540e, z3=-14.72)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=6cc2ecadfc864825 (matches)
+### seed 1041
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 703cdf249b974a79
+true EK0=bb0ab1d3 EK1=5fad6a7e EK2=bb14f8d3  DK7=46f66bff DK6=81e3af65 DK5=46e639ff
+true candidate: e1=8a e2=31 DK7=46f66b7f d1=63 d2=2d
+expect (a): g0=3b g3=53 EK1 mid=af68 ; (c): g0=01 g3=67 DK5 mid=e439 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=1b q0=5f
+  (a) 533 hyps >= 5.0, best z=-6.80 nrm=1 g0=3b g3=53 k=ae68  (11.33s)
+  (c) 664 hyps >= 5.0, best z=-8.33 nrm=1 g0=01 g3=67 k=e439  (13.82s)
+  (t) best 3-round z=14.02; 788 of 533 x 664 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=3b0ab153 EK1mid=af68 DK6=01e3ad67, z3=14.02)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=703cdf249b974a79 (matches)
+### seed 1042
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key fe628e6782a71bde
+true EK0=1379424f EK1=d79cc093 EK2=13ea764f  DK7=a531e2c8 DK6=49bc7efe DK5=a53ba7c8
+true candidate: e1=79 e2=42 DK7=2531e248 d1=be d2=7c
+expect (a): g0=13 g3=4f EK1 mid=9cc0 ; (c): g0=4b g3=7c DK5 mid=3ba5 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=6c q0=d7
+  (a) 548 hyps >= 5.0, best z=-6.16 nrm=1 g0=54 g3=6d k=3e6b  (10.85s)
+  (c) 245 hyps >= 5.0, best z=-5.91 nrm=0 g0=6f g3=2d k=f572  (7.03s)
+  (t) best 3-round z=-6.16; 0 of 548 x 245 pairs pass 8.0 (0.02s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1043
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 705303fbe143ff3c
+true EK0=6bc50ce6 EK1=4a7c4cda EK2=6b42fce6  DK7=557ca4f9 DK6=926f2a3b DK5=5506e1f9
+true candidate: e1=c5 e2=0c DK7=557ca479 d1=6f d2=28
+expect (a): g0=6b g3=66 EK1 mid=7c4e ; (c): g0=12 g3=39 DK5 mid=04e1 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=1a q0=4a
+  (a) 577 hyps >= 5.0, best z=8.97 nrm=0 g0=6b g3=66 k=7c4e  (9.70s)
+  (c) 723 hyps >= 5.0, best z=7.25 nrm=0 g0=12 g3=39 k=8461  (12.85s)
+  (t) best 3-round z=15.10; 2502 of 577 x 723 pairs pass 8.0 (0.06s)
+  (e) key found at pair 0 (EK0=6bc50c66 EK1mid=7c4e DK6=126f2839, z3=15.10)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=705303fbe143ff3c (matches)
+### seed 1044
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 72624a0e94161ed3
+true EK0=98115ea3 EK1=a26026de EK2=985a81a3  DK7=69be739c DK6=db9e5088 DK5=698b7d9c
+true candidate: e1=11 e2=5e DK7=69be731c d1=9e d2=52
+expect (a): g0=18 g3=23 EK1 mid=6224 ; (c): g0=5b g3=0a DK5 mid=897f (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=3b q0=a2
+  (a) 446 hyps >= 5.0, best z=-8.08 nrm=0 g0=18 g3=23 k=6224  (13.67s)
+  (c) 1178 hyps >= 5.0, best z=8.52 nrm=0 g0=5b g3=0a k=897f  (14.73s)
+  (t) best 3-round z=-16.31; 4297 of 446 x 1178 pairs pass 8.0 (0.09s)
+  (e) key found at pair 0 (EK0=18115e23 EK1mid=6224 DK6=5b9e520a, z3=-16.31)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=72624a0e94161ed3 (matches)
+### seed 1045
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key e87c11258d3853eb
+true EK0=8a76ad59 EK1=f7ba86fa EK2=8a21ab59  DK7=a8ac08ff DK6=80d585ae DK5=a8aec1ff
+true candidate: e1=f6 e2=2d DK7=28ac087f d1=57 d2=07
+expect (a): g0=0a g3=59 EK1 mid=b886 ; (c): g0=02 g3=2c DK5 mid=acc3 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=7d q0=f7
+  (a) 753 hyps >= 5.0, best z=7.63 nrm=1 g0=2a g3=59 k=b806  (11.92s)
+  (c) 300 hyps >= 5.0, best z=6.93 nrm=1 g0=02 g3=2c k=2c43  (9.50s)
+  (t) best 3-round z=-15.36; 2173 of 753 x 300 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=0a76ad59 EK1mid=3806 DK6=02d7872c, z3=-15.36)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=e87c11258d3853eb (matches)
+### seed 1046
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key aef91290c859a730
+true EK0=530af963 EK1=df9d63e4 EK2=53d7d063  DK7=430bedf3 DK6=b0eda63c DK5=430995f3
+true candidate: e1=8a e2=79 DK7=430bed73 d1=6d d2=24
+expect (a): g0=53 g3=63 EK1 mid=9d63 ; (c): g0=30 g3=3e DK5 mid=0b95 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=18 q0=df
+  (a) 947 hyps >= 5.0, best z=6.99 nrm=1 g0=53 g3=63 k=9d63  (14.03s)
+  (c) 548 hyps >= 5.0, best z=-8.33 nrm=1 g0=30 g3=3e k=8b15  (13.07s)
+  (t) best 3-round z=15.04; 2001 of 947 x 548 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=530af963 EK1mid=9d63 DK6=30eda43e, z3=15.04)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=aef91290c859a730 (matches)
+### seed 1047
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 01703ae6fe3daef1
+true EK0=48f572c8 EK1=f308d434 EK2=488095c8  DK7=4adf7190 DK6=7f475a4d DK5=4ab3fe90
+true candidate: e1=f5 e2=72 DK7=4adf7110 d1=47 d2=58
+expect (a): g0=48 g3=48 EK1 mid=08d6 ; (c): g0=7f g3=4f DK5 mid=b3fe (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=4a q0=f3
+  (a) 654 hyps >= 5.0, best z=-8.52 nrm=0 g0=48 g3=48 k=8856  (11.60s)
+  (c) 673 hyps >= 5.0, best z=-8.08 nrm=0 g0=7f g3=4f k=337e  (14.36s)
+  (t) best 3-round z=16.06; 3461 of 654 x 673 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=48f57248 EK1mid=8856 DK6=7f47584f, z3=16.06)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=01703ae6fe3daef1 (matches)
+### seed 1048
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 41444ebe7367b0c5
+true EK0=8a7d5025 EK1=2cadfedc EK2=8acd7425  DK7=d3463ee8 DK6=f6b6cfa8 DK5=d37cede8
+true candidate: e1=7d e2=50 DK7=53463e68 d1=34 d2=4d
+expect (a): g0=0a g3=25 EK1 mid=affe ; (c): g0=74 g3=2a DK5 mid=7eef (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=7d q0=2c
+  (a) 376 hyps >= 5.0, best z=7.89 nrm=0 g0=6a g3=25 k=ae7e  (13.84s)
+  (c) 466 hyps >= 5.0, best z=6.67 nrm=1 g0=71 g3=6a k=ab2f  (13.14s)
+  (t) best 3-round z=14.59; 777 of 376 x 466 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=0a7d5025 EK1mid=2f7e DK6=74b4cd2a, z3=-14.53)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=41444ebe7367b0c5 (matches)
+### seed 1049
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key b0e1576a289f5b4f
+true EK0=0c2a3357 EK1=cee64a04 EK2=0c6d7a57  DK7=feb17499 DK6=6bcb9e23 DK5=fe817c99
+true candidate: e1=2a e2=33 DK7=7eb17419 d1=49 d2=1c
+expect (a): g0=0c g3=57 EK1 mid=e64a ; (c): g0=69 g3=21 DK5 mid=817c (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=0c q0=ce
+  (a) 507 hyps >= 5.0, best z=-8.65 nrm=0 g0=0c g3=57 k=e64a  (8.90s)
+  (c) 629 hyps >= 5.0, best z=8.97 nrm=1 g0=69 g3=21 k=817c  (14.64s)
+  (t) best 3-round z=-16.70; 4326 of 507 x 629 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=0c2a3357 EK1mid=e64a DK6=69c99c21, z3=-16.70)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=b0e1576a289f5b4f (matches)
+### seed 1050
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key c8d0afb70007870c
+true EK0=7d832aa4 EK1=7db6e28b EK2=7ddb33a4  DK7=0b851733 DK6=7cc314f0 DK5=0b585133
+true candidate: e1=83 e2=2a DK7=0b851733 d1=c3 d2=14
+expect (a): g0=7d g3=24 EK1 mid=b6e0 ; (c): g0=7c g3=70 DK5 mid=5853 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=62 q0=7d
+  (a) 851 hyps >= 5.0, best z=9.04 nrm=0 g0=7d g3=24 k=3660  (12.95s)
+  (c) 1461 hyps >= 5.0, best z=-8.40 nrm=0 g0=1c g3=70 k=da53  (12.24s)
+  (t) best 3-round z=-17.08; 5144 of 851 x 1461 pairs pass 8.0 (0.11s)
+  (e) key found at pair 0 (EK0=7d832a24 EK1mid=3660 DK6=7cc31470, z3=-17.08)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=c8d0afb70007870c (matches)
+### seed 1051
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 4be43426b427b5e3
+true EK0=f9bc37e4 EK1=e0597374 EK2=f93f3be4  DK7=41d1170a DK6=4939a61b DK5=410d6e0a
+true candidate: e1=bc e2=37 DK7=41d1170a d1=b9 d2=26
+expect (a): g0=79 g3=64 EK1 mid=5b71 ; (c): g0=49 g3=1b DK5 mid=0d6e (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=03 q0=e0
+  (a) 816 hyps >= 5.0, best z=-7.44 nrm=0 g0=79 g3=64 k=5b71  (13.30s)
+  (c) 803 hyps >= 5.0, best z=7.38 nrm=1 g0=49 g3=1b k=0d6e  (15.83s)
+  (t) best 3-round z=-14.46; 1677 of 816 x 803 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=79bc3764 EK1mid=5b71 DK6=4939a61b, z3=14.46)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=4be43426b427b5e3 (matches)
+### seed 1052
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key a9dccd9e9bb87c89
+true EK0=a54e4a89 EK1=2077f1e3 EK2=a5c38289  DK7=7aed265c DK6=ad3ae563 DK5=7a55ec5c
+true candidate: e1=4e e2=4a DK7=7aed265c d1=ba d2=65
+expect (a): g0=25 g3=09 EK1 mid=75f3 ; (c): g0=2d g3=63 DK5 mid=57ec (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=53 q0=20
+  (a) 571 hyps >= 5.0, best z=7.18 nrm=0 g0=65 g3=09 k=f473  (13.11s)
+  (c) 456 hyps >= 5.0, best z=-7.57 nrm=1 g0=2d g3=63 k=d76c  (12.04s)
+  (t) best 3-round z=15.68; 1211 of 571 x 456 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=254e4a09 EK1mid=f573 DK6=2d3ae563, z3=-15.55)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=a9dccd9e9bb87c89 (matches)
+### seed 1053
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 43b191cc429af738
+true EK0=36aa7df4 EK1=95b086a2 EK2=36c840f4  DK7=1c00f741 DK6=1773be26 DK5=1c8ce541
+true candidate: e1=aa e2=7d DK7=1c00f741 d1=f3 d2=3e
+expect (a): g0=36 g3=74 EK1 mid=b084 ; (c): g0=17 g3=26 DK5 mid=8ce5 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=42 q0=95
+  (a) 450 hyps >= 5.0, best z=6.67 nrm=0 g0=76 g3=74 k=3004  (13.65s)
+  (c) 710 hyps >= 5.0, best z=8.21 nrm=1 g0=17 g3=26 k=0c65  (15.48s)
+  (t) best 3-round z=-15.93; 1435 of 450 x 710 pairs pass 8.0 (0.06s)
+  (e) key found at pair 0 (EK0=36aa7d74 EK1mid=3004 DK6=1773be26, z3=15.80)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=43b191cc429af738 (matches)
+### seed 1054
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 2b9e79039e78a631
+true EK0=4c2ac4e4 EK1=bc9ac809 EK2=4cf587e4  DK7=bea37482 DK6=3ed697ae DK5=be459082
+true candidate: e1=aa e2=44 DK7=3ea37402 d1=54 d2=15
+expect (a): g0=4c g3=64 EK1 mid=9aca ; (c): g0=3c g3=2c DK5 mid=4592 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=6e q0=bc
+  (a) 459 hyps >= 5.0, best z=-7.95 nrm=1 g0=4c g3=64 k=1a4a  (8.96s)
+  (c) 647 hyps >= 5.0, best z=-8.40 nrm=1 g0=1c g3=2c k=4512  (12.51s)
+  (t) best 3-round z=16.76; 6143 of 459 x 647 pairs pass 8.0 (0.04s)
+  (e) key found at pair 1 (EK0=4c2ac464 EK1mid=1a4a DK6=3cd4952c, z3=-16.70)
+  (e) tried 2 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=2b9e79039e78a631 (matches)
+### seed 1055
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 99c9c963a864f87c
+true EK0=460e1276 EK1=6c7c6fba EK2=46909876  DK7=e04d957c DK6=2dac4a88 DK5=e0664d7c
+true candidate: e1=0e e2=12 DK7=604d957c d1=ae d2=4a
+expect (a): g0=46 g3=76 EK1 mid=7c6f ; (c): g0=2f g3=08 DK5 mid=664f (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=24 q0=6c
+  (a) 582 hyps >= 5.0, best z=-7.06 nrm=0 g0=46 g3=76 k=7c6f  (12.49s)
+  (c) 457 hyps >= 5.0, best z=-7.63 nrm=0 g0=2f g3=08 k=664f  (14.93s)
+  (t) best 3-round z=15.80; 556 of 582 x 457 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=460e1276 EK1mid=7c6f DK6=2fae4a08, z3=15.80)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=99c9c963a864f87c (matches)
+### seed 1056
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 953b9b90d9699173
+true EK0=0cc522b2 EK1=34c729f4 EK2=0cc4c5b2  DK7=14528e32 DK6=bf13dc40 DK5=14581532
+true candidate: e1=c5 e2=22 DK7=14528e32 d1=93 d2=5c
+expect (a): g0=0c g3=32 EK1 mid=c72b ; (c): g0=3f g3=40 DK5 mid=5a15 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=12 q0=34
+  (a) 723 hyps >= 5.0, best z=7.06 nrm=0 g0=4c g3=32 k=c42b  (12.23s)
+  (c) 693 hyps >= 5.0, best z=-7.82 nrm=1 g0=3f g3=40 k=5a15  (9.69s)
+  (t) best 3-round z=-14.91; 980 of 723 x 693 pairs pass 8.0 (0.08s)
+  (e) key found at pair 0 (EK0=0cc52232 EK1mid=c72b DK6=3f13dc40, z3=14.85)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=953b9b90d9699173 (matches)
+### seed 1057
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key fbed1579cc70f812
+true EK0=6e5b7a13 EK1=c2d9c9d4 EK2=6edfed13  DK7=09ae7877 DK6=48e6c622 DK5=09ee2577
+true candidate: e1=5b e2=7a DK7=09ae7877 d1=66 d2=46
+expect (a): g0=6e g3=13 EK1 mid=d9c9 ; (c): g0=48 g3=22 DK5 mid=ee25 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=40 q0=c2
+  (a) 401 hyps >= 5.0, best z=7.76 nrm=0 g0=6e g3=13 k=5949  (12.55s)
+  (c) 253 hyps >= 5.0, best z=-7.25 nrm=1 g0=48 g3=22 k=ee25  (8.34s)
+  (t) best 3-round z=15.61; 628 of 401 x 253 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=6e5b7a13 EK1mid=5949 DK6=48e6c622, z3=-15.61)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=fbed1579cc70f812 (matches)
+### seed 1058
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key e3c5e8f9f916048e
+true EK0=404f395f EK1=5d41aa88 EK2=4010d25f  DK7=ebf27765 DK6=3a0292f5 DK5=eb751e65
+true candidate: e1=4f e2=39 DK7=6bf27765 d1=80 d2=12
+expect (a): g0=40 g3=5f EK1 mid=41aa ; (c): g0=38 g3=75 DK5 mid=751c (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=64 q0=5d
+  (a) 747 hyps >= 5.0, best z=-7.12 nrm=0 g0=40 g3=5f k=c12a  (12.75s)
+  (c) 774 hyps >= 5.0, best z=8.52 nrm=1 g0=38 g3=75 k=751c  (9.25s)
+  (t) best 3-round z=15.42; 2030 of 747 x 774 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=404f395f EK1mid=c12a DK6=38009275, z3=15.29)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=e3c5e8f9f916048e (matches)
+### seed 1059
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 07bab097f99a8a6c
+true EK0=d0029a57 EK1=b5f2d9c8 EK2=d000e257  DK7=0fad4354 DK6=7ad6b362 DK5=0f045054
+true candidate: e1=82 e2=1a DK7=0fad4354 d1=56 d2=33
+expect (a): g0=50 g3=57 EK1 mid=f0d9 ; (c): g0=7a g3=62 DK5 mid=0450 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=41 q0=b5
+  (a) 435 hyps >= 5.0, best z=7.25 nrm=1 g0=50 g3=57 k=7059  (11.26s)
+  (c) 770 hyps >= 5.0, best z=-7.69 nrm=1 g0=5a g3=62 k=8550  (10.49s)
+  (t) best 3-round z=15.80; 3211 of 435 x 770 pairs pass 8.0 (0.04s)
+  (e) key found at pair 1 (EK0=50029a57 EK1mid=7059 DK6=7ad6b362, z3=-15.74)
+  (e) tried 2 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=07bab097f99a8a6c (matches)
+### seed 1060
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key d1648f95583b49ee
+true EK0=774db836 EK1=22af8c23 EK2=77eca436  DK7=279e9faf DK6=f56611cb DK5=270ba2af
+true candidate: e1=cd e2=38 DK7=279e9f2f d1=66 d2=13
+expect (a): g0=77 g3=36 EK1 mid=af8c ; (c): g0=75 g3=49 DK5 mid=09a0 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=78 q0=22
+  (a) 403 hyps >= 5.0, best z=6.99 nrm=1 g0=77 g3=36 k=2f0c  (13.03s)
+  (c) 926 hyps >= 5.0, best z=-8.08 nrm=0 g0=75 g3=49 k=8920  (13.13s)
+  (t) best 3-round z=14.46; 550 of 403 x 926 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=774db836 EK1mid=2f0c DK6=75661349, z3=14.46)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=d1648f95583b49ee (matches)
+### seed 1061
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 0694285f6933717b
+true EK0=7445a4f1 EK1=210a1e4b EK2=746737f1  DK7=52ae88d9 DK6=6407a5cd DK5=52bee4d9
+true candidate: e1=c5 e2=24 DK7=52ae8859 d1=87 d2=27
+expect (a): g0=74 g3=71 EK1 mid=0a1c ; (c): g0=64 g3=4f DK5 mid=bee6 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=2a q0=21
+  (a) 468 hyps >= 5.0, best z=-8.65 nrm=1 g0=74 g3=71 k=0a1c  (12.73s)
+  (c) 495 hyps >= 5.0, best z=7.69 nrm=1 g0=64 g3=4f k=3e66  (12.75s)
+  (t) best 3-round z=-15.10; 1740 of 468 x 495 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=7445a471 EK1mid=0a1c DK6=6407a74f, z3=-14.91)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=0694285f6933717b (matches)
+### seed 1062
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key b0687a693cbba6d8
+true EK0=415ae334 EK1=5bdd722d EK2=4159b934  DK7=7b54e7c0 DK6=29aeca6f DK5=7bb2e4c0
+true candidate: e1=da e2=63 DK7=7b54e740 d1=2e d2=48
+expect (a): g0=41 g3=34 EK1 mid=dd72 ; (c): g0=29 g3=6d DK5 mid=b2e4 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=08 q0=5b
+  (a) 544 hyps >= 5.0, best z=8.01 nrm=1 g0=41 g3=34 k=dd72  (14.17s)
+  (c) 1129 hyps >= 5.0, best z=9.55 nrm=1 g0=29 g3=6d k=3264  (10.48s)
+  (t) best 3-round z=16.19; 6018 of 544 x 1129 pairs pass 8.0 (0.06s)
+  (e) key found at pair 0 (EK0=415ae334 EK1mid=dd72 DK6=29aec86d, z3=-16.06)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=b0687a693cbba6d8 (matches)
+### seed 1063
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 33315e015e8224c5
+true EK0=b2be02f1 EK1=9ed01c19 EK2=b23da2f1  DK7=d308678b DK6=c9f72e0c DK5=d3f2bd8b
+true candidate: e1=be e2=02 DK7=5308670b d1=f5 d2=2c
+expect (a): g0=32 g3=71 EK1 mid=d21e ; (c): g0=4b g3=0e DK5 mid=f0bd (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=1f q0=9e
+  (a) 1517 hyps >= 5.0, best z=-9.29 nrm=0 g0=32 g3=71 k=d21e  (14.08s)
+  (c) 874 hyps >= 5.0, best z=8.33 nrm=0 g0=4b g3=0e k=703d  (12.88s)
+  (t) best 3-round z=-16.25; 4825 of 1517 x 874 pairs pass 8.0 (0.09s)
+  (e) key found at pair 0 (EK0=32be0271 EK1mid=d21e DK6=4bf52c0e, z3=16.25)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=33315e015e8224c5 (matches)
+### seed 1064
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 4529fee234262d8f
+true EK0=fd5e7eba EK1=0a805395 EK2=fd40f7ba  DK7=c7aa0182 DK6=b5cf6f3f DK5=c7c8f682
+true candidate: e1=5e e2=7e DK7=47aa0102 d1=cd d2=6d
+expect (a): g0=7d g3=3a EK1 mid=8251 ; (c): g0=37 g3=3d DK5 mid=caf6 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=1f q0=0a
+  (a) 884 hyps >= 5.0, best z=-7.76 nrm=0 g0=7d g3=3a k=8251  (15.78s)
+  (c) 529 hyps >= 5.0, best z=-7.89 nrm=0 g0=37 g3=3d k=4a76  (12.26s)
+  (t) best 3-round z=-15.61; 1024 of 884 x 529 pairs pass 8.0 (0.07s)
+  (e) key found at pair 0 (EK0=7d5e7e3a EK1mid=8251 DK6=37cd6d3d, z3=-15.61)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=4529fee234262d8f (matches)
+### seed 1065
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key e2f3cb9b64af9877
+true EK0=00669593 EK1=f9d00a45 EK2=00f2bd93  DK7=c46047d2 DK6=2d917a21 DK5=c4373ad2
+true candidate: e1=e6 e2=15 DK7=44604752 d1=93 d2=78
+expect (a): g0=00 g3=13 EK1 mid=d008 ; (c): g0=2f g3=23 DK5 mid=373a (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=0e q0=f9
+  (a) 766 hyps >= 5.0, best z=6.74 nrm=1 g0=00 g3=13 k=d008  (17.13s)
+  (c) 573 hyps >= 5.0, best z=-6.99 nrm=0 g0=2f g3=23 k=373a  (13.55s)
+  (t) best 3-round z=-15.87; 1220 of 766 x 573 pairs pass 8.0 (0.06s)
+  (e) key found at pair 1 (EK0=00669513 EK1mid=d008 DK6=2f937823, z3=-15.48)
+  (e) tried 2 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=e2f3cb9b64af9877 (matches)
+### seed 1066
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 0194dac789476da9
+true EK0=2ffde1db EK1=f22e9ce8 EK2=2f71ffdb  DK7=5610f44a DK6=34944b18 DK5=566b544a
+true candidate: e1=7d e2=61 DK7=5610f44a d1=94 d2=4b
+expect (a): g0=2f g3=5b EK1 mid=2e9e ; (c): g0=34 g3=18 DK5 mid=6b54 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=42 q0=f2
+  (a) 530 hyps >= 5.0, best z=8.33 nrm=1 g0=2f g3=5b k=ae1e  (14.42s)
+  (c) 851 hyps >= 5.0, best z=-9.61 nrm=0 g0=34 g3=18 k=6b54  (10.41s)
+  (t) best 3-round z=16.12; 10101 of 530 x 851 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=2ffde15b EK1mid=ae1e DK6=34944b18, z3=16.06)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=0194dac789476da9 (matches)
+### seed 1067
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 96e265eb47d2280d
+true EK0=ff0a6f8f EK1=791532d9 EK2=ffbc948f  DK7=4913db03 DK6=513b7690 DK5=49c51403
+true candidate: e1=0a e2=6f DK7=4913db03 d1=3b d2=76
+expect (a): g0=7f g3=0f EK1 mid=1730 ; (c): g0=51 g3=10 DK5 mid=c516 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=23 q0=79
+  (a) 400 hyps >= 5.0, best z=8.59 nrm=0 g0=7f g3=0f k=1730  (12.05s)
+  (c) 497 hyps >= 5.0, best z=-7.63 nrm=0 g0=51 g3=10 k=c516  (10.68s)
+  (t) best 3-round z=-15.68; 1491 of 400 x 497 pairs pass 8.0 (0.06s)
+  (e) key found at pair 0 (EK0=7f0a6f0f EK1mid=1730 DK6=513b7610, z3=15.61)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=96e265eb47d2280d (matches)
+### seed 1068
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 8a08ecc6caf16420
+true EK0=8c783cd3 EK1=0ad88945 EK2=8ce44dd3  DK7=421ba335 DK6=9692a8ef DK5=42061a35
+true candidate: e1=78 e2=3c DK7=421ba335 d1=12 d2=28
+expect (a): g0=0c g3=53 EK1 mid=da8b ; (c): g0=16 g3=6f DK5 mid=0418 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=73 q0=0a
+  (a) 464 hyps >= 5.0, best z=-7.12 nrm=0 g0=0c g3=53 k=5a0b  (16.60s)
+  (c) 274 hyps >= 5.0, best z=8.46 nrm=1 g0=16 g3=6f k=0418  (11.26s)
+  (t) best 3-round z=14.97; 507 of 464 x 274 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=0c783c53 EK1mid=5a0b DK6=1692a86f, z3=14.97)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=8a08ecc6caf16420 (matches)
+### seed 1069
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key e1cd55f30f0aa3b7
+true EK0=ade8f35a EK1=30fcbd71 EK2=ad50ca5a  DK7=f6cfa8f6 DK6=b143705f DK5=f69527f6
+true candidate: e1=68 e2=73 DK7=76cfa876 d1=41 d2=72
+expect (a): g0=2d g3=5a EK1 mid=febd ; (c): g0=33 g3=5d DK5 mid=9727 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=5d q0=30
+  (a) 558 hyps >= 5.0, best z=-8.27 nrm=1 g0=2d g3=5a k=7e3d  (13.29s)
+  (c) 487 hyps >= 5.0, best z=-6.03 nrm=1 g0=68 g3=1d k=af4a  (10.26s)
+  (t) best 3-round z=-6.67; 0 of 558 x 487 pairs pass 8.0 (0.04s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1070
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key b7436ab185cf0f3b
+true EK0=a23a1786 EK1=1e029636 EK2=a245e486  DK7=5831d927 DK6=26d173a5 DK5=58a84027
+true candidate: e1=3a e2=17 DK7=5831d927 d1=d1 d2=73
+expect (a): g0=22 g3=06 EK1 mid=0094 ; (c): g0=26 g3=25 DK5 mid=a842 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=63 q0=1e
+  (a) 506 hyps >= 5.0, best z=8.52 nrm=0 g0=22 g3=06 k=8014  (12.21s)
+  (c) 628 hyps >= 5.0, best z=7.25 nrm=0 g0=26 g3=25 k=a842  (14.11s)
+  (t) best 3-round z=15.36; 1774 of 506 x 628 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=223a1706 EK1mid=8014 DK6=26d17325, z3=15.36)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=b7436ab185cf0f3b (matches)
+### seed 1071
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 149c1b4ecc5aa09c
+true EK0=95e29a23 EK1=c5bfb3fd EK2=950aaf23  DK7=5a8b8746 DK6=b2c96752 DK5=5a8d8c46
+true candidate: e1=62 e2=1a DK7=5a8b8746 d1=c9 d2=67
+expect (a): g0=15 g3=23 EK1 mid=bdb3 ; (c): g0=32 g3=52 DK5 mid=8f8c (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=51 q0=c5
+  (a) 371 hyps >= 5.0, best z=-7.89 nrm=1 g0=15 g3=23 k=3d33  (11.71s)
+  (c) 388 hyps >= 5.0, best z=-6.55 nrm=1 g0=21 g3=11 k=bf16  (11.74s)
+  (t) best 3-round z=-6.67; 0 of 371 x 388 pairs pass 8.0 (0.05s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1072
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key e8272dd9362b7c0e
+true EK0=c01765ec EK1=a04d8bba EK2=c0d52fec  DK7=15faed9b DK6=31fffb5c DK5=15ac239b
+true candidate: e1=17 e2=65 DK7=15faed1b d1=7f d2=79
+expect (a): g0=40 g3=6c EK1 mid=4f89 ; (c): g0=31 g3=5e DK5 mid=ac23 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=4b q0=a0
+  (a) 2020 hyps >= 5.0, best z=-7.38 nrm=0 g0=40 g3=6c k=cf09  (16.41s)
+  (c) 4096 hyps >= 5.0, best z=-9.61 nrm=1 g0=31 g3=5e k=ac23  (12.90s)
+  (t) best 3-round z=-16.89; 8188 of 2020 x 4096 pairs pass 8.0 (0.52s)
+  (e) key found at pair 0 (EK0=4017656c EK1mid=cf09 DK6=31fff95e, z3=-16.83)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=e8272dd9362b7c0e (matches)
+### seed 1073
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 9b131f667e87a74d
+true EK0=4ee1274f EK1=0d9094a0 EK2=4ea0d04f  DK7=05f25ab6 DK6=54f5d8bf DK5=057764b6
+true candidate: e1=e1 e2=27 DK7=05f25a36 d1=75 d2=5a
+expect (a): g0=4e g3=4f EK1 mid=9094 ; (c): g0=54 g3=3d DK5 mid=7766 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=68 q0=0d
+  (a) 435 hyps >= 5.0, best z=-6.42 nrm=0 g0=53 g3=0b k=be42  (11.68s)
+  (c) 438 hyps >= 5.0, best z=-8.21 nrm=1 g0=54 g3=3d k=7766  (12.95s)
+  (t) best 3-round z=-7.18; 0 of 435 x 438 pairs pass 8.0 (0.03s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1074
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key aa867999370c7bc5
+true EK0=5f3dbdc5 EK1=9f99b329 EK2=5fa35cc5  DK7=f789ee56 DK6=7dc437cd DK5=f7754e56
+true candidate: e1=bd e2=3d DK7=7789ee56 d1=c6 d2=37
+expect (a): g0=5f g3=45 EK1 mid=99b1 ; (c): g0=7f g3=4d DK5 mid=754c (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=66 q0=9f
+  (a) 302 hyps >= 5.0, best z=-6.16 nrm=0 g0=75 g3=70 k=595f  (11.14s)
+  (c) 473 hyps >= 5.0, best z=-6.10 nrm=0 g0=12 g3=16 k=9703  (13.86s)
+  (t) best 3-round z=-6.42; 0 of 302 x 473 pairs pass 8.0 (0.02s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1075
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 68b3a8fa3f1aaa40
+true EK0=55ed28f8 EK1=6ee15dc7 EK2=554e03f8  DK7=b8646e83 DK6=a79dd3fd DK5=b8d0ec83
+true candidate: e1=ed e2=28 DK7=38646e03 d1=1f d2=51
+expect (a): g0=55 g3=78 EK1 mid=e15f ; (c): g0=25 g3=7f DK5 mid=d2ee (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=3e q0=6e
+  (a) 565 hyps >= 5.0, best z=-7.95 nrm=0 g0=55 g3=78 k=e15f  (12.94s)
+  (c) 552 hyps >= 5.0, best z=7.12 nrm=1 g0=25 g3=7f k=526e  (13.28s)
+  (t) best 3-round z=14.78; 1439 of 565 x 552 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=55ed2878 EK1mid=e15f DK6=259fd17f, z3=14.59)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=68b3a8fa3f1aaa40 (matches)
+### seed 1076
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key a4391fc60808f23c
+true EK0=da158291 EK1=cb9e133b EK2=dac5a591  DK7=67de7b19 DK6=000f2cbe DK5=671db419
+true candidate: e1=95 e2=02 DK7=67de7b19 d1=0f d2=2c
+expect (a): g0=5a g3=11 EK1 mid=9c11 ; (c): g0=00 g3=3e DK5 mid=1db6 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=23 q0=cb
+  (a) 467 hyps >= 5.0, best z=-8.72 nrm=1 g0=7a g3=11 k=1d11  (12.30s)
+  (c) 625 hyps >= 5.0, best z=7.63 nrm=0 g0=00 g3=3e k=9d36  (12.33s)
+  (t) best 3-round z=-14.97; 1995 of 467 x 625 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=5a158211 EK1mid=9c11 DK6=000f2c3e, z3=-14.97)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=a4391fc60808f23c (matches)
+### seed 1077
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key c966f71c37567089
+true EK0=acd87657 EK1=11df28d5 EK2=ac5dbd57  DK7=da92d621 DK6=8f6b1a9b DK5=da733521
+true candidate: e1=d8 e2=76 DK7=5a92d621 d1=69 d2=1a
+expect (a): g0=2c g3=57 EK1 mid=dd28 ; (c): g0=0d g3=1b DK5 mid=7137 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=35 q0=11
+  (a) 599 hyps >= 5.0, best z=6.99 nrm=0 g0=2c g3=57 k=dd28  (14.20s)
+  (c) 374 hyps >= 5.0, best z=6.99 nrm=0 g0=2d g3=1b k=f237  (10.70s)
+  (t) best 3-round z=14.65; 1384 of 599 x 374 pairs pass 8.0 (0.03s)
+  (e) key found at pair 1 (EK0=2cd87657 EK1mid=dd28 DK6=0d691a1b, z3=14.53)
+  (e) tried 2 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=c966f71c37567089 (matches)
+### seed 1078
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 9a7c8608aaf2823a
+true EK0=f3b7f445 EK1=30440c09 EK2=f355a945  DK7=661ff597 DK6=3123373f DK5=66c4fa97
+true candidate: e1=37 e2=74 DK7=661ff517 d1=23 d2=35
+expect (a): g0=73 g3=45 EK1 mid=460c ; (c): g0=31 g3=3d DK5 mid=c4fa (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=09 q0=30
+  (a) 665 hyps >= 5.0, best z=-8.14 nrm=1 g0=73 g3=45 k=460c  (14.89s)
+  (c) 327 hyps >= 5.0, best z=-6.74 nrm=0 g0=31 g3=3d k=447a  (11.31s)
+  (t) best 3-round z=-14.78; 1044 of 665 x 327 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=73b7f445 EK1mid=460c DK6=3123353d, z3=14.72)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=9a7c8608aaf2823a (matches)
+### seed 1079
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 3d779ac12e51a9aa
+true EK0=89110cb0 EK1=258a4713 EK2=89d58bb0  DK7=f91ef25d DK6=42b66cf0 DK5=f903665d
+true candidate: e1=11 e2=0c DK7=791ef25d d1=b4 d2=6c
+expect (a): g0=09 g3=30 EK1 mid=8845 ; (c): g0=40 g3=70 DK5 mid=0364 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=27 q0=25
+  (a) 235 hyps >= 5.0, best z=6.35 nrm=1 g0=22 g3=39 k=e232  (9.78s)
+  (c) 345 hyps >= 5.0, best z=-6.99 nrm=0 g0=40 g3=70 k=0364  (11.58s)
+  (t) best 3-round z=-8.84; 12 of 235 x 345 pairs pass 8.0 (0.02s)
+  (e) tried 12 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1080
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 8468beb57eea8be5
+true EK0=be70aa0e EK1=003575b5 EK2=be54350e  DK7=403532cf DK6=03e72d8a DK5=402befcf
+true candidate: e1=f0 e2=2a DK7=4035324f d1=e7 d2=2f
+expect (a): g0=3e g3=0e EK1 mid=3775 ; (c): g0=03 g3=08 DK5 mid=2bed (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=29 q0=00
+  (a) 262 hyps >= 5.0, best z=6.55 nrm=1 g0=3e g3=0e k=3775  (9.54s)
+  (c) 509 hyps >= 5.0, best z=-6.80 nrm=0 g0=03 g3=08 k=ab6d  (13.30s)
+  (t) best 3-round z=15.87; 417 of 262 x 509 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=3e70aa0e EK1mid=3775 DK6=03e72f08, z3=15.87)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=8468beb57eea8be5 (matches)
+### seed 1081
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 90b3482e233a12cc
+true EK0=1e415ba0 EK1=c656a1f2 EK2=1e6c4ba0  DK7=18aac08a DK6=1cf23ce8 DK5=189bb08a
+true candidate: e1=41 e2=5b DK7=18aac00a d1=f2 d2=3e
+expect (a): g0=1e g3=20 EK1 mid=56a3 ; (c): g0=1c g3=6a DK5 mid=9bb2 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=6a q0=c6
+  (a) 699 hyps >= 5.0, best z=7.82 nrm=0 g0=1e g3=20 k=d623  (12.55s)
+  (c) 935 hyps >= 5.0, best z=7.89 nrm=0 g0=1c g3=6a k=1b32  (14.68s)
+  (t) best 3-round z=15.10; 1766 of 699 x 935 pairs pass 8.0 (0.06s)
+  (e) key found at pair 0 (EK0=1e415b20 EK1mid=d623 DK6=1cf23e6a, z3=14.97)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=90b3482e233a12cc (matches)
+### seed 1082
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 9294b5ca82ce2536
+true EK0=84a0160a EK1=5955f20f EK2=8478a90a  DK7=075141d1 DK6=b7316e04 DK5=070a39d1
+true candidate: e1=a0 e2=16 DK7=07514151 d1=31 d2=6c
+expect (a): g0=04 g3=0a EK1 mid=57f2 ; (c): g0=37 g3=06 DK5 mid=0839 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=59 q0=59
+  (a) 777 hyps >= 5.0, best z=9.87 nrm=0 g0=04 g3=0a k=d772  (14.87s)
+  (c) 1668 hyps >= 5.0, best z=8.65 nrm=0 g0=37 g3=06 k=0839  (11.47s)
+  (t) best 3-round z=16.44; 8028 of 777 x 1668 pairs pass 8.0 (0.10s)
+  (e) key found at pair 0 (EK0=04a0160a EK1mid=d772 DK6=37316c06, z3=16.38)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=9294b5ca82ce2536 (matches)
+### seed 1083
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 561fecb9b02ccdbb
+true EK0=fb9f3dae EK1=2a4aa133 EK2=fb62f2ae  DK7=6c4e9748 DK6=c33a7f8d DK5=6cb6e248
+true candidate: e1=9f e2=3d DK7=6c4e9748 d1=3a d2=7f
+expect (a): g0=7b g3=2e EK1 mid=48a3 ; (c): g0=43 g3=0d DK5 mid=b4e0 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=73 q0=2a
+  (a) 466 hyps >= 5.0, best z=7.44 nrm=0 g0=3b g3=2e k=cb23  (11.98s)
+  (c) 513 hyps >= 5.0, best z=-6.29 nrm=0 g0=32 g3=37 k=b637  (14.34s)
+  (t) best 3-round z=-8.14; 1 of 466 x 513 pairs pass 8.0 (0.04s)
+  (e) tried 1 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1084
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 3cf8dc4eb3e9aa07
+true EK0=5aaa0557 EK1=c1bc2f18 EK2=5a8c6357  DK7=313e2ba3 DK6=1e95db7e DK5=317474a3
+true candidate: e1=aa e2=05 DK7=313e2b23 d1=15 d2=59
+expect (a): g0=5a g3=57 EK1 mid=bc2f ; (c): g0=1e g3=7c DK5 mid=7474 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=08 q0=c1
+  (a) 1441 hyps >= 5.0, best z=-7.82 nrm=0 g0=1a g3=57 k=bf2f  (13.39s)
+  (c) 689 hyps >= 5.0, best z=7.95 nrm=1 g0=1e g3=7c k=7474  (10.27s)
+  (t) best 3-round z=-17.15; 6446 of 1441 x 689 pairs pass 8.0 (0.08s)
+  (e) key found at pair 0 (EK0=5aaa0557 EK1mid=bc2f DK6=1e95d97c, z3=-17.15)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=3cf8dc4eb3e9aa07 (matches)
+### seed 1085
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 5e1ec9893dcfe56f
+true EK0=4b030a8b EK1=d5b73016 EK2=4bd0a08b  DK7=8fcf3f3b DK6=1e419bca DK5=8f04313b
+true candidate: e1=03 e2=0a DK7=0fcf3f3b d1=c3 d2=1b
+expect (a): g0=4b g3=0b EK1 mid=b732 ; (c): g0=1c g3=4a DK5 mid=0433 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=26 q0=d5
+  (a) 593 hyps >= 5.0, best z=7.12 nrm=0 g0=4b g3=0b k=b732  (14.26s)
+  (c) 670 hyps >= 5.0, best z=7.31 nrm=1 g0=1c g3=4a k=0433  (13.44s)
+  (t) best 3-round z=15.48; 861 of 593 x 670 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=4b030a0b EK1mid=b732 DK6=1c439b4a, z3=15.48)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=5e1ec9893dcfe56f (matches)
+### seed 1086
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 15f3107fe2d6174d
+true EK0=7190c4bb EK1=73db4784 EK2=710640bb  DK7=bcf3b08a DK6=a279096e DK5=bc32278a
+true candidate: e1=10 e2=44 DK7=3cf3b00a d1=7b d2=0b
+expect (a): g0=71 g3=3b EK1 mid=db45 ; (c): g0=20 g3=6c DK5 mid=3027 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=1e q0=73
+  (a) 800 hyps >= 5.0, best z=-10.06 nrm=1 g0=71 g3=3b k=db45  (11.38s)
+  (c) 580 hyps >= 5.0, best z=-8.27 nrm=0 g0=20 g3=6c k=3027  (12.97s)
+  (t) best 3-round z=-16.31; 5831 of 800 x 580 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=7190c43b EK1mid=db45 DK6=207b0b6c, z3=-16.31)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=15f3107fe2d6174d (matches)
+### seed 1087
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 1318cc4d75d5901f
+true EK0=9f114dbd EK1=d67020b1 EK2=9fdc83bd  DK7=2b181ac8 DK6=2f435816 DK5=2b1c78c8
+true candidate: e1=11 e2=4d DK7=2b181a48 d1=43 d2=5a
+expect (a): g0=1f g3=3d EK1 mid=7222 ; (c): g0=2f g3=14 DK5 mid=1c78 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=0b q0=d6
+  (a) 249 hyps >= 5.0, best z=-6.16 nrm=0 g0=1f g3=3d k=7222  (9.86s)
+  (c) 567 hyps >= 5.0, best z=-7.50 nrm=0 g0=2f g3=14 k=1c78  (12.27s)
+  (t) best 3-round z=14.85; 298 of 249 x 567 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=1f114d3d EK1mid=7222 DK6=2f435a14, z3=14.85)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=1318cc4d75d5901f (matches)
+### seed 1088
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key b594d9a6bce0cadf
+true EK0=032b3004 EK1=409383bc EK2=032cb204  DK7=d7563502 DK6=ce8ae4af DK5=d7861602
+true candidate: e1=2b e2=30 DK7=57563502 d1=08 d2=64
+expect (a): g0=03 g3=04 EK1 mid=9383 ; (c): g0=4c g3=2f DK5 mid=8414 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=74 q0=40
+  (a) 532 hyps >= 5.0, best z=7.57 nrm=0 g0=03 g3=04 k=1303  (11.33s)
+  (c) 445 hyps >= 5.0, best z=-7.44 nrm=1 g0=4c g3=2f k=8414  (11.08s)
+  (t) best 3-round z=15.29; 1242 of 532 x 445 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=032b3004 EK1mid=1303 DK6=4c88e42f, z3=15.29)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=b594d9a6bce0cadf (matches)
+### seed 1089
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 9300a4aef6221b5a
+true EK0=0fa201f3 EK1=3ecf2f24 EK2=0f3e9bf3  DK7=f5c76461 DK6=1161fbe9 DK5=f5e79961
+true candidate: e1=a2 e2=01 DK7=75c76461 d1=e3 d2=7b
+expect (a): g0=0f g3=73 EK1 mid=cf2d ; (c): g0=13 g3=69 DK5 mid=e79b (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=26 q0=3e
+  (a) 488 hyps >= 5.0, best z=-7.31 nrm=0 g0=0f g3=73 k=cf2d  (13.13s)
+  (c) 878 hyps >= 5.0, best z=-8.65 nrm=1 g0=13 g3=69 k=671b  (12.38s)
+  (t) best 3-round z=16.44; 2954 of 488 x 878 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=0fa20173 EK1mid=cf2d DK6=1363fb69, z3=16.44)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=9300a4aef6221b5a (matches)
+### seed 1090
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key cac1f939184fa3bf
+true EK0=f5388700 EK1=8547f601 EK2=f5044200  DK7=8a7221f5 DK6=844470b1 DK5=8ab4e0f5
+true candidate: e1=b8 e2=07 DK7=0a722175 d1=46 d2=72
+expect (a): g0=75 g3=00 EK1 mid=45f6 ; (c): g0=06 g3=33 DK5 mid=b6e2 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=7d q0=85
+  (a) 583 hyps >= 5.0, best z=-8.97 nrm=1 g0=15 g3=00 k=4676  (11.09s)
+  (c) 541 hyps >= 5.0, best z=8.21 nrm=0 g0=06 g3=33 k=3662  (11.14s)
+  (t) best 3-round z=-16.12; 1182 of 583 x 541 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=75388700 EK1mid=c576 DK6=06467233, z3=-16.12)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=cac1f939184fa3bf (matches)
+### seed 1091
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 94490600a90c0936
+true EK0=b9ff39ae EK1=4ec3b4c9 EK2=b9eb25ae  DK7=6166188d DK6=3e228b66 DK5=61de6b8d
+true candidate: e1=ff e2=39 DK7=6166180d d1=a2 d2=09
+expect (a): g0=39 g3=2e EK1 mid=c1b6 ; (c): g0=3e g3=64 DK5 mid=de6b (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=4b q0=4e
+  (a) 371 hyps >= 5.0, best z=-8.01 nrm=0 g0=39 g3=2e k=4136  (12.38s)
+  (c) 703 hyps >= 5.0, best z=7.12 nrm=1 g0=1f g3=27 k=9a1f  (16.21s)
+  (t) best 3-round z=14.72; 964 of 371 x 703 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=39ff392e EK1mid=4136 DK6=3e228964, z3=14.65)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=94490600a90c0936 (matches)
+### seed 1092
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key e8391c33fd666bd1
+true EK0=bc01062f EK1=3f382ce0 EK2=bccf512f  DK7=a1f7b394 DK6=297c3e5c DK5=a17d9094
+true candidate: e1=01 e2=06 DK7=21f7b314 d1=7e d2=3c
+expect (a): g0=3c g3=2f EK1 mid=3a2c ; (c): g0=2b g3=5e DK5 mid=7d90 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=0d q0=3f
+  (a) 691 hyps >= 5.0, best z=9.16 nrm=0 g0=3c g3=2f k=3b2c  (8.86s)
+  (c) 673 hyps >= 5.0, best z=8.08 nrm=0 g0=2b g3=5e k=fd10  (12.75s)
+  (t) best 3-round z=15.68; 3113 of 691 x 673 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=3c01062f EK1mid=3a2c DK6=2b7e3c5e, z3=15.68)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=e8391c33fd666bd1 (matches)
+### seed 1093
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key bfea399ff0ac966c
+true EK0=a30ddfdf EK1=7e0e74ab EK2=a318f1df  DK7=e11800ae DK6=9b83f1dd DK5=e1ef58ae
+true candidate: e1=8d e2=5f DK7=6118002e d1=01 d2=73
+expect (a): g0=23 g3=5f EK1 mid=0c76 ; (c): g0=19 g3=5f DK5 mid=ed5a (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=3f q0=7e
+  (a) 1294 hyps >= 5.0, best z=-9.29 nrm=1 g0=23 g3=5f k=0c76  (12.56s)
+  (c) 913 hyps >= 5.0, best z=-9.80 nrm=1 g0=19 g3=5f k=ed5a  (12.60s)
+  (t) best 3-round z=-18.17; 7762 of 1294 x 913 pairs pass 8.0 (0.08s)
+  (e) key found at pair 0 (EK0=230ddf5f EK1mid=0c76 DK6=1981f35f, z3=-18.17)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=bfea399ff0ac966c (matches)
+### seed 1094
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key c1ff309d45cf4972
+true EK0=61834af2 EK1=99804757 EK2=615e7af2  DK7=20fa985f DK6=da3da6d4 DK5=203ded5f
+true candidate: e1=83 e2=4a DK7=20fa985f d1=bd d2=26
+expect (a): g0=61 g3=72 EK1 mid=8045 ; (c): g0=5a g3=54 DK5 mid=3fef (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=32 q0=99
+  (a) 1422 hyps >= 5.0, best z=-9.55 nrm=0 g0=61 g3=72 k=8045  (15.55s)
+  (c) 763 hyps >= 5.0, best z=-9.35 nrm=1 g0=5a g3=54 k=bf6f  (14.51s)
+  (t) best 3-round z=16.12; 8815 of 1422 x 763 pairs pass 8.0 (0.11s)
+  (e) key found at pair 0 (EK0=61834a72 EK1mid=8045 DK6=5a3da654, z3=-16.06)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=c1ff309d45cf4972 (matches)
+### seed 1095
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 370c1044cc335164
+true EK0=fb33e7e1 EK1=7aa5531b EK2=fb432fe1  DK7=8d1c39e2 DK6=b1219693 DK5=8d9669e2
+true candidate: e1=b3 e2=67 DK7=0d1c3962 d1=a3 d2=14
+expect (a): g0=7b g3=61 EK1 mid=a751 ; (c): g0=33 g3=11 DK5 mid=946b (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=3f q0=7a
+  (a) 388 hyps >= 5.0, best z=-7.57 nrm=1 g0=7b g3=61 k=a751  (10.97s)
+  (c) 811 hyps >= 5.0, best z=-8.65 nrm=1 g0=33 g3=11 k=946b  (14.40s)
+  (t) best 3-round z=-15.42; 2548 of 388 x 811 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=7b33e761 EK1mid=a751 DK6=33239411, z3=15.36)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=370c1044cc335164 (matches)
+### seed 1096
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 0d2b7328334e6a3b
+true EK0=5db2cbd7 EK1=36380efa EK2=5de7a8d7  DK7=40aa4945 DK6=7e3b065f DK5=407f3345
+true candidate: e1=32 e2=4b DK7=40aa4945 d1=3b d2=06
+expect (a): g0=5d g3=57 EK1 mid=380c ; (c): g0=7e g3=5f DK5 mid=7f33 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=02 q0=36
+  (a) 937 hyps >= 5.0, best z=-8.91 nrm=1 g0=3d g3=57 k=b80c  (12.73s)
+  (c) 239 hyps >= 5.0, best z=-7.06 nrm=0 g0=7e g3=5f k=7f33  (8.31s)
+  (t) best 3-round z=15.48; 2864 of 937 x 239 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=5db2cb57 EK1mid=380c DK6=7e3b065f, z3=-15.48)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=0d2b7328334e6a3b (matches)
+### seed 1097
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key cbb4118d71c37aa2
+true EK0=12570b1b EK1=2a0a9530 EK2=12540e1b  DK7=7b64c215 DK6=37d5c904 DK5=7b29ba15
+true candidate: e1=57 e2=0b DK7=7b64c215 d1=55 d2=49
+expect (a): g0=12 g3=1b EK1 mid=0a95 ; (c): g0=37 g3=04 DK5 mid=29ba (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=40 q0=2a
+  (a) 390 hyps >= 5.0, best z=7.06 nrm=0 g0=12 g3=1b k=8a15  (11.98s)
+  (c) 517 hyps >= 5.0, best z=7.89 nrm=1 g0=37 g3=04 k=a93a  (10.35s)
+  (t) best 3-round z=15.68; 1339 of 390 x 517 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=12570b1b EK1mid=8a15 DK6=37d5c904, z3=15.68)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=cbb4118d71c37aa2 (matches)
+### seed 1098
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 0c5eb27ae99d7bda
+true EK0=ae77c824 EK1=cc0911b7 EK2=ae45aa24  DK7=9a224b14 DK6=4776f65a DK5=9ad9a014
+true candidate: e1=f7 e2=48 DK7=1a224b14 d1=f4 d2=76
+expect (a): g0=2e g3=24 EK1 mid=0b11 ; (c): g0=45 g3=5a DK5 mid=d9a0 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=05 q0=cc
+  (a) 796 hyps >= 5.0, best z=8.72 nrm=1 g0=2e g3=24 k=0b11  (11.68s)
+  (c) 1768 hyps >= 5.0, best z=8.65 nrm=1 g0=05 g3=5a k=5a20  (13.06s)
+  (t) best 3-round z=-16.00; 4949 of 796 x 1768 pairs pass 8.0 (0.10s)
+  (e) key found at pair 0 (EK0=2e77c824 EK1mid=0b11 DK6=4574f65a, z3=-16.00)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=0c5eb27ae99d7bda (matches)
+### seed 1099
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key df45073f8411a3fb
+true EK0=36901488 EK1=2e33c75c EK2=36a95388  DK7=b3864894 DK6=dd6ab6f7 DK5=b3914a94
+true candidate: e1=90 e2=14 DK7=33864814 d1=e8 d2=34
+expect (a): g0=36 g3=08 EK1 mid=33c5 ; (c): g0=5f g3=75 DK5 mid=9348 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=7e q0=2e
+  (a) 671 hyps >= 5.0, best z=9.48 nrm=0 g0=36 g3=08 k=b345  (11.35s)
+  (c) 1196 hyps >= 5.0, best z=-9.10 nrm=1 g0=5f g3=75 k=9348  (10.08s)
+  (t) best 3-round z=17.98; 9411 of 671 x 1196 pairs pass 8.0 (0.07s)
+  (e) key found at pair 0 (EK0=36901408 EK1mid=b345 DK6=5f68b475, z3=17.98)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=df45073f8411a3fb (matches)
+### seed 1100
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key c8e8d080dcd34edf
+true EK0=40e7e0b3 EK1=c597b456 EK2=40caffb3  DK7=e253018a DK6=ba5babcf DK5=e2070c8a
+true candidate: e1=67 e2=60 DK7=6253010a d1=d9 d2=29
+expect (a): g0=40 g3=33 EK1 mid=97b6 ; (c): g0=38 g3=4d DK5 mid=050e (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=7e q0=c5
+  (a) 871 hyps >= 5.0, best z=-9.87 nrm=1 g0=40 g3=33 k=1736  (12.34s)
+  (c) 734 hyps >= 5.0, best z=-9.04 nrm=1 g0=38 g3=4d k=050e  (12.07s)
+  (t) best 3-round z=17.53; 9666 of 871 x 734 pairs pass 8.0 (0.08s)
+  (e) key found at pair 0 (EK0=40e7e033 EK1mid=1736 DK6=3859a94d, z3=-17.40)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=c8e8d080dcd34edf (matches)
+### seed 1101
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 891a7666bbac55e8
+true EK0=2ad78a54 EK1=fa982de8 EK2=2a962654  DK7=451d8dfd DK6=3678bff5 DK5=45f06dfd
+true candidate: e1=57 e2=0a DK7=451d8d7d d1=f8 d2=3d
+expect (a): g0=2a g3=54 EK1 mid=982d ; (c): g0=36 g3=77 DK5 mid=f06f (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=28 q0=fa
+  (a) 586 hyps >= 5.0, best z=-8.01 nrm=1 g0=2a g3=54 k=982d  (12.34s)
+  (c) 447 hyps >= 5.0, best z=-7.18 nrm=1 g0=32 g3=77 k=e06f  (11.09s)
+  (t) best 3-round z=14.40; 1692 of 586 x 447 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=2ad78a54 EK1mid=982d DK6=3678bd77, z3=14.40)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=891a7666bbac55e8 (matches)
+### seed 1102
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 02decb16ce08d09a
+true EK0=a1ff5ce3 EK1=3a680b77 EK2=a17910e3  DK7=2fbbc143 DK6=b7ed4992 DK5=2f105f43
+true candidate: e1=ff e2=5c DK7=2fbbc143 d1=ed d2=49
+expect (a): g0=21 g3=63 EK1 mid=6a09 ; (c): g0=37 g3=12 DK5 mid=125d (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=33 q0=3a
+  (a) 1182 hyps >= 5.0, best z=-8.40 nrm=0 g0=21 g3=63 k=6a09  (19.43s)
+  (c) 1014 hyps >= 5.0, best z=-8.78 nrm=0 g0=37 g3=12 k=125d  (17.08s)
+  (t) best 3-round z=15.55; 5721 of 1182 x 1014 pairs pass 8.0 (0.08s)
+  (e) key found at pair 0 (EK0=21ff5c63 EK1mid=6a09 DK6=37ed4912, z3=15.55)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=02decb16ce08d09a (matches)
+### seed 1103
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 55a49cd8ecc6304b
+true EK0=92199811 EK1=9c53ddbc EK2=92d11c11  DK7=195a38e0 DK6=2494b800 DK5=1926e9e0
+true candidate: e1=99 e2=18 DK7=195a3860 d1=14 d2=3a
+expect (a): g0=12 g3=11 EK1 mid=51dd ; (c): g0=24 g3=02 DK5 mid=26e9 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=49 q0=9c
+  (a) 547 hyps >= 5.0, best z=-8.40 nrm=1 g0=12 g3=11 k=d15d  (10.60s)
+  (c) 342 hyps >= 5.0, best z=8.01 nrm=1 g0=24 g3=02 k=a669  (8.92s)
+  (t) best 3-round z=-16.12; 3448 of 547 x 342 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=12199811 EK1mid=d15d DK6=2494ba02, z3=-16.12)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=55a49cd8ecc6304b (matches)
+### seed 1104
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 57c57f7f6896cab7
+true EK0=6123a5e1 EK1=1c4c0129 EK2=61b721e1  DK7=d48bdddc DK6=400cdab0 DK5=d40191dc
+true candidate: e1=a3 e2=25 DK7=548bdd5c d1=8e d2=58
+expect (a): g0=61 g3=61 EK1 mid=4c03 ; (c): g0=42 g3=32 DK5 mid=0193 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=2e q0=1c
+  (a) 733 hyps >= 5.0, best z=-7.44 nrm=1 g0=01 g3=61 k=ce03  (15.56s)
+  (c) 689 hyps >= 5.0, best z=8.21 nrm=1 g0=42 g3=32 k=8113  (10.28s)
+  (t) best 3-round z=-15.74; 2210 of 733 x 689 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=6123a561 EK1mid=4c03 DK6=420ed832, z3=-15.74)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=57c57f7f6896cab7 (matches)
+### seed 1105
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key a23768e004c88153
+true EK0=c8cbda14 EK1=e0372370 EK2=c8c2fc14  DK7=5ecc1b3d DK6=e07f9d6b DK5=5ed02f3d
+true candidate: e1=4b e2=5a DK7=5ecc1b3d d1=ff d2=1d
+expect (a): g0=48 g3=14 EK1 mid=3523 ; (c): g0=60 g3=6b DK5 mid=d22f (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=11 q0=e0
+  (a) 592 hyps >= 5.0, best z=8.14 nrm=1 g0=48 g3=14 k=3523  (15.04s)
+  (c) 531 hyps >= 5.0, best z=8.59 nrm=1 g0=60 g3=6b k=d22f  (9.42s)
+  (t) best 3-round z=15.23; 1542 of 592 x 531 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=48cbda14 EK1mid=3523 DK6=607f9d6b, z3=15.23)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=a23768e004c88153 (matches)
+### seed 1106
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 8958ba1c6523f04c
+true EK0=4e318839 EK1=d6221b35 EK2=4e669d39  DK7=e03b9364 DK6=807c250e DK5=e0f76764
+true candidate: e1=b1 e2=08 DK7=603b9364 d1=7e d2=25
+expect (a): g0=4e g3=39 EK1 mid=221b ; (c): g0=02 g3=0e DK5 mid=f567 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=14 q0=d6
+  (a) 887 hyps >= 5.0, best z=7.44 nrm=1 g0=4e g3=39 k=221b  (11.84s)
+  (c) 847 hyps >= 5.0, best z=7.89 nrm=0 g0=02 g3=0e k=f467  (14.43s)
+  (t) best 3-round z=15.10; 3906 of 887 x 847 pairs pass 8.0 (0.07s)
+  (e) key found at pair 1 (EK0=4e318839 EK1mid=221b DK6=027e250e, z3=-14.91)
+  (e) tried 2 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=8958ba1c6523f04c (matches)
+### seed 1107
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key be0c016b856b7518
+true EK0=a8036f15 EK1=b9a51588 EK2=a8f1b515  DK7=a7125eb2 DK6=c49e6980 DK5=a794bbb2
+true candidate: e1=03 e2=6f DK7=27125e32 d1=9c d2=6b
+expect (a): g0=28 g3=15 EK1 mid=a715 ; (c): g0=46 g3=02 DK5 mid=96b9 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=3d q0=b9
+  (a) 1896 hyps >= 5.0, best z=9.16 nrm=0 g0=28 g3=15 k=a715  (14.09s)
+  (c) 1183 hyps >= 5.0, best z=7.69 nrm=0 g0=46 g3=02 k=1639  (10.72s)
+  (t) best 3-round z=-16.25; 3618 of 1896 x 1183 pairs pass 8.0 (0.12s)
+  (e) key found at pair 0 (EK0=28036f15 EK1mid=a715 DK6=469c6b02, z3=-16.19)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=be0c016b856b7518 (matches)
+### seed 1108
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key ca4c505270195fc6
+true EK0=a3da9f34 EK1=a6582b7b EK2=a3ef7734  DK7=4f64686d DK6=bc5a8c56 DK5=4f77a76d
+true candidate: e1=5a e2=1f DK7=4f64686d d1=da d2=0c
+expect (a): g0=23 g3=34 EK1 mid=5a2b ; (c): g0=3c g3=56 DK5 mid=75a7 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=11 q0=a6
+  (a) 553 hyps >= 5.0, best z=-9.04 nrm=1 g0=23 g3=34 k=5a2b  (12.59s)
+  (c) 1070 hyps >= 5.0, best z=7.44 nrm=1 g0=1c g3=56 k=7527  (13.87s)
+  (t) best 3-round z=15.48; 2753 of 553 x 1070 pairs pass 8.0 (0.06s)
+  (e) key found at pair 0 (EK0=23da9f34 EK1mid=5a2b DK6=3c5a8c56, z3=-15.48)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=ca4c505270195fc6 (matches)
+### seed 1109
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key dbf56d9df299011e
+true EK0=51f8aacc EK1=a4fcbcb4 EK2=5168a4cc  DK7=13bd71fc DK6=b7b472a8 DK5=137295fc
+true candidate: e1=78 e2=2a DK7=13bd717c d1=b4 d2=70
+expect (a): g0=51 g3=4c EK1 mid=fcbe ; (c): g0=37 g3=2a DK5 mid=7097 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=7a q0=a4
+  (a) 416 hyps >= 5.0, best z=7.63 nrm=1 g0=51 g3=4c k=7c3e  (11.93s)
+  (c) 353 hyps >= 5.0, best z=-7.95 nrm=0 g0=37 g3=2a k=f017  (11.87s)
+  (t) best 3-round z=15.61; 873 of 416 x 353 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=51f8aa4c EK1mid=7c3e DK6=37b4702a, z3=15.61)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=dbf56d9df299011e (matches)
+### seed 1110
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 3eaa96ff243a3138
+true EK0=b048a0eb EK1=1f39a658 EK2=b0fee4eb  DK7=668f4f0e DK6=9a02ac92 DK5=66e68b0e
+true candidate: e1=c8 e2=20 DK7=668f4f0e d1=82 d2=2c
+expect (a): g0=30 g3=6b EK1 mid=3ba4 ; (c): g0=1a g3=12 DK5 mid=e489 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=73 q0=1f
+  (a) 488 hyps >= 5.0, best z=-7.69 nrm=1 g0=30 g3=6b k=bb24  (10.03s)
+  (c) 374 hyps >= 5.0, best z=-8.01 nrm=1 g0=1a g3=12 k=6409  (13.23s)
+  (t) best 3-round z=15.80; 928 of 488 x 374 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=3048a06b EK1mid=bb24 DK6=1a02ac12, z3=15.80)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=3eaa96ff243a3138 (matches)
+### seed 1111
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 093f88a5d055b7dc
+true EK0=70e9bcba EK1=25453aad EK2=70f2c8ba  DK7=5599a47c DK6=00132dfb DK5=55dc027c
+true candidate: e1=69 e2=3c DK7=5599a47c d1=13 d2=2d
+expect (a): g0=70 g3=3a EK1 mid=4538 ; (c): g0=00 g3=7b DK5 mid=dc00 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=22 q0=25
+  (a) 1248 hyps >= 5.0, best z=9.10 nrm=1 g0=70 g3=3a k=4538  (13.40s)
+  (c) 801 hyps >= 5.0, best z=-8.84 nrm=0 g0=00 g3=7b k=dc00  (16.85s)
+  (t) best 3-round z=-16.51; 5858 of 1248 x 801 pairs pass 8.0 (0.09s)
+  (e) key found at pair 0 (EK0=70e9bc3a EK1mid=4538 DK6=00132d7b, z3=-16.51)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=093f88a5d055b7dc (matches)
+### seed 1112
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 26f1fb75df8eaadf
+true EK0=f1f0ef97 EK1=b6cb4dc2 EK2=f1941c97  DK7=033301e9 DK6=1bf3fb2c DK5=0374f6e9
+true candidate: e1=70 e2=6f DK7=03330169 d1=73 d2=79
+expect (a): g0=71 g3=17 EK1 mid=c94f ; (c): g0=1b g3=2e DK5 mid=74f6 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=0b q0=b6
+  (a) 525 hyps >= 5.0, best z=7.44 nrm=1 g0=71 g3=17 k=c94f  (11.41s)
+  (c) 605 hyps >= 5.0, best z=-7.25 nrm=1 g0=1b g3=2e k=f476  (14.57s)
+  (t) best 3-round z=-15.80; 737 of 525 x 605 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=71f0ef17 EK1mid=c94f DK6=1bf3f92e, z3=-15.80)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=26f1fb75df8eaadf (matches)
+### seed 1113
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 5a4ff6773e7535b9
+true EK0=115f19b3 EK1=9bce7ba9 EK2=11728fb3  DK7=942e0170 DK6=ce158a5f DK5=942f7c70
+true candidate: e1=5f e2=19 DK7=142e0170 d1=97 d2=0a
+expect (a): g0=11 g3=33 EK1 mid=ce79 ; (c): g0=4c g3=5f DK5 mid=2d7c (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=16 q0=9b
+  (a) 867 hyps >= 5.0, best z=8.78 nrm=0 g0=11 g3=33 k=ce79  (12.87s)
+  (c) 988 hyps >= 5.0, best z=-7.76 nrm=1 g0=4c g3=5f k=2d7c  (11.30s)
+  (t) best 3-round z=-16.51; 2836 of 867 x 988 pairs pass 8.0 (0.07s)
+  (e) key found at pair 0 (EK0=115f1933 EK1mid=ce79 DK6=4c178a5f, z3=-16.51)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=5a4ff6773e7535b9 (matches)
+### seed 1114
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 8569923bb50361ec
+true EK0=c32855c4 EK1=ede6327b EK2=c3be1ac4  DK7=8c4c0bfc DK6=8020afc8 DK5=8c89edfc
+true candidate: e1=28 e2=55 DK7=0c4c0b7c d1=a2 d2=2d
+expect (a): g0=43 g3=44 EK1 mid=e430 ; (c): g0=02 g3=4a DK5 mid=8bef (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=3f q0=ed
+  (a) 569 hyps >= 5.0, best z=-8.97 nrm=0 g0=43 g3=44 k=e430  (9.97s)
+  (c) 972 hyps >= 5.0, best z=-8.33 nrm=1 g0=02 g3=4a k=0b6f  (11.17s)
+  (t) best 3-round z=-16.25; 7389 of 569 x 972 pairs pass 8.0 (0.06s)
+  (e) key found at pair 0 (EK0=43285544 EK1mid=e430 DK6=0222ad4a, z3=-16.25)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=8569923bb50361ec (matches)
+### seed 1115
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key dc80b4fcbc0bf7b9
+true EK0=e118ae2b EK1=c980ed0d EK2=e18e6a2b  DK7=f35fb355 DK6=f9e8d69f DK5=f3036d55
+true candidate: e1=98 e2=2e DK7=735fb355 d1=6a d2=56
+expect (a): g0=61 g3=2b EK1 mid=82ed ; (c): g0=7b g3=1f DK5 mid=016f (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=75 q0=c9
+  (a) 1196 hyps >= 5.0, best z=-7.57 nrm=1 g0=41 g3=2b k=836d  (11.77s)
+  (c) 469 hyps >= 5.0, best z=7.69 nrm=1 g0=7b g3=1f k=016f  (11.98s)
+  (t) best 3-round z=-15.17; 1552 of 1196 x 469 pairs pass 8.0 (0.06s)
+  (e) key found at pair 0 (EK0=6118ae2b EK1mid=026d DK6=7bead61f, z3=-15.17)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=dc80b4fcbc0bf7b9 (matches)
+### seed 1116
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key d4706fb5218119d0
+true EK0=7428629f EK1=a1d6300c EK2=746de59f  DK7=a483aa03 DK6=71114a71 DK5=a4b74b03
+true candidate: e1=28 e2=62 DK7=2483aa03 d1=13 d2=4a
+expect (a): g0=74 g3=1f EK1 mid=d632 ; (c): g0=73 g3=71 DK5 mid=b74b (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=06 q0=a1
+  (a) 593 hyps >= 5.0, best z=-9.35 nrm=0 g0=74 g3=1f k=d632  (11.59s)
+  (c) 849 hyps >= 5.0, best z=-7.89 nrm=0 g0=33 g3=71 k=b44b  (13.79s)
+  (t) best 3-round z=-16.89; 3403 of 593 x 849 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=7428621f EK1mid=d632 DK6=73134a71, z3=-16.89)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=d4706fb5218119d0 (matches)
+### seed 1117
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 6c20c592dbdab47f
+true EK0=35b6942e EK1=77428ef1 EK2=35a4862e  DK7=8d9f66de DK6=f7a1c5f7 DK5=8dc6cade
+true candidate: e1=36 e2=14 DK7=0d9f665e d1=23 d2=47
+expect (a): g0=35 g3=2e EK1 mid=428e ; (c): g0=75 g3=75 DK5 mid=c4c8 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=7c q0=77
+  (a) 1017 hyps >= 5.0, best z=-7.76 nrm=1 g0=35 g3=2e k=c20e  (12.26s)
+  (c) 1350 hyps >= 5.0, best z=8.97 nrm=1 g0=75 g3=75 k=4448  (15.93s)
+  (t) best 3-round z=16.31; 5575 of 1017 x 1350 pairs pass 8.0 (0.09s)
+  (e) key found at pair 0 (EK0=35b6942e EK1mid=c20e DK6=75a3c775, z3=-16.19)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=6c20c592dbdab47f (matches)
+### seed 1118
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key aa85b9059126fd05
+true EK0=a792c4cd EK1=ce3155be EK2=a72ff8cd  DK7=b85d0592 DK6=5f7521fd DK5=b8184b92
+true candidate: e1=12 e2=44 DK7=385d0512 d1=77 d2=23
+expect (a): g0=27 g3=4d EK1 mid=3357 ; (c): g0=5d g3=7f DK5 mid=1849 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=2f q0=ce
+  (a) 644 hyps >= 5.0, best z=-8.40 nrm=1 g0=27 g3=4d k=3357  (13.06s)
+  (c) 383 hyps >= 5.0, best z=8.21 nrm=0 g0=1d g3=7f k=1849  (10.22s)
+  (t) best 3-round z=-16.12; 2920 of 644 x 383 pairs pass 8.0 (0.03s)
+  (e) key found at pair 2 (EK0=2792c44d EK1mid=3357 DK6=5d77237f, z3=-15.87)
+  (e) tried 3 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=aa85b9059126fd05 (matches)
+### seed 1119
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 0b1ebad0b8f63e55
+true EK0=286c2fb8 EK1=9eb8183c EK2=282cc8b8  DK7=b137b283 DK6=dd642fa1 DK5=b1d0b183
+true candidate: e1=6c e2=2f DK7=3137b203 d1=66 d2=2d
+expect (a): g0=28 g3=38 EK1 mid=b81a ; (c): g0=5f g3=23 DK5 mid=d2b3 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=3e q0=9e
+  (a) 681 hyps >= 5.0, best z=-9.35 nrm=0 g0=28 g3=38 k=b81a  (9.96s)
+  (c) 600 hyps >= 5.0, best z=-8.01 nrm=0 g0=5f g3=23 k=5233  (16.76s)
+  (t) best 3-round z=15.42; 3590 of 681 x 600 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=286c2f38 EK1mid=b81a DK6=5f662d23, z3=15.42)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=0b1ebad0b8f63e55 (matches)
+### seed 1120
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key ad20ee4fa80910fd
+true EK0=f6dbce68 EK1=ec75dd43 EK2=f6f7d568  DK7=fcb41e15 DK6=8de7b786 DK5=fc99a715
+true candidate: e1=5b e2=4e DK7=7cb41e15 d1=65 d2=37
+expect (a): g0=76 g3=68 EK1 mid=77dd ; (c): g0=0f g3=06 DK5 mid=9ba5 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=75 q0=ec
+  (a) 571 hyps >= 5.0, best z=8.27 nrm=1 g0=76 g3=68 k=f75d  (13.11s)
+  (c) 399 hyps >= 5.0, best z=7.95 nrm=1 g0=0f g3=06 k=1b25  (10.32s)
+  (t) best 3-round z=14.46; 1465 of 571 x 399 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=76dbce68 EK1mid=f75d DK6=0fe5b706, z3=14.46)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=ad20ee4fa80910fd (matches)
+### seed 1121
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 279420c5b8594b37
+true EK0=b93acebb EK1=f749683d EK2=b9371fbb  DK7=41404e20 DK6=25dd51a4 DK5=417d1b20
+true candidate: e1=ba e2=4e DK7=41404e20 d1=dd d2=51
+expect (a): g0=39 g3=3b EK1 mid=4b6a ; (c): g0=25 g3=24 DK5 mid=7d19 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=23 q0=f7
+  (a) 1149 hyps >= 5.0, best z=-9.29 nrm=1 g0=39 g3=3b k=4b6a  (16.83s)
+  (c) 2780 hyps >= 5.0, best z=-10.76 nrm=0 g0=25 g3=24 k=7d19  (9.80s)
+  (t) best 3-round z=-17.02; 10910 of 1149 x 2780 pairs pass 8.0 (0.17s)
+  (e) key found at pair 0 (EK0=393ace3b EK1mid=4b6a DK6=25dd5124, z3=17.02)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=279420c5b8594b37 (matches)
+### seed 1122
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key de820b572fca5ecb
+true EK0=dff13f5c EK1=1ccf11e4 EK2=df89565c  DK7=2273285d DK6=8e6ce5ac DK5=227b665d
+true candidate: e1=f1 e2=3f DK7=2273285d d1=ec d2=65
+expect (a): g0=5f g3=5c EK1 mid=cd11 ; (c): g0=0e g3=2c DK5 mid=7964 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=31 q0=1c
+  (a) 404 hyps >= 5.0, best z=-6.80 nrm=0 g0=5f g3=5c k=cd11  (11.09s)
+  (c) 472 hyps >= 5.0, best z=-8.01 nrm=1 g0=0e g3=2c k=7964  (11.39s)
+  (t) best 3-round z=15.29; 918 of 404 x 472 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=5ff13f5c EK1mid=cd11 DK6=0e6ce52c, z3=15.29)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=de820b572fca5ecb (matches)
+### seed 1123
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 77025f8b0752e4c6
+true EK0=53f2de24 EK1=980ac960 EK2=5387d724  DK7=267eed86 DK6=c39908d4 DK5=26ade886
+true candidate: e1=72 e2=5e DK7=267eed06 d1=99 d2=0a
+expect (a): g0=53 g3=24 EK1 mid=0ac9 ; (c): g0=43 g3=56 DK5 mid=afea (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=78 q0=98
+  (a) 692 hyps >= 5.0, best z=8.59 nrm=1 g0=33 g3=24 k=0a49  (12.39s)
+  (c) 486 hyps >= 5.0, best z=-7.44 nrm=0 g0=43 g3=56 k=2f6a  (12.95s)
+  (t) best 3-round z=-13.95; 1407 of 692 x 486 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=53f2de24 EK1mid=8a49 DK6=43990a56, z3=13.95)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=77025f8b0752e4c6 (matches)
+### seed 1124
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 631e00c334ffef1b
+true EK0=40c29657 EK1=46a98f6c EK2=4060f557  DK7=e9890f8c DK6=219600a6 DK5=e9f9788c
+true candidate: e1=42 e2=16 DK7=69890f0c d1=94 d2=02
+expect (a): g0=40 g3=57 EK1 mid=a98f ; (c): g0=23 g3=24 DK5 mid=f97a (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=6c q0=46
+  (a) 349 hyps >= 5.0, best z=6.55 nrm=0 g0=4e g3=5c k=7a44  (9.25s)
+  (c) 587 hyps >= 5.0, best z=7.06 nrm=0 g0=23 g3=24 k=f97a  (11.39s)
+  (t) best 3-round z=-15.42; 460 of 349 x 587 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=40c29657 EK1mid=290f DK6=23940224, z3=15.29)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=631e00c334ffef1b (matches)
+### seed 1125
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 2dd71aa8db2a3bbd
+true EK0=56c43708 EK1=43572026 EK2=56a73d08  DK7=dfa3ba89 DK6=b70a43a5 DK5=df579a89
+true candidate: e1=c4 e2=37 DK7=5fa3ba09 d1=08 d2=41
+expect (a): g0=56 g3=08 EK1 mid=5720 ; (c): g0=35 g3=27 DK5 mid=5598 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=3c q0=43
+  (a) 1213 hyps >= 5.0, best z=9.87 nrm=0 g0=56 g3=08 k=5720  (12.57s)
+  (c) 1441 hyps >= 5.0, best z=-8.21 nrm=0 g0=35 g3=27 k=d518  (13.56s)
+  (t) best 3-round z=-17.27; 6805 of 1213 x 1441 pairs pass 8.0 (0.10s)
+  (e) key found at pair 0 (EK0=56c43708 EK1mid=5720 DK6=35084127, z3=17.27)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=2dd71aa8db2a3bbd (matches)
+### seed 1126
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 7c21e468b59b67fa
+true EK0=c3ae084a EK1=7f9d23b7 EK2=c3cfcf4a  DK7=edd19df8 DK6=a4cc92db DK5=ed3c42f8
+true candidate: e1=ae e2=08 DK7=6dd19d78 d1=4e d2=10
+expect (a): g0=43 g3=4a EK1 mid=9f23 ; (c): g0=26 g3=59 DK5 mid=3e40 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=3d q0=7f
+  (a) 477 hyps >= 5.0, best z=-7.31 nrm=0 g0=43 g3=4a k=9f23  (12.72s)
+  (c) 574 hyps >= 5.0, best z=-8.08 nrm=1 g0=26 g3=59 k=3e40  (10.08s)
+  (t) best 3-round z=15.17; 843 of 477 x 574 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=43ae084a EK1mid=9f23 DK6=26ce9059, z3=15.17)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=7c21e468b59b67fa (matches)
+### seed 1127
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key ee036c0395a6c21d
+true EK0=3ea5b63a EK1=5957cd68 EK2=3edd143a  DK7=b5bcdb57 DK6=7324537b DK5=b5ef7957
+true candidate: e1=25 e2=36 DK7=35bcdb57 d1=26 d2=53
+expect (a): g0=3e g3=3a EK1 mid=57cd ; (c): g0=71 g3=7b DK5 mid=ef79 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=44 q0=59
+  (a) 595 hyps >= 5.0, best z=-7.95 nrm=1 g0=3e g3=3a k=d74d  (11.22s)
+  (c) 693 hyps >= 5.0, best z=-7.25 nrm=0 g0=71 g3=7b k=ef79  (12.13s)
+  (t) best 3-round z=-14.97; 2775 of 595 x 693 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=3ea5b63a EK1mid=d74d DK6=7126537b, z3=-14.97)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=ee036c0395a6c21d (matches)
+### seed 1128
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 8bd4b0f372b719dd
+true EK0=13b16ecf EK1=21589879 EK2=13ea82cf  DK7=08869155 DK6=49484f9b DK5=08f16655
+true candidate: e1=b1 e2=6e DK7=08869155 d1=48 d2=4f
+expect (a): g0=13 g3=4f EK1 mid=589a ; (c): g0=49 g3=1b DK5 mid=f164 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=62 q0=21
+  (a) 517 hyps >= 5.0, best z=7.06 nrm=0 g0=13 g3=4f k=d81a  (11.13s)
+  (c) 494 hyps >= 5.0, best z=8.52 nrm=0 g0=69 g3=1b k=7164  (12.11s)
+  (t) best 3-round z=14.91; 1296 of 517 x 494 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=13b16e4f EK1mid=d81a DK6=49484f1b, z3=-14.85)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=8bd4b0f372b719dd (matches)
+### seed 1129
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key d4405275b7159fb5
+true EK0=d3be22cc EK1=ba42e96b EK2=d39d26cc  DK7=68535a00 DK6=f9da4bd2 DK5=68c43900
+true candidate: e1=be e2=22 DK7=68535a00 d1=da d2=4b
+expect (a): g0=53 g3=4c EK1 mid=40eb ; (c): g0=79 g3=52 DK5 mid=c63b (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=73 q0=ba
+  (a) 1001 hyps >= 5.0, best z=-7.25 nrm=0 g0=33 g3=4c k=416b  (15.88s)
+  (c) 712 hyps >= 5.0, best z=-8.59 nrm=0 g0=79 g3=52 k=c63b  (8.31s)
+  (t) best 3-round z=-15.61; 4647 of 1001 x 712 pairs pass 8.0 (0.06s)
+  (e) key found at pair 0 (EK0=53be224c EK1mid=c06b DK6=79da4b52, z3=15.42)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=d4405275b7159fb5 (matches)
+### seed 1130
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 2ed9e97f9424a42c
+true EK0=49985d8f EK1=cff0c217 EK2=496da68f  DK7=0b065870 DK6=94d5c628 DK5=0bf79270
+true candidate: e1=98 e2=5d DK7=0b065870 d1=55 d2=46
+expect (a): g0=49 g3=0f EK1 mid=f0c0 ; (c): g0=14 g3=28 DK5 mid=f592 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=52 q0=cf
+  (a) 687 hyps >= 5.0, best z=8.01 nrm=0 g0=49 g3=0f k=7040  (15.40s)
+  (c) 513 hyps >= 5.0, best z=7.57 nrm=1 g0=14 g3=28 k=7512  (11.00s)
+  (t) best 3-round z=16.00; 1126 of 687 x 513 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=49985d0f EK1mid=7040 DK6=14d5c628, z3=16.00)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=2ed9e97f9424a42c (matches)
+### seed 1131
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key e8e75b80197bb120
+true EK0=9f0e947f EK1=34796a3b EK2=9f698a7f  DK7=5096ec4d DK6=7e05e2f6 DK5=50bfd04d
+true candidate: e1=8e e2=14 DK7=5096ec4d d1=85 d2=62
+expect (a): g0=1f g3=7f EK1 mid=7b6a ; (c): g0=7e g3=76 DK5 mid=bfd2 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=21 q0=34
+  (a) 497 hyps >= 5.0, best z=7.89 nrm=1 g0=1f g3=7f k=7b6a  (10.49s)
+  (c) 548 hyps >= 5.0, best z=8.21 nrm=1 g0=5e g3=76 k=bf52  (10.10s)
+  (t) best 3-round z=15.29; 1135 of 497 x 548 pairs pass 8.0 (0.04s)
+  (e) key found at pair 1 (EK0=1f0e947f EK1mid=7b6a DK6=7e05e276, z3=-15.29)
+  (e) tried 2 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=e8e75b80197bb120 (matches)
+### seed 1132
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 8d426657d7a0766c
+true EK0=05f1b638 EK1=1c1c767d EK2=05edc338  DK7=2a165b6f DK6=85088093 DK5=2a02b96f
+true candidate: e1=71 e2=36 DK7=2a165b6f d1=88 d2=00
+expect (a): g0=05 g3=38 EK1 mid=1c76 ; (c): g0=05 g3=13 DK5 mid=00bb (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=30 q0=1c
+  (a) 178 hyps >= 5.0, best z=5.84 nrm=1 g0=4e g3=1e k=047e  (7.24s)
+  (c) 347 hyps >= 5.0, best z=-7.38 nrm=1 g0=05 g3=13 k=803b  (10.84s)
+  (t) best 3-round z=-5.97; 0 of 178 x 347 pairs pass 8.0 (0.02s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1133
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key f5936f8bfdcfe103
+true EK0=d1c68507 EK1=30e184f7 EK2=d1751907  DK7=016facd7 DK6=5ace83e6 DK5=01084ed7
+true candidate: e1=46 e2=05 DK7=016fac57 d1=4e d2=01
+expect (a): g0=51 g3=07 EK1 mid=e384 ; (c): g0=5a g3=64 DK5 mid=084c (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=69 q0=30
+  (a) 594 hyps >= 5.0, best z=8.33 nrm=1 g0=51 g3=07 k=6304  (12.03s)
+  (c) 475 hyps >= 5.0, best z=8.01 nrm=1 g0=5a g3=64 k=084c  (11.11s)
+  (t) best 3-round z=16.19; 1599 of 594 x 475 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=51c68507 EK1mid=6304 DK6=5ace8164, z3=16.19)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=f5936f8bfdcfe103 (matches)
+### seed 1134
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 046567fa48ea726a
+true EK0=12d6de3e EK1=aec84215 EK2=1248e73e  DK7=a27d9098 DK6=47e551c6 DK5=a2285f98
+true candidate: e1=56 e2=5e DK7=227d9018 d1=e7 d2=53
+expect (a): g0=12 g3=3e EK1 mid=c842 ; (c): g0=45 g3=44 DK5 mid=285d (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=2c q0=ae
+  (a) 770 hyps >= 5.0, best z=8.14 nrm=1 g0=12 g3=3e k=c842  (13.10s)
+  (c) 473 hyps >= 5.0, best z=6.10 nrm=0 g0=31 g3=4c k=4830  (14.26s)
+  (t) best 3-round z=7.50; 0 of 770 x 473 pairs pass 8.0 (0.04s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1135
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 586bc8284568bf56
+true EK0=ddfeeab4 EK1=37f12b05 EK2=dd07f3b4  DK7=c762b723 DK6=15fd5234 DK5=c7637e23
+true candidate: e1=7e e2=6a DK7=4762b723 d1=ff d2=52
+expect (a): g0=5d g3=34 EK1 mid=f329 ; (c): g0=17 g3=34 DK5 mid=637e (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=07 q0=37
+  (a) 347 hyps >= 5.0, best z=8.65 nrm=1 g0=5d g3=34 k=f329  (11.49s)
+  (c) 337 hyps >= 5.0, best z=7.82 nrm=0 g0=17 g3=34 k=637e  (11.44s)
+  (t) best 3-round z=16.19; 1196 of 347 x 337 pairs pass 8.0 (0.02s)
+  (e) key found at pair 0 (EK0=5dfeea34 EK1mid=f329 DK6=17ff5234, z3=16.19)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=586bc8284568bf56 (matches)
+### seed 1136
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 5406d5dda5c0ba15
+true EK0=81969296 EK1=29a16bb2 EK2=81713696  DK7=457253b1 DK6=9345234e DK5=458deab1
+true candidate: e1=16 e2=12 DK7=45725331 d1=45 d2=21
+expect (a): g0=01 g3=16 EK1 mid=a369 ; (c): g0=13 g3=4c DK5 mid=8fea (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=1b q0=29
+  (a) 890 hyps >= 5.0, best z=8.65 nrm=1 g0=01 g3=16 k=a369  (12.96s)
+  (c) 379 hyps >= 5.0, best z=-6.10 nrm=0 g0=13 g3=4c k=0f6a  (10.80s)
+  (t) best 3-round z=15.42; 938 of 890 x 379 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=01969216 EK1mid=a369 DK6=1345214c, z3=15.36)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=5406d5dda5c0ba15 (matches)
+### seed 1137
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 457f948874f5ce7d
+true EK0=2605dd24 EK1=f7243c10 EK2=26cdda24  DK7=f90b4060 DK6=f7d310d8 DK5=f9a47560
+true candidate: e1=85 e2=5d DK7=790b4060 d1=d1 d2=10
+expect (a): g0=26 g3=24 EK1 mid=243c ; (c): g0=75 g3=58 DK5 mid=a677 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=34 q0=f7
+  (a) 306 hyps >= 5.0, best z=6.10 nrm=1 g0=7e g3=6e k=8e06  (13.87s)
+  (c) 456 hyps >= 5.0, best z=8.21 nrm=0 g0=55 g3=58 k=2677  (12.02s)
+  (t) best 3-round z=-6.42; 0 of 306 x 456 pairs pass 8.0 (0.02s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1138
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key bd833dddaf25ad27
+true EK0=9ef6848b EK1=a23c4c2c EK2=9e75798b  DK7=209ff0bf DK6=2b71fefe DK5=206f95bf
+true candidate: e1=76 e2=04 DK7=209ff03f d1=f1 d2=7c
+expect (a): g0=1e g3=0b EK1 mid=3e4e ; (c): g0=2b g3=7c DK5 mid=6f97 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=2b q0=a2
+  (a) 440 hyps >= 5.0, best z=-7.12 nrm=1 g0=1e g3=0b k=3e4e  (15.75s)
+  (c) 522 hyps >= 5.0, best z=-6.86 nrm=1 g0=2b g3=7c k=ef17  (14.10s)
+  (t) best 3-round z=-13.89; 280 of 440 x 522 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=1ef6840b EK1mid=3e4e DK6=2b71fc7c, z3=-13.89)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=bd833dddaf25ad27 (matches)
+### seed 1139
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 12e69c5e1734f098
+true EK0=63a97a64 EK1=ed26830a EK2=63d19664  DK7=048a6b00 DK6=5e0be9ab DK5=04327e00
+true candidate: e1=a9 e2=7a DK7=048a6b00 d1=8b d2=69
+expect (a): g0=63 g3=64 EK1 mid=2683 ; (c): g0=5e g3=2b DK5 mid=327c (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=60 q0=ed
+  (a) 343 hyps >= 5.0, best z=7.57 nrm=0 g0=63 g3=64 k=a603  (13.72s)
+  (c) 457 hyps >= 5.0, best z=7.06 nrm=1 g0=5e g3=2b k=327c  (10.27s)
+  (t) best 3-round z=-15.74; 802 of 343 x 457 pairs pass 8.0 (0.02s)
+  (e) key found at pair 0 (EK0=63a97a64 EK1mid=a603 DK6=5e0be92b, z3=15.74)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=12e69c5e1734f098 (matches)
+### seed 1140
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 7e2583054a8767eb
+true EK0=75fdde84 EK1=da6805b8 EK2=755ca884  DK7=23d82003 DK6=57e63763 DK5=23f2b203
+true candidate: e1=7d e2=5e DK7=23d82003 d1=e6 d2=37
+expect (a): g0=75 g3=04 EK1 mid=6807 ; (c): g0=57 g3=63 DK5 mid=f2b2 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=02 q0=da
+  (a) 377 hyps >= 5.0, best z=-6.29 nrm=1 g0=75 g3=04 k=6807  (9.82s)
+  (c) 593 hyps >= 5.0, best z=-6.93 nrm=0 g0=57 g3=63 k=7232  (13.54s)
+  (t) best 3-round z=-15.29; 656 of 377 x 593 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=75fdde04 EK1mid=6807 DK6=57e63763, z3=15.29)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=7e2583054a8767eb (matches)
+### seed 1141
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 1468d391c5383a1a
+true EK0=bd416cde EK1=06c74084 EK2=bde157de  DK7=286e7aa9 DK6=e62d0f1d DK5=2836e4a9
+true candidate: e1=41 e2=6c DK7=286e7a29 d1=2d d2=0d
+expect (a): g0=3d g3=5e EK1 mid=c542 ; (c): g0=66 g3=1f DK5 mid=34e4 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=1b q0=06
+  (a) 692 hyps >= 5.0, best z=7.18 nrm=0 g0=3d g3=5e k=c542  (17.21s)
+  (c) 462 hyps >= 5.0, best z=7.57 nrm=0 g0=66 g3=1f k=b464  (10.65s)
+  (t) best 3-round z=17.02; 1402 of 692 x 462 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=3d416c5e EK1mid=c542 DK6=662d0d1f, z3=17.02)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=1468d391c5383a1a (matches)
+### seed 1142
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 3cea2dbeb0b3b0c3
+true EK0=905441e9 EK1=2a3b981a EK2=9010fee9  DK7=8e21fb7d DK6=582f1f4f DK5=8e93777d
+true candidate: e1=54 e2=41 DK7=0e21fb7d d1=2d d2=1f
+expect (a): g0=10 g3=69 EK1 mid=399a ; (c): g0=5a g3=4f DK5 mid=9377 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=47 q0=2a
+  (a) 870 hyps >= 5.0, best z=7.18 nrm=0 g0=10 g3=69 k=b91a  (14.74s)
+  (c) 1029 hyps >= 5.0, best z=8.78 nrm=0 g0=5a g3=4f k=9377  (11.13s)
+  (t) best 3-round z=15.42; 4502 of 870 x 1029 pairs pass 8.0 (0.07s)
+  (e) key found at pair 0 (EK0=10544169 EK1mid=b91a DK6=5a2d1f4f, z3=15.36)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=3cea2dbeb0b3b0c3 (matches)
+### seed 1143
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 91801cc86f8e48a3
+true EK0=1011569b EK1=c804351c EK2=1076119b  DK7=757b4add DK6=a8f08e06 DK5=7536e0dd
+true candidate: e1=11 e2=56 DK7=757b4a5d d1=70 d2=0c
+expect (a): g0=10 g3=1b EK1 mid=0437 ; (c): g0=28 g3=04 DK5 mid=34e0 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=1a q0=c8
+  (a) 432 hyps >= 5.0, best z=-7.95 nrm=0 g0=10 g3=1b k=0437  (11.28s)
+  (c) 950 hyps >= 5.0, best z=8.91 nrm=1 g0=28 g3=04 k=b460  (14.21s)
+  (t) best 3-round z=-15.55; 4416 of 432 x 950 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=1011561b EK1mid=0437 DK6=28f08c04, z3=-15.42)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=91801cc86f8e48a3 (matches)
+### seed 1144
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key a93ea823e34d97c0
+true EK0=f81e4781 EK1=4717da74 EK2=f84efd81  DK7=cde7de81 DK6=a67a4a3d DK5=cda4a581
+true candidate: e1=1e e2=47 DK7=4de7de01 d1=78 d2=48
+expect (a): g0=78 g3=01 EK1 mid=15d8 ; (c): g0=24 g3=3f DK5 mid=a6a5 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=5f q0=47
+  (a) 1389 hyps >= 5.0, best z=7.25 nrm=0 g0=78 g3=01 k=9558  (9.10s)
+  (c) 851 hyps >= 5.0, best z=10.63 nrm=0 g0=24 g3=3f k=2625  (13.92s)
+  (t) best 3-round z=-16.25; 5589 of 1389 x 851 pairs pass 8.0 (0.08s)
+  (e) key found at pair 0 (EK0=781e4701 EK1mid=9558 DK6=2478483f, z3=-16.25)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=a93ea823e34d97c0 (matches)
+### seed 1145
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key ef19651bf841ce56
+true EK0=3adfbb51 EK1=2f8c9f00 EK2=3a782851  DK7=0f380be2 DK6=d6043aa1 DK5=0fecc2e2
+true candidate: e1=5f e2=3b DK7=0f380b62 d1=04 d2=38
+expect (a): g0=3a g3=51 EK1 mid=8c9f ; (c): g0=56 g3=23 DK5 mid=eec0 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=78 q0=2f
+  (a) 610 hyps >= 5.0, best z=9.67 nrm=1 g0=3a g3=51 k=0c1f  (11.33s)
+  (c) 535 hyps >= 5.0, best z=8.91 nrm=0 g0=56 g3=23 k=6e40  (11.63s)
+  (t) best 3-round z=16.44; 4781 of 610 x 535 pairs pass 8.0 (0.06s)
+  (e) key found at pair 0 (EK0=3adfbb51 EK1mid=0c1f DK6=56043823, z3=-16.44)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=ef19651bf841ce56 (matches)
+### seed 1146
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 2ecd41fc93a805c7
+true EK0=afb322d1 EK1=e474a18e EK2=af079ed1  DK7=cd8f8809 DK6=31af853d DK5=cdd70e09
+true candidate: e1=b3 e2=22 DK7=4d8f8809 d1=2d d2=05
+expect (a): g0=2f g3=51 EK1 mid=76a3 ; (c): g0=33 g3=3d DK5 mid=d70e (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=47 q0=e4
+  (a) 374 hyps >= 5.0, best z=5.97 nrm=0 g0=2f g3=51 k=f623  (10.74s)
+  (c) 370 hyps >= 5.0, best z=6.35 nrm=0 g0=51 g3=6a k=dc7c  (12.00s)
+  (t) best 3-round z=-14.46; 90 of 374 x 370 pairs pass 8.0 (0.02s)
+  (e) key found at pair 0 (EK0=2fb32251 EK1mid=f623 DK6=33ad853d, z3=14.46)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=2ecd41fc93a805c7 (matches)
+### seed 1147
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 714948f167eb8e59
+true EK0=d80bf1b3 EK1=68acf77d EK2=d8454db3  DK7=98e3eae5 DK6=121d5696 DK5=983d1be5
+true candidate: e1=8b e2=71 DK7=18e3ea65 d1=1f d2=54
+expect (a): g0=58 g3=33 EK1 mid=aef5 ; (c): g0=10 g3=14 DK5 mid=3d19 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=6f q0=68
+  (a) 517 hyps >= 5.0, best z=8.14 nrm=1 g0=58 g3=33 k=2e75  (13.57s)
+  (c) 650 hyps >= 5.0, best z=8.27 nrm=0 g0=10 g3=14 k=3d19  (11.83s)
+  (t) best 3-round z=-16.51; 2391 of 517 x 650 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=580bf133 EK1mid=2e75 DK6=101f5414, z3=16.51)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=714948f167eb8e59 (matches)
+### seed 1148
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 8d86f2c353316078
+true EK0=5a92932f EK1=6734765c EK2=5af8972f  DK7=cbb96d92 DK6=302eeb55 DK5=cbcc4c92
+true candidate: e1=12 e2=13 DK7=4bb96d12 d1=ac d2=69
+expect (a): g0=5a g3=2f EK1 mid=3476 ; (c): g0=32 g3=57 DK5 mid=cc4c (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=0c q0=67
+  (a) 561 hyps >= 5.0, best z=6.35 nrm=1 g0=56 g3=4f k=4962  (11.79s)
+  (c) 502 hyps >= 5.0, best z=-7.63 nrm=1 g0=32 g3=57 k=cc4c  (10.55s)
+  (t) best 3-round z=14.53; 28 of 561 x 502 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=5a92932f EK1mid=3476 DK6=322ce957, z3=-14.46)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=8d86f2c353316078 (matches)
+### seed 1149
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key b972d70edb8d2d2b
+true EK0=ffe7b014 EK1=e5cc8ef8 EK2=ff9ed414  DK7=12ef25f4 DK6=74e57ce2 DK5=128d16f4
+true candidate: e1=67 e2=30 DK7=12ef2574 d1=e5 d2=7e
+expect (a): g0=7f g3=14 EK1 mid=ce8e ; (c): g0=74 g3=60 DK5 mid=8d14 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=69 q0=e5
+  (a) 761 hyps >= 5.0, best z=8.97 nrm=1 g0=7f g3=14 k=4e0e  (14.76s)
+  (c) 398 hyps >= 5.0, best z=6.86 nrm=0 g0=74 g3=60 k=8d14  (8.79s)
+  (t) best 3-round z=15.36; 1459 of 761 x 398 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=7fe7b014 EK1mid=4e0e DK6=74e57e60, z3=15.36)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=b972d70edb8d2d2b (matches)
+### seed 1150
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key c0685256388c3fae
+true EK0=787197d7 EK1=15f23cab EK2=781396d7  DK7=f731420d DK6=189ffd0a DK5=f7a0930d
+true candidate: e1=f1 e2=17 DK7=7731420d d1=1d d2=7d
+expect (a): g0=78 g3=57 EK1 mid=f23e ; (c): g0=1a g3=0a DK5 mid=a093 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=06 q0=15
+  (a) 607 hyps >= 5.0, best z=-7.89 nrm=1 g0=78 g3=57 k=f23e  (13.14s)
+  (c) 404 hyps >= 5.0, best z=6.03 nrm=1 g0=1a g3=0a k=2013  (11.05s)
+  (t) best 3-round z=15.48; 386 of 607 x 404 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=78719757 EK1mid=f23e DK6=1a9dfd0a, z3=15.48)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=c0685256388c3fae (matches)
+### seed 1151
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 7326217bde0e2c62
+true EK0=47c4b348 EK1=13b6e6b3 EK2=47437a48  DK7=602ba541 DK6=e6990fa4 DK5=60c53241
+true candidate: e1=44 e2=33 DK7=602ba541 d1=99 d2=0f
+expect (a): g0=47 g3=48 EK1 mid=b6e6 ; (c): g0=66 g3=24 DK5 mid=c730 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=70 q0=13
+  (a) 537 hyps >= 5.0, best z=-6.35 nrm=1 g0=15 g3=6e k=b142  (12.74s)
+  (c) 444 hyps >= 5.0, best z=-7.95 nrm=0 g0=66 g3=24 k=c730  (11.16s)
+  (t) best 3-round z=16.00; 221 of 537 x 444 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=47c4b348 EK1mid=3666 DK6=66990f24, z3=15.87)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=7326217bde0e2c62 (matches)
+### seed 1152
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key caa794b22d6fe0c9
+true EK0=d7bd3261 EK1=0f8224b0 EK2=d7dfab61  DK7=a5bb1a56 DK6=fcceafb1 DK5=a5351956
+true candidate: e1=bd e2=32 DK7=25bb1a56 d1=4c d2=2f
+expect (a): g0=57 g3=61 EK1 mid=8024 ; (c): g0=7e g3=31 DK5 mid=371b (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=35 q0=0f
+  (a) 500 hyps >= 5.0, best z=-7.89 nrm=0 g0=57 g3=61 k=8024  (14.24s)
+  (c) 752 hyps >= 5.0, best z=-9.29 nrm=1 g0=7e g3=31 k=371b  (14.75s)
+  (t) best 3-round z=-15.42; 2711 of 500 x 752 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=57bd3261 EK1mid=8024 DK6=7eccaf31, z3=15.42)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=caa794b22d6fe0c9 (matches)
+### seed 1153
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key e19451b0a5faa3f3
+true EK0=f45269ee EK1=104ebd69 EK2=f49a66ee  DK7=3d0c2e36 DK6=e02a0e29 DK5=3da18936
+true candidate: e1=52 e2=69 DK7=3d0c2e36 d1=2a d2=0e
+expect (a): g0=74 g3=6e EK1 mid=4cbf ; (c): g0=60 g3=29 DK5 mid=a389 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=53 q0=10
+  (a) 612 hyps >= 5.0, best z=8.27 nrm=0 g0=74 g3=6e k=cc3f  (12.28s)
+  (c) 488 hyps >= 5.0, best z=8.21 nrm=0 g0=60 g3=29 k=2309  (11.93s)
+  (t) best 3-round z=14.21; 2087 of 612 x 488 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=7452696e EK1mid=cc3f DK6=602a0e29, z3=14.21)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=e19451b0a5faa3f3 (matches)
+### seed 1154
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key fad7e88cbc35dce2
+true EK0=3c7bbcbf EK1=25aa00e3 EK2=3ca487bf  DK7=b6af63ce DK6=73e29f78 DK5=b650bcce
+true candidate: e1=fb e2=3c DK7=36af634e d1=60 d2=1d
+expect (a): g0=3c g3=3f EK1 mid=aa02 ; (c): g0=71 g3=7a DK5 mid=50bc (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=0e q0=25
+  (a) 967 hyps >= 5.0, best z=-6.16 nrm=1 g0=37 g3=41 k=b30b  (12.30s)
+  (c) 301 hyps >= 5.0, best z=7.38 nrm=1 g0=71 g3=7a k=d03c  (10.57s)
+  (t) best 3-round z=6.55; 0 of 967 x 301 pairs pass 8.0 (0.04s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1155
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key a64f66ef94fcd713
+true EK0=d395a310 EK1=5c3774db EK2=d30cff10  DK7=d3e2bd8d DK6=d490d393 DK5=d35e718d
+true candidate: e1=15 e2=23 DK7=53e2bd0d d1=12 d2=51
+expect (a): g0=53 g3=10 EK1 mid=3574 ; (c): g0=56 g3=11 DK5 mid=5c73 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=3d q0=5c
+  (a) 377 hyps >= 5.0, best z=8.78 nrm=1 g0=53 g3=10 k=3574  (12.62s)
+  (c) 326 hyps >= 5.0, best z=-5.78 nrm=1 g0=26 g3=03 k=8523  (10.46s)
+  (t) best 3-round z=14.65; 136 of 377 x 326 pairs pass 8.0 (0.02s)
+  (e) key found at pair 0 (EK0=5395a310 EK1mid=3574 DK6=5692d111, z3=14.65)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=a64f66ef94fcd713 (matches)
+### seed 1156
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 814ec933ee2f4754
+true EK0=66c8b130 EK1=fc0da09d EK2=66110430  DK7=2b2fc228 DK6=56ee87c4 DK5=2b6af928
+true candidate: e1=48 e2=31 DK7=2b2fc228 d1=6e d2=07
+expect (a): g0=66 g3=30 EK1 mid=0da0 ; (c): g0=56 g3=44 DK5 mid=6afb (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=60 q0=fc
+  (a) 1827 hyps >= 5.0, best z=9.74 nrm=1 g0=66 g3=30 k=8d20  (14.61s)
+  (c) 1107 hyps >= 5.0, best z=8.97 nrm=1 g0=56 g3=44 k=ea7b  (13.22s)
+  (t) best 3-round z=-17.98; 15684 of 1827 x 1107 pairs pass 8.0 (0.12s)
+  (e) key found at pair 0 (EK0=66c8b130 EK1mid=8d20 DK6=56ee8744, z3=-17.98)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=814ec933ee2f4754 (matches)
+### seed 1157
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 3664c7897e6cf1b4
+true EK0=3edba2c3 EK1=3b6bb6e2 EK2=3eba46c3  DK7=a9d8ae43 DK6=fd375f39 DK5=a9ab3043
+true candidate: e1=5b e2=22 DK7=29d8ae43 d1=35 d2=5f
+expect (a): g0=3e g3=43 EK1 mid=6bb4 ; (c): g0=7f g3=39 DK5 mid=a930 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=56 q0=3b
+  (a) 661 hyps >= 5.0, best z=7.63 nrm=1 g0=3e g3=43 k=eb34  (11.32s)
+  (c) 796 hyps >= 5.0, best z=8.91 nrm=0 g0=7f g3=39 k=a930  (11.96s)
+  (t) best 3-round z=15.17; 1521 of 661 x 796 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=3edba243 EK1mid=eb34 DK6=7f355f39, z3=-15.04)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=3664c7897e6cf1b4 (matches)
+### seed 1158
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 13ab0286cce44f55
+true EK0=b1bf5ad3 EK1=a691fbbe EK2=b1c138d3  DK7=61425cf1 DK6=a444b831 DK5=614853f1
+true candidate: e1=bf e2=5a DK7=61425c71 d1=c4 d2=3a
+expect (a): g0=31 g3=53 EK1 mid=93f9 ; (c): g0=24 g3=33 DK5 mid=4a53 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=5b q0=a6
+  (a) 413 hyps >= 5.0, best z=6.23 nrm=0 g0=50 g3=30 k=506e  (14.92s)
+  (c) 555 hyps >= 5.0, best z=-8.40 nrm=1 g0=24 g3=33 k=4a53  (12.18s)
+  (t) best 3-round z=-16.38; 1123 of 413 x 555 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=31bf5a53 EK1mid=1379 DK6=2444ba33, z3=-16.38)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=13ab0286cce44f55 (matches)
+### seed 1159
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 7e7e1a3dfcbba919
+true EK0=dcbbd236 EK1=50e970a0 EK2=dc037e36  DK7=eb042c32 DK6=6d1be5a2 DK5=eb4d0232
+true candidate: e1=3b e2=52 DK7=6b042c32 d1=99 d2=65
+expect (a): g0=5c g3=36 EK1 mid=eb70 ; (c): g0=6f g3=22 DK5 mid=4d00 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=25 q0=50
+  (a) 450 hyps >= 5.0, best z=7.44 nrm=1 g0=5c g3=36 k=eb70  (11.28s)
+  (c) 1092 hyps >= 5.0, best z=9.10 nrm=1 g0=6f g3=22 k=4d00  (12.83s)
+  (t) best 3-round z=-14.65; 1904 of 450 x 1092 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=5cbbd236 EK1mid=eb70 DK6=6f19e522, z3=-14.65)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=7e7e1a3dfcbba919 (matches)
+### seed 1160
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 58740406a3a7d59f
+true EK0=3f77c942 EK1=344847c9 EK2=3fe9b242  DK7=0f4fbae3 DK6=7e05c28d DK5=0f042fe3
+true candidate: e1=f7 e2=49 DK7=0f4fba63 d1=85 d2=40
+expect (a): g0=3f g3=42 EK1 mid=4847 ; (c): g0=7e g3=0f DK5 mid=042d (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=28 q0=34
+  (a) 1751 hyps >= 5.0, best z=-8.59 nrm=1 g0=3f g3=42 k=4847  (14.98s)
+  (c) 946 hyps >= 5.0, best z=-8.84 nrm=1 g0=7e g3=0f k=042d  (11.43s)
+  (t) best 3-round z=-17.08; 5261 of 1751 x 946 pairs pass 8.0 (0.10s)
+  (e) key found at pair 0 (EK0=3f77c942 EK1mid=4847 DK6=7e05c00f, z3=-17.08)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=58740406a3a7d59f (matches)
+### seed 1161
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 8e2a726a92320a79
+true EK0=74189162 EK1=39d60081 EK2=74c81b62  DK7=8a23102a DK6=b944d86c DK5=8a87912a
+true candidate: e1=98 e2=11 DK7=0a23102a d1=c6 d2=58
+expect (a): g0=74 g3=62 EK1 mid=d600 ; (c): g0=3b g3=6c DK5 mid=8591 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=14 q0=39
+  (a) 549 hyps >= 5.0, best z=-8.97 nrm=1 g0=74 g3=62 k=d600  (12.39s)
+  (c) 471 hyps >= 5.0, best z=8.72 nrm=1 g0=3b g3=6c k=0511  (12.11s)
+  (t) best 3-round z=-16.76; 1663 of 549 x 471 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=74189162 EK1mid=d600 DK6=3b46d86c, z3=-16.76)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=8e2a726a92320a79 (matches)
+### seed 1162
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 2dd46d41481b2dbc
+true EK0=2ba02703 EK1=2b5d632d EK2=2b786603  DK7=9c2e4dc8 DK6=11d49b9b DK5=9c96d4c8
+true candidate: e1=a0 e2=27 DK7=1c2e4d48 d1=56 d2=19
+expect (a): g0=2b g3=03 EK1 mid=5d63 ; (c): g0=13 g3=19 DK5 mid=96d6 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=2c q0=2b
+  (a) 567 hyps >= 5.0, best z=8.01 nrm=0 g0=2b g3=03 k=5d63  (14.13s)
+  (c) 395 hyps >= 5.0, best z=-7.06 nrm=1 g0=13 g3=19 k=1656  (9.98s)
+  (t) best 3-round z=-15.42; 1080 of 567 x 395 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=2ba02703 EK1mid=5d63 DK6=13d69919, z3=15.23)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=2dd46d41481b2dbc (matches)
+### seed 1163
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 35bfcd381bed051b
+true EK0=ac0fae9a EK1=127fc054 EK2=aca0929a  DK7=935f1e46 DK6=d6213837 DK5=93981746
+true candidate: e1=8f e2=2e DK7=135f1e46 d1=23 d2=38
+expect (a): g0=2c g3=1a EK1 mid=7dc2 ; (c): g0=54 g3=37 DK5 mid=9a17 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=57 q0=12
+  (a) 667 hyps >= 5.0, best z=8.14 nrm=1 g0=2c g3=1a k=fd42  (14.40s)
+  (c) 612 hyps >= 5.0, best z=-7.82 nrm=0 g0=54 g3=37 k=9a17  (12.60s)
+  (t) best 3-round z=-16.57; 3677 of 667 x 612 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=2c0fae1a EK1mid=fd42 DK6=54233837, z3=16.57)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=35bfcd381bed051b (matches)
+### seed 1164
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 32d82db51613c41b
+true EK0=919e41d4 EK1=a9ea7439 EK2=915d3ed4  DK7=67b709e1 DK6=9947eaa8 DK5=671126e1
+true candidate: e1=9e e2=41 DK7=67b70961 d1=c7 d2=68
+expect (a): g0=11 g3=54 EK1 mid=e876 ; (c): g0=19 g3=2a DK5 mid=1324 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=3b q0=a9
+  (a) 811 hyps >= 5.0, best z=8.52 nrm=0 g0=11 g3=54 k=e876  (16.07s)
+  (c) 706 hyps >= 5.0, best z=-7.76 nrm=1 g0=19 g3=2a k=1324  (13.70s)
+  (t) best 3-round z=14.78; 1073 of 811 x 706 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=119e4154 EK1mid=e876 DK6=1947e82a, z3=14.72)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=32d82db51613c41b (matches)
+### seed 1165
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key a549f15d788d0778
+true EK0=4b67a4e9 EK1=eee1fb28 EK2=4b93aae9  DK7=8c8e1952 DK6=18d166cd DK5=8ced1c52
+true candidate: e1=e7 e2=24 DK7=0c8e1952 d1=d3 d2=66
+expect (a): g0=4b g3=69 EK1 mid=e1f9 ; (c): g0=1a g3=4d DK5 mid=ed1e (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=66 q0=ee
+  (a) 476 hyps >= 5.0, best z=8.65 nrm=1 g0=4b g3=69 k=6179  (11.16s)
+  (c) 567 hyps >= 5.0, best z=8.78 nrm=0 g0=1a g3=4d k=ed1e  (15.03s)
+  (t) best 3-round z=-16.19; 3027 of 476 x 567 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=4b67a469 EK1mid=6179 DK6=1ad3664d, z3=16.00)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=a549f15d788d0778 (matches)
+### seed 1166
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 701c8f2368f998bf
+true EK0=8d8fe1bc EK1=beb68cd8 EK2=8dd1febc  DK7=fe7a8f7e DK6=8e36b650 DK5=fe8aee7e
+true candidate: e1=0f e2=61 DK7=7e7a8f7e d1=b4 d2=36
+expect (a): g0=0d g3=3c EK1 mid=b48e ; (c): g0=0c g3=50 DK5 mid=88ee (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=57 q0=be
+  (a) 457 hyps >= 5.0, best z=8.27 nrm=1 g0=0d g3=3c k=340e  (12.77s)
+  (c) 755 hyps >= 5.0, best z=-8.84 nrm=1 g0=0c g3=50 k=086e  (12.57s)
+  (t) best 3-round z=-15.55; 2820 of 457 x 755 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=0d8fe13c EK1mid=340e DK6=0c34b650, z3=-15.55)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=701c8f2368f998bf (matches)
+### seed 1167
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 76a67ec116a80db5
+true EK0=32322997 EK1=6804cc03 EK2=32ac5997  DK7=cabf2b67 DK6=127eae93 DK5=ca097567
+true candidate: e1=32 e2=29 DK7=4abf2b67 d1=fc d2=2e
+expect (a): g0=32 g3=17 EK1 mid=04ce ; (c): g0=10 g3=13 DK5 mid=0977 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=66 q0=68
+  (a) 558 hyps >= 5.0, best z=6.93 nrm=0 g0=32 g3=17 k=844e  (13.52s)
+  (c) 556 hyps >= 5.0, best z=-8.59 nrm=1 g0=10 g3=13 k=0977  (12.33s)
+  (t) best 3-round z=16.70; 1858 of 558 x 556 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=32322917 EK1mid=844e DK6=107cae13, z3=-16.70)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=76a67ec116a80db5 (matches)
+### seed 1168
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 4b64c838da3af720
+true EK0=38e4a749 EK1=9e3b32a1 EK2=387dbe49  DK7=7bea13fa DK6=584e4b13 DK5=7b990afa
+true candidate: e1=64 e2=27 DK7=7bea137a d1=4e d2=49
+expect (a): g0=38 g3=49 EK1 mid=3b32 ; (c): g0=58 g3=11 DK5 mid=990a (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=08 q0=9e
+  (a) 347 hyps >= 5.0, best z=7.18 nrm=1 g0=38 g3=49 k=3b32  (10.06s)
+  (c) 251 hyps >= 5.0, best z=7.63 nrm=0 g0=58 g3=11 k=990a  (10.01s)
+  (t) best 3-round z=-16.38; 698 of 347 x 251 pairs pass 8.0 (0.02s)
+  (e) key found at pair 0 (EK0=38e4a749 EK1mid=3b32 DK6=584e4911, z3=-16.38)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=4b64c838da3af720 (matches)
+### seed 1169
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key bfb8b30e484139a6
+true EK0=862b1a1d EK1=a385a569 EK2=86046d1d  DK7=49916e16 DK6=841a56e3 DK5=49580a16
+true candidate: e1=2b e2=1a DK7=49916e16 d1=1a d2=56
+expect (a): g0=06 g3=1d EK1 mid=87a5 ; (c): g0=04 g3=63 DK5 mid=5a08 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=71 q0=a3
+  (a) 437 hyps >= 5.0, best z=6.61 nrm=0 g0=02 g3=1d k=1725  (12.79s)
+  (c) 511 hyps >= 5.0, best z=-9.16 nrm=0 g0=04 g3=63 k=5a08  (9.48s)
+  (t) best 3-round z=15.04; 1307 of 437 x 511 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=062b1a1d EK1mid=0725 DK6=041a5663, z3=15.04)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=bfb8b30e484139a6 (matches)
+### seed 1170
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key cdadd53a8d5fbec2
+true EK0=2a5448f5 EK1=dd69aed7 EK2=2ae62bf5  DK7=26cbd795 DK6=898be2e9 DK5=26cc5995
+true candidate: e1=54 e2=48 DK7=26cbd715 d1=0b d2=60
+expect (a): g0=2a g3=75 EK1 mid=69ac ; (c): g0=09 g3=6b DK5 mid=ce5b (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=7a q0=dd
+  (a) 506 hyps >= 5.0, best z=-7.44 nrm=0 g0=2a g3=75 k=e92c  (10.86s)
+  (c) 437 hyps >= 5.0, best z=-7.76 nrm=1 g0=09 g3=6b k=ce5b  (10.35s)
+  (t) best 3-round z=-15.87; 1172 of 506 x 437 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=2a544875 EK1mid=e92c DK6=098be06b, z3=-15.87)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=cdadd53a8d5fbec2 (matches)
+### seed 1171
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 836b6b62ab3f85ea
+true EK0=fd2170fb EK1=46ce66d9 EK2=fda4f9fb  DK7=44b1e26c DK6=cc455db3 DK5=44fac16c
+true candidate: e1=21 e2=70 DK7=44b1e26c d1=45 d2=5d
+expect (a): g0=7d g3=7b EK1 mid=cc64 ; (c): g0=4c g3=33 DK5 mid=f8c3 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=33 q0=46
+  (a) 759 hyps >= 5.0, best z=-7.38 nrm=0 g0=7d g3=7b k=cc64  (14.34s)
+  (c) 477 hyps >= 5.0, best z=-5.91 nrm=0 g0=7c g3=43 k=a32d  (12.24s)
+  (t) best 3-round z=-14.14; 68 of 759 x 477 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=7d21707b EK1mid=cc64 DK6=4c455d33, z3=-14.14)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=836b6b62ab3f85ea (matches)
+### seed 1172
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key dadd4a6fa428a8c9
+true EK0=093e2419 EK1=339516fc EK2=096d9c19  DK7=f8eff86f DK6=13821770 DK5=f800566f
+true candidate: e1=3e e2=24 DK7=78eff86f d1=80 d2=17
+expect (a): g0=09 g3=19 EK1 mid=9516 ; (c): g0=11 g3=70 DK5 mid=0056 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=04 q0=33
+  (a) 480 hyps >= 5.0, best z=7.76 nrm=0 g0=09 g3=19 k=9516  (10.41s)
+  (c) 1920 hyps >= 5.0, best z=9.23 nrm=0 g0=11 g3=70 k=0056  (12.53s)
+  (t) best 3-round z=16.06; 3953 of 480 x 1920 pairs pass 8.0 (0.11s)
+  (e) key found at pair 0 (EK0=093e2419 EK1mid=9516 DK6=11801770, z3=16.06)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=dadd4a6fa428a8c9 (matches)
+### seed 1173
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 38b379eb4bf0d968
+true EK0=512ebcb0 EK1=e09bcf55 EK2=512574b0  DK7=0d3dcf9b DK6=9d8e99d6 DK5=0da9619b
+true candidate: e1=ae e2=3c DK7=0d3dcf1b d1=0e d2=1b
+expect (a): g0=51 g3=30 EK1 mid=9bcd ; (c): g0=1d g3=54 DK5 mid=ab63 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=7a q0=e0
+  (a) 603 hyps >= 5.0, best z=-8.78 nrm=1 g0=51 g3=30 k=1b4d  (10.82s)
+  (c) 779 hyps >= 5.0, best z=7.18 nrm=1 g0=5d g3=54 k=a863  (13.00s)
+  (t) best 3-round z=15.29; 2674 of 603 x 779 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=512ebc30 EK1mid=1b4d DK6=1d8e9b54, z3=15.29)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=38b379eb4bf0d968 (matches)
+### seed 1174
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 77f26115e663eaff
+true EK0=5f896f82 EK1=d55c9911 EK2=5f5abc82  DK7=057e5f3b DK6=6abb7fae DK5=053db83b
+true candidate: e1=89 e2=6f DK7=057e5f3b d1=bb d2=7f
+expect (a): g0=5f g3=02 EK1 mid=5c9b ; (c): g0=6a g3=2e DK5 mid=3dba (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=62 q0=d5
+  (a) 796 hyps >= 5.0, best z=7.63 nrm=0 g0=5f g3=02 k=dc1b  (16.81s)
+  (c) 421 hyps >= 5.0, best z=-8.21 nrm=0 g0=6a g3=2e k=bd3a  (11.24s)
+  (t) best 3-round z=16.25; 1584 of 796 x 421 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=5f896f02 EK1mid=dc1b DK6=6abb7f2e, z3=-16.25)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=77f26115e663eaff (matches)
+### seed 1175
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 53bad7ef8037ce6b
+true EK0=77a406c3 EK1=2935127a EK2=77fe0dc3  DK7=6d0c4b2c DK6=e0c8ff60 DK5=6d45c92c
+true candidate: e1=a4 e2=06 DK7=6d0c4b2c d1=48 d2=7f
+expect (a): g0=77 g3=43 EK1 mid=3510 ; (c): g0=60 g3=60 DK5 mid=47c9 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=12 q0=29
+  (a) 893 hyps >= 5.0, best z=6.99 nrm=0 g0=77 g3=43 k=3510  (18.94s)
+  (c) 798 hyps >= 5.0, best z=8.27 nrm=1 g0=60 g3=60 k=c649  (10.50s)
+  (t) best 3-round z=16.06; 4529 of 893 x 798 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=77a40643 EK1mid=3510 DK6=60c8ff60, z3=-16.00)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=53bad7ef8037ce6b (matches)
+### seed 1176
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key de406b488e4eef43
+true EK0=6f020748 EK1=f4b3b69f EK2=6f393348  DK7=431d23da DK6=41f16f8f DK5=43dd49da
+true candidate: e1=02 e2=07 DK7=431d235a d1=f1 d2=6d
+expect (a): g0=6f g3=48 EK1 mid=b3b6 ; (c): g0=41 g3=0d DK5 mid=dd4b (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=68 q0=f4
+  (a) 375 hyps >= 5.0, best z=6.93 nrm=0 g0=6f g3=48 k=3336  (9.11s)
+  (c) 337 hyps >= 5.0, best z=6.35 nrm=0 g0=41 g3=0d k=dd4b  (10.19s)
+  (t) best 3-round z=-13.95; 483 of 375 x 337 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=6f020748 EK1mid=3336 DK6=41f16d0d, z3=-13.95)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=de406b488e4eef43 (matches)
+### seed 1177
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 13d6add0defbf404
+true EK0=bbf25b91 EK1=4df39317 EK2=bb9a9c91  DK7=bf00d974 DK6=f5884582 DK5=bf128974
+true candidate: e1=f2 e2=5b DK7=3f00d974 d1=8a d2=45
+expect (a): g0=3b g3=11 EK1 mid=f191 ; (c): g0=77 g3=02 DK5 mid=108b (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=77 q0=4d
+  (a) 622 hyps >= 5.0, best z=-6.16 nrm=0 g0=42 g3=14 k=766a  (11.29s)
+  (c) 1094 hyps >= 5.0, best z=9.42 nrm=0 g0=77 g3=02 k=900b  (10.92s)
+  (t) best 3-round z=15.10; 1862 of 622 x 1094 pairs pass 8.0 (0.06s)
+  (e) key found at pair 0 (EK0=3bf25b11 EK1mid=7111 DK6=778a4502, z3=-15.04)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=13d6add0defbf404 (matches)
+### seed 1178
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 32d3e92103c6e54a
+true EK0=39dc9107 EK1=431b4c2c EK2=39f76207  DK7=a3bf6d99 DK6=df1e4d52 DK5=a3ff3b99
+true candidate: e1=5c e2=11 DK7=23bf6d19 d1=1c d2=4f
+expect (a): g0=39 g3=07 EK1 mid=1b4c ; (c): g0=5d g3=50 DK5 mid=fd3b (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=1c q0=43
+  (a) 1160 hyps >= 5.0, best z=7.89 nrm=1 g0=39 g3=07 k=1b4c  (12.13s)
+  (c) 654 hyps >= 5.0, best z=-8.78 nrm=0 g0=5d g3=50 k=fd3b  (10.18s)
+  (t) best 3-round z=15.48; 2082 of 1160 x 654 pairs pass 8.0 (0.06s)
+  (e) key found at pair 0 (EK0=39dc9107 EK1mid=1b4c DK6=5d1c4f50, z3=-15.48)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=32d3e92103c6e54a (matches)
+### seed 1179
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key f9f1ab133a62fbcb
+true EK0=9e49292c EK1=e13358df EK2=9e312a2c  DK7=cacff9ce DK6=01a9e6dc DK5=caa2c6ce
+true candidate: e1=49 e2=29 DK7=4acff94e d1=2b d2=64
+expect (a): g0=1e g3=2c EK1 mid=3158 ; (c): g0=03 g3=5e DK5 mid=a2c4 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=2d q0=e1
+  (a) 863 hyps >= 5.0, best z=-7.18 nrm=0 g0=5e g3=2c k=3258  (15.42s)
+  (c) 554 hyps >= 5.0, best z=-6.80 nrm=1 g0=03 g3=5e k=2244  (12.81s)
+  (t) best 3-round z=15.04; 1024 of 863 x 554 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=1e49292c EK1mid=3158 DK6=03abe45e, z3=-14.97)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=f9f1ab133a62fbcb (matches)
+### seed 1180
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key ce2b7f02f047935d
+true EK0=369bd893 EK1=bf663774 EK2=36e1b493  DK7=ae62192d DK6=d52a654b DK5=aeef4f2d
+true candidate: e1=1b e2=58 DK7=2e62192d d1=28 d2=65
+expect (a): g0=36 g3=13 EK1 mid=6635 ; (c): g0=57 g3=4b DK5 mid=ed4f (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=16 q0=bf
+  (a) 595 hyps >= 5.0, best z=8.14 nrm=1 g0=36 g3=13 k=6635  (14.09s)
+  (c) 1034 hyps >= 5.0, best z=-8.21 nrm=0 g0=57 g3=4b k=ed4f  (10.71s)
+  (t) best 3-round z=-16.38; 5211 of 595 x 1034 pairs pass 8.0 (0.06s)
+  (e) key found at pair 0 (EK0=369bd813 EK1mid=6635 DK6=5728654b, z3=-16.38)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=ce2b7f02f047935d (matches)
+### seed 1181
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 34bb9cf8a07432e0
+true EK0=b8d4f61b EK1=985fe348 EK2=b83a911b  DK7=8c89b141 DK6=ed1ab42e DK5=8c340341
+true candidate: e1=54 e2=76 DK7=0c89b141 d1=98 d2=34
+expect (a): g0=38 g3=1b EK1 mid=5de3 ; (c): g0=6f g3=2e DK5 mid=3603 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=55 q0=98
+  (a) 619 hyps >= 5.0, best z=8.27 nrm=1 g0=38 g3=1b k=dd63  (16.00s)
+  (c) 394 hyps >= 5.0, best z=6.93 nrm=1 g0=6f g3=2e k=3603  (10.39s)
+  (t) best 3-round z=-16.38; 575 of 619 x 394 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=38d4f61b EK1mid=dd63 DK6=6f18b42e, z3=16.31)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=34bb9cf8a07432e0 (matches)
+### seed 1182
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 823f4cbbeb906257
+true EK0=517ff721 EK1=eff2044c EK2=51abc821  DK7=4c4a0820 DK6=2c87a360 DK5=4c997420
+true candidate: e1=ff e2=77 DK7=4c4a0820 d1=07 d2=23
+expect (a): g0=51 g3=21 EK1 mid=f204 ; (c): g0=2c g3=60 DK5 mid=9974 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=00 q0=ef
+  (a) 608 hyps >= 5.0, best z=7.44 nrm=1 g0=51 g3=21 k=f204  (14.29s)
+  (c) 277 hyps >= 5.0, best z=-5.91 nrm=1 g0=6e g3=65 k=532b  (8.88s)
+  (t) best 3-round z=-7.12; 0 of 608 x 277 pairs pass 8.0 (0.02s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1183
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 58e96556122f5221
+true EK0=322a6028 EK1=dd562a67 EK2=3248df28  DK7=cb8119bf DK6=9f2589c9 DK5=cbcda5bf
+true candidate: e1=2a e2=60 DK7=4b81193f d1=a7 d2=0b
+expect (a): g0=32 g3=28 EK1 mid=562a ; (c): g0=1d g3=4b DK5 mid=cfa7 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=3c q0=dd
+  (a) 1177 hyps >= 5.0, best z=7.76 nrm=0 g0=12 g3=28 k=d52a  (15.35s)
+  (c) 550 hyps >= 5.0, best z=-8.78 nrm=1 g0=1d g3=4b k=4f27  (10.28s)
+  (t) best 3-round z=16.83; 6052 of 1177 x 550 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=322a6028 EK1mid=562a DK6=1d278b4b, z3=-16.76)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=58e96556122f5221 (matches)
+### seed 1184
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 802e42a6d3dee59b
+true EK0=222eb73f EK1=2b15b537 EK2=2220603f  DK7=98540c5d DK6=e49473ce DK5=986ec85d
+true candidate: e1=ae e2=37 DK7=18540c5d d1=96 d2=73
+expect (a): g0=22 g3=3f EK1 mid=15b5 ; (c): g0=66 g3=4e DK5 mid=6cca (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=74 q0=2b
+  (a) 862 hyps >= 5.0, best z=-6.67 nrm=1 g0=22 g3=3f k=9535  (15.99s)
+  (c) 723 hyps >= 5.0, best z=6.80 nrm=0 g0=66 g3=4e k=ec4a  (12.03s)
+  (t) best 3-round z=14.97; 555 of 862 x 723 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=222eb73f EK1mid=9535 DK6=6696734e, z3=-14.85)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=802e42a6d3dee59b (matches)
+### seed 1185
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 47e7126fdfc26181
+true EK0=76cafaff EK1=ca5f1eef EK2=7674e9ff  DK7=3820c502 DK6=1f50d09b DK5=3863a802
+true candidate: e1=4a e2=7a DK7=3820c502 d1=d0 d2=50
+expect (a): g0=76 g3=7f EK1 mid=5f1c ; (c): g0=1f g3=1b DK5 mid=63aa (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=22 q0=ca
+  (a) 830 hyps >= 5.0, best z=-7.76 nrm=1 g0=76 g3=7f k=5f1c  (12.20s)
+  (c) 755 hyps >= 5.0, best z=-8.01 nrm=1 g0=1f g3=1b k=e32a  (14.04s)
+  (t) best 3-round z=-15.55; 2223 of 830 x 755 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=76cafa7f EK1mid=5f1c DK6=1f50d01b, z3=-15.55)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=47e7126fdfc26181 (matches)
+### seed 1186
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 81c4c56db23d8522
+true EK0=87dfb770 EK1=083ec74e EK2=87ed3570  DK7=49d2ff10 DK6=ecdfe5ab DK5=496e9610
+true candidate: e1=5f e2=37 DK7=49d2ff10 d1=5f d2=65
+expect (a): g0=07 g3=70 EK1 mid=3cc7 ; (c): g0=6c g3=2b DK5 mid=6c94 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=71 q0=08
+  (a) 481 hyps >= 5.0, best z=6.93 nrm=1 g0=07 g3=70 k=bc47  (14.13s)
+  (c) 1164 hyps >= 5.0, best z=9.87 nrm=1 g0=6c g3=2b k=ec14  (10.83s)
+  (t) best 3-round z=-15.61; 5118 of 481 x 1164 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=07dfb770 EK1mid=bc47 DK6=6cdfe52b, z3=15.55)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=81c4c56db23d8522 (matches)
+### seed 1187
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 87a8302a54ae16af
+true EK0=a82f8684 EK1=8dc6aa57 EK2=a8bdf484  DK7=acb16c8d DK6=a1c8f2c2 DK5=acad888d
+true candidate: e1=af e2=06 DK7=2cb16c0d d1=4a d2=70
+expect (a): g0=28 g3=04 EK1 mid=c4a8 ; (c): g0=23 g3=40 DK5 mid=af8a (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=7f q0=8d
+  (a) 351 hyps >= 5.0, best z=-6.03 nrm=0 g0=6a g3=69 k=673d  (11.23s)
+  (c) 400 hyps >= 5.0, best z=-8.97 nrm=1 g0=23 g3=40 k=2f0a  (8.59s)
+  (t) best 3-round z=13.31; 63 of 351 x 400 pairs pass 8.0 (0.02s)
+  (e) tried 63 pair(s), no key (0.5s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1188
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 2f5f8847dc432526
+true EK0=8d16ce7b EK1=65b8f75b EK2=8d6b897b  DK7=88ed1a7d DK6=5409cd84 DK5=8848067d
+true candidate: e1=96 e2=4e DK7=08ed1a7d d1=8b d2=4d
+expect (a): g0=0d g3=7b EK1 mid=baf7 ; (c): g0=56 g3=04 DK5 mid=4804 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=65 q0=65
+  (a) 574 hyps >= 5.0, best z=-8.33 nrm=1 g0=0d g3=7b k=3a77  (13.41s)
+  (c) 1199 hyps >= 5.0, best z=8.59 nrm=1 g0=56 g3=04 k=4804  (9.14s)
+  (t) best 3-round z=15.68; 8505 of 574 x 1199 pairs pass 8.0 (0.06s)
+  (e) key found at pair 0 (EK0=0d16ce7b EK1mid=3a77 DK6=560bcd04, z3=-15.42)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=2f5f8847dc432526 (matches)
+### seed 1189
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key f9f01abd576c14de
+true EK0=f9a46f6c EK1=04884268 EK2=f9e0b46c  DK7=4bba7d0a DK6=9aafa8f9 DK5=4b30b90a
+true candidate: e1=a4 e2=6f DK7=4bba7d0a d1=2f d2=28
+expect (a): g0=79 g3=6c EK1 mid=8a42 ; (c): g0=1a g3=79 DK5 mid=32bb (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=31 q0=04
+  (a) 307 hyps >= 5.0, best z=6.48 nrm=0 g0=59 g3=6c k=0a42  (12.26s)
+  (c) 446 hyps >= 5.0, best z=-6.74 nrm=1 g0=1a g3=79 k=b23b  (12.06s)
+  (t) best 3-round z=12.93; 111 of 307 x 446 pairs pass 8.0 (0.02s)
+  (e) key found at pair 0 (EK0=79a46f6c EK1mid=8a42 DK6=1aafa879, z3=12.93)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=f9f01abd576c14de (matches)
+### seed 1190
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 4e75d4217d09a45e
+true EK0=76a1e1a1 EK1=b25763c0 EK2=7651a6a1  DK7=7649b1ae DK6=f7c345e8 DK5=76d684ae
+true candidate: e1=21 e2=61 DK7=7649b12e d1=c3 d2=47
+expect (a): g0=76 g3=21 EK1 mid=5761 ; (c): g0=77 g3=6a DK5 mid=d486 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=3a q0=b2
+  (a) 518 hyps >= 5.0, best z=-6.61 nrm=1 g0=56 g3=21 k=d661  (9.53s)
+  (c) 834 hyps >= 5.0, best z=-9.42 nrm=0 g0=77 g3=6a k=5406  (9.64s)
+  (t) best 3-round z=14.91; 1718 of 518 x 834 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=76a1e121 EK1mid=5761 DK6=77c3476a, z3=14.91)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=4e75d4217d09a45e (matches)
+### seed 1191
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 4f15883732f7d445
+true EK0=48285fb9 EK1=ee226448 EK2=4843d2b9  DK7=0c044caf DK6=51b6d61e DK5=0cae1baf
+true candidate: e1=28 e2=5f DK7=0c044c2f d1=36 d2=54
+expect (a): g0=48 g3=39 EK1 mid=2266 ; (c): g0=51 g3=1c DK5 mid=ae1b (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=0a q0=ee
+  (a) 215 hyps >= 5.0, best z=6.48 nrm=0 g0=08 g3=39 k=2166  (8.74s)
+  (c) 1517 hyps >= 5.0, best z=-7.31 nrm=1 g0=51 g3=1c k=ae1b  (13.56s)
+  (t) best 3-round z=14.97; 1307 of 215 x 1517 pairs pass 8.0 (0.06s)
+  (e) key found at pair 0 (EK0=48285f39 EK1mid=2266 DK6=51b6d41c, z3=14.97)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=4f15883732f7d445 (matches)
+### seed 1192
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 87a43b046f53aa98
+true EK0=90c3eddf EK1=12ccb423 EK2=90d2d7df  DK7=90922a6e DK6=1ba3df6f DK5=906f516e
+true candidate: e1=43 e2=6d DK7=10922a6e d1=21 d2=5f
+expect (a): g0=10 g3=5f EK1 mid=ceb6 ; (c): g0=19 g3=6f DK5 mid=6f51 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=47 q0=12
+  (a) 545 hyps >= 5.0, best z=6.35 nrm=0 g0=43 g3=6c k=6958  (11.97s)
+  (c) 570 hyps >= 5.0, best z=-9.87 nrm=1 g0=79 g3=6f k=ee51  (9.57s)
+  (t) best 3-round z=16.38; 1978 of 545 x 570 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=10c3ed5f EK1mid=4e36 DK6=19a1df6f, z3=16.38)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=87a43b046f53aa98 (matches)
+### seed 1193
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key cfc5b8288bec615c
+true EK0=1a3c98b3 EK1=a9cfb361 EK2=1a40e4b3  DK7=0b2e09af DK6=bbc7caa3 DK5=0b3b97af
+true candidate: e1=bc e2=18 DK7=0b2e092f d1=47 d2=48
+expect (a): g0=1a g3=33 EK1 mid=cfb1 ; (c): g0=3b g3=21 DK5 mid=3995 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=7a q0=a9
+  (a) 883 hyps >= 5.0, best z=8.84 nrm=1 g0=1a g3=33 k=4f31  (16.50s)
+  (c) 660 hyps >= 5.0, best z=7.89 nrm=1 g0=3b g3=21 k=b915  (10.65s)
+  (t) best 3-round z=16.00; 2640 of 883 x 660 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=1a3c9833 EK1mid=4f31 DK6=3bc7c821, z3=-15.87)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=cfc5b8288bec615c (matches)
+### seed 1194
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 22f44ac16556ba50
+true EK0=41b574cc EK1=ebc9b3b2 EK2=4162cfcc  DK7=751a5093 DK6=62c5d6df DK5=7527c693
+true candidate: e1=b5 e2=74 DK7=751a5013 d1=45 d2=54
+expect (a): g0=41 g3=4c EK1 mid=c9b1 ; (c): g0=62 g3=5d DK5 mid=27c4 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=6a q0=eb
+  (a) 658 hyps >= 5.0, best z=-9.23 nrm=0 g0=41 g3=4c k=4931  (13.24s)
+  (c) 338 hyps >= 5.0, best z=7.18 nrm=1 g0=62 g3=5d k=a744  (10.82s)
+  (t) best 3-round z=14.97; 970 of 658 x 338 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=41b5744c EK1mid=4931 DK6=62c5d45d, z3=14.97)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=22f44ac16556ba50 (matches)
+### seed 1195
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 972ce18578cc55e6
+true EK0=58f27604 EK1=53854ab0 EK2=58dd3604  DK7=d48ef0af DK6=067cb472 DK5=d4f661af
+true candidate: e1=f2 e2=76 DK7=548ef02f d1=fe d2=36
+expect (a): g0=58 g3=04 EK1 mid=854a ; (c): g0=04 g3=70 DK5 mid=f661 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=0c q0=53
+  (a) 282 hyps >= 5.0, best z=6.93 nrm=0 g0=58 g3=04 k=854a  (9.19s)
+  (c) 336 hyps >= 5.0, best z=6.74 nrm=1 g0=04 g3=70 k=f661  (11.32s)
+  (t) best 3-round z=-15.23; 460 of 282 x 336 pairs pass 8.0 (0.02s)
+  (e) key found at pair 0 (EK0=58f27604 EK1mid=854a DK6=047eb670, z3=15.17)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=972ce18578cc55e6 (matches)
+### seed 1196
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key e2c40bc469f31fda
+true EK0=598f8b45 EK1=eda2db98 EK2=59c61645  DK7=0d5ee569 DK6=05cf08ea DK5=0debc469
+true candidate: e1=0f e2=0b DK7=0d5ee569 d1=cf d2=08
+expect (a): g0=59 g3=45 EK1 mid=a2db ; (c): g0=05 g3=6a DK5 mid=ebc6 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=60 q0=ed
+  (a) 347 hyps >= 5.0, best z=-5.97 nrm=1 g0=59 g3=45 k=225b  (8.67s)
+  (c) 369 hyps >= 5.0, best z=6.55 nrm=0 g0=05 g3=6a k=6b46  (12.24s)
+  (t) best 3-round z=-13.51; 161 of 347 x 369 pairs pass 8.0 (0.02s)
+  (e) key found at pair 0 (EK0=598f8b45 EK1mid=225b DK6=05cf086a, z3=-13.51)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=e2c40bc469f31fda (matches)
+### seed 1197
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key af51ddd1999439ca
+true EK0=b2d4fc74 EK1=da31fb61 EK2=b25ca774  DK7=f3dda437 DK6=2f8e61d6 DK5=f3fbfc37
+true candidate: e1=54 e2=7c DK7=73dda437 d1=8c d2=61
+expect (a): g0=32 g3=74 EK1 mid=33fb ; (c): g0=2d g3=56 DK5 mid=fbfe (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=65 q0=da
+  (a) 658 hyps >= 5.0, best z=9.16 nrm=1 g0=32 g3=74 k=b37b  (10.57s)
+  (c) 792 hyps >= 5.0, best z=-6.99 nrm=0 g0=2d g3=56 k=7b7e  (12.01s)
+  (t) best 3-round z=-15.42; 6849 of 658 x 792 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=32d4fc74 EK1mid=b37b DK6=2d8c6156, z3=-15.42)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=af51ddd1999439ca (matches)
+### seed 1198
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 5509e4eb98dad6f4
+true EK0=68e8e18a EK1=8c7eed29 EK2=68e7b78a  DK7=2487e731 DK6=0b92c422 DK5=24ca3731
+true candidate: e1=68 e2=61 DK7=2487e731 d1=12 d2=44
+expect (a): g0=68 g3=0a EK1 mid=7eef ; (c): g0=0b g3=22 DK5 mid=ca37 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=42 q0=8c
+  (a) 636 hyps >= 5.0, best z=-8.46 nrm=1 g0=68 g3=0a k=fe6f  (12.87s)
+  (c) 912 hyps >= 5.0, best z=6.67 nrm=0 g0=7e g3=41 k=252b  (11.90s)
+  (t) best 3-round z=15.61; 871 of 636 x 912 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=68e8e10a EK1mid=fe6f DK6=0b92c422, z3=15.61)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=5509e4eb98dad6f4 (matches)
+### seed 1199
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 5b28176c981cb89d
+true EK0=252accfd EK1=47167d42 EK2=251d81fd  DK7=6be7ca37 DK6=41d32bce DK5=6bdb4637
+true candidate: e1=aa e2=4c DK7=6be7ca37 d1=d3 d2=2b
+expect (a): g0=25 g3=7d EK1 mid=167f ; (c): g0=41 g3=4e DK5 mid=db44 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=22 q0=47
+  (a) 755 hyps >= 5.0, best z=8.84 nrm=1 g0=05 g3=7d k=977f  (14.66s)
+  (c) 379 hyps >= 5.0, best z=8.14 nrm=0 g0=21 g3=4e k=5b44  (9.12s)
+  (t) best 3-round z=16.76; 5729 of 755 x 379 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=252acc7d EK1mid=167f DK6=41d32b4e, z3=16.76)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=5b28176c981cb89d (matches)
+### seed 1200
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key b4cb2dc15223873e
+true EK0=58738f5d EK1=b3d2ab3e EK2=58febb5d  DK7=f01cb5f8 DK6=107740f3 DK5=f0696cf8
+true candidate: e1=f3 e2=0f DK7=701cb578 d1=75 d2=42
+expect (a): g0=58 g3=5d EK1 mid=d2ab ; (c): g0=12 g3=71 DK5 mid=696e (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=6c q0=b3
+  (a) 700 hyps >= 5.0, best z=-8.84 nrm=1 g0=58 g3=5d k=522b  (9.48s)
+  (c) 787 hyps >= 5.0, best z=9.23 nrm=0 g0=12 g3=71 k=696e  (13.09s)
+  (t) best 3-round z=-16.31; 7019 of 700 x 787 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=58738f5d EK1mid=522b DK6=12754271, z3=16.31)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=b4cb2dc15223873e (matches)
+### seed 1201
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key f588915ba8646ae6
+true EK0=701b3d5a EK1=dbb00730 EK2=7020815a  DK7=ce00e663 DK6=2acd14ad DK5=cef39163
+true candidate: e1=1b e2=3d DK7=4e00e663 d1=cf d2=14
+expect (a): g0=70 g3=5a EK1 mid=b007 ; (c): g0=28 g3=2d DK5 mid=f393 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=24 q0=db
+  (a) 629 hyps >= 5.0, best z=-7.82 nrm=0 g0=70 g3=5a k=b107  (12.36s)
+  (c) 394 hyps >= 5.0, best z=-6.67 nrm=0 g0=28 g3=2d k=7313  (9.06s)
+  (t) best 3-round z=-14.78; 662 of 629 x 394 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=701b3d5a EK1mid=b007 DK6=28cf142d, z3=-14.78)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=f588915ba8646ae6 (matches)
+### seed 1202
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key f148c1b504b98f8b
+true EK0=3397b033 EK1=80b0b474 EK2=338d5533  DK7=cc71c704 DK6=0572879c DK5=ccecbb04
+true candidate: e1=17 e2=30 DK7=4c71c704 d1=f0 d2=07
+expect (a): g0=33 g3=33 EK1 mid=b0b4 ; (c): g0=07 g3=1c DK5 mid=ecb9 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=64 q0=80
+  (a) 962 hyps >= 5.0, best z=-9.10 nrm=1 g0=33 g3=33 k=3034  (12.75s)
+  (c) 341 hyps >= 5.0, best z=-7.18 nrm=1 g0=07 g3=1c k=6c39  (9.84s)
+  (t) best 3-round z=15.17; 1092 of 962 x 341 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=3397b033 EK1mid=3034 DK6=0770871c, z3=15.17)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=f148c1b504b98f8b (matches)
+### seed 1203
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 666045216b14fd65
+true EK0=4f4ecdcd EK1=cd87aab1 EK2=4f86dccd  DK7=2f10c15a DK6=592b38f1 DK5=2f888c5a
+true candidate: e1=ce e2=4d DK7=2f10c15a d1=2b d2=38
+expect (a): g0=4f g3=4d EK1 mid=87a8 ; (c): g0=59 g3=71 DK5 mid=888e (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=62 q0=cd
+  (a) 660 hyps >= 5.0, best z=-7.57 nrm=1 g0=4f g3=4d k=0728  (14.62s)
+  (c) 391 hyps >= 5.0, best z=7.44 nrm=0 g0=59 g3=71 k=080e  (9.89s)
+  (t) best 3-round z=15.74; 2440 of 660 x 391 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=4f4ecd4d EK1mid=0728 DK6=592b3871, z3=-15.74)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=666045216b14fd65 (matches)
+### seed 1204
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key a94c172c2f7c24fb
+true EK0=b49947a5 EK1=a19b08a3 EK2=b4f003a5  DK7=8e08ee38 DK6=bca71616 DK5=8e90e638
+true candidate: e1=99 e2=47 DK7=0e08ee38 d1=a5 d2=16
+expect (a): g0=34 g3=25 EK1 mid=990a ; (c): g0=3e g3=16 DK5 mid=92e6 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=17 q0=a1
+  (a) 658 hyps >= 5.0, best z=-9.67 nrm=0 g0=34 g3=25 k=990a  (11.18s)
+  (c) 443 hyps >= 5.0, best z=-7.38 nrm=0 g0=3e g3=16 k=1266  (11.37s)
+  (t) best 3-round z=-16.06; 3084 of 658 x 443 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=34994725 EK1mid=990a DK6=3ea51616, z3=16.00)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=a94c172c2f7c24fb (matches)
+### seed 1205
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 4b2e8d4e7f9d339a
+true EK0=5efb229e EK1=c67bb2d9 EK2=5e83dd9e  DK7=9337eb45 DK6=e169f377 DK5=93824045
+true candidate: e1=fb e2=22 DK7=1337eb45 d1=eb d2=73
+expect (a): g0=5e g3=1e EK1 mid=7bb0 ; (c): g0=63 g3=77 DK5 mid=8040 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=56 q0=c6
+  (a) 472 hyps >= 5.0, best z=-8.46 nrm=0 g0=5e g3=1e k=fb30  (14.64s)
+  (c) 377 hyps >= 5.0, best z=-6.93 nrm=1 g0=63 g3=77 k=8040  (10.60s)
+  (t) best 3-round z=15.10; 715 of 472 x 377 pairs pass 8.0 (0.02s)
+  (e) key found at pair 0 (EK0=5efb221e EK1mid=fb30 DK6=636bf377, z3=15.10)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=4b2e8d4e7f9d339a (matches)
+### seed 1206
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key b22fa4698ce2c1e7
+true EK0=8db8f83e EK1=8dfdc116 EK2=8dd3943e  DK7=87b433bf DK6=857af3bd DK5=87f75cbf
+true candidate: e1=38 e2=78 DK7=07b4333f d1=f8 d2=71
+expect (a): g0=0d g3=3e EK1 mid=ffc1 ; (c): g0=07 g3=3f DK5 mid=f55e (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=7d q0=8d
+  (a) 1174 hyps >= 5.0, best z=-8.27 nrm=1 g0=0d g3=3e k=7f41  (16.63s)
+  (c) 1841 hyps >= 5.0, best z=7.95 nrm=1 g0=07 g3=3f k=f55e  (11.51s)
+  (t) best 3-round z=-16.06; 4910 of 1174 x 1841 pairs pass 8.0 (0.11s)
+  (e) key found at pair 0 (EK0=0db8f83e EK1mid=7f41 DK6=0778f13f, z3=-16.06)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=b22fa4698ce2c1e7 (matches)
+### seed 1207
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 5e9fb4c0d410586c
+true EK0=49b1d4b7 EK1=d962bd9d EK2=490633b7  DK7=483b6c2c DK6=ff61bc6f DK5=48703e2c
+true candidate: e1=31 e2=54 DK7=483b6c2c d1=e1 d2=3c
+expect (a): g0=49 g3=37 EK1 mid=62bf ; (c): g0=7f g3=6f DK5 mid=723e (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=52 q0=d9
+  (a) 788 hyps >= 5.0, best z=6.55 nrm=1 g0=09 g3=37 k=d33f  (14.86s)
+  (c) 486 hyps >= 5.0, best z=8.01 nrm=1 g0=7f g3=6f k=723e  (10.74s)
+  (t) best 3-round z=-15.61; 2910 of 788 x 486 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=49b1d437 EK1mid=e23f DK6=7f61bc6f, z3=-15.61)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=5e9fb4c0d410586c (matches)
+### seed 1208
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key b578641440e2cf94
+true EK0=6e54a86b EK1=0acff2a6 EK2=6e37e06b  DK7=b6d60daf DK6=3edab8b7 DK5=b610baaf
+true candidate: e1=d4 e2=28 DK7=36d60d2f d1=58 d2=3a
+expect (a): g0=6e g3=6b EK1 mid=cff2 ; (c): g0=3c g3=35 DK5 mid=10b8 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=6c q0=0a
+  (a) 748 hyps >= 5.0, best z=9.23 nrm=1 g0=6e g3=6b k=4f72  (13.06s)
+  (c) 638 hyps >= 5.0, best z=-9.10 nrm=1 g0=3c g3=35 k=9038  (11.94s)
+  (t) best 3-round z=-16.70; 7183 of 748 x 638 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=6e54a86b EK1mid=4f72 DK6=3cd8ba35, z3=-16.70)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=b578641440e2cf94 (matches)
+### seed 1209
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key c74b6bee1cd20d0f
+true EK0=1ec0a9f0 EK1=c3708972 EK2=1e683ff0  DK7=3275a26a DK6=077ebbb6 DK5=3267c96a
+true candidate: e1=40 e2=29 DK7=3275a26a d1=fe d2=3b
+expect (a): g0=1e g3=70 EK1 mid=708b ; (c): g0=07 g3=36 DK5 mid=67cb (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=62 q0=c3
+  (a) 710 hyps >= 5.0, best z=8.08 nrm=1 g0=1e g3=70 k=f00b  (14.31s)
+  (c) 795 hyps >= 5.0, best z=8.72 nrm=1 g0=07 g3=36 k=e74b  (10.44s)
+  (t) best 3-round z=16.00; 3571 of 710 x 795 pairs pass 8.0 (0.06s)
+  (e) key found at pair 0 (EK0=1ec0a970 EK1mid=f00b DK6=077ebb36, z3=16.00)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=c74b6bee1cd20d0f (matches)
+### seed 1210
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key a6e91f38d428a0e2
+true EK0=77bac567 EK1=d1424035 EK2=77d55267  DK7=cd7476a2 DK6=7b702bf6 DK5=cdaaaaa2
+true candidate: e1=3a e2=45 DK7=4d747622 d1=72 d2=29
+expect (a): g0=77 g3=67 EK1 mid=4240 ; (c): g0=79 g3=74 DK5 mid=aaa8 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=2c q0=d1
+  (a) 694 hyps >= 5.0, best z=-8.65 nrm=1 g0=77 g3=67 k=4240  (12.26s)
+  (c) 1661 hyps >= 5.0, best z=-9.16 nrm=0 g0=79 g3=74 k=2a28  (12.02s)
+  (t) best 3-round z=-15.80; 12250 of 694 x 1661 pairs pass 8.0 (0.08s)
+  (e) key found at pair 0 (EK0=77bac567 EK1mid=4240 DK6=79722974, z3=-15.68)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=a6e91f38d428a0e2 (matches)
+### seed 1211
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 215f29252f8fc3b9
+true EK0=3ec3baa1 EK1=5706b065 EK2=3e237ea1  DK7=e9503ab2 DK6=7e09866e DK5=e9e739b2
+true candidate: e1=43 e2=3a DK7=69503a32 d1=8b d2=04
+expect (a): g0=3e g3=21 EK1 mid=06b2 ; (c): g0=7c g3=6c DK5 mid=e739 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=4e q0=57
+  (a) 373 hyps >= 5.0, best z=-6.93 nrm=1 g0=1e g3=21 k=0632  (12.57s)
+  (c) 254 hyps >= 5.0, best z=-6.10 nrm=0 g0=09 g3=48 k=f535  (9.65s)
+  (t) best 3-round z=-6.74; 0 of 373 x 254 pairs pass 8.0 (0.02s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1212
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 2ec5dcdb1162a7fa
+true EK0=0b8c69da EK1=142a17e3 EK2=0bdf80da  DK7=4496b680 DK6=9db26926 DK5=445ddb80
+true candidate: e1=8c e2=69 DK7=4496b600 d1=b2 d2=6b
+expect (a): g0=0b g3=5a EK1 mid=2a15 ; (c): g0=1d g3=24 DK5 mid=5fdb (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=1a q0=14
+  (a) 749 hyps >= 5.0, best z=-8.14 nrm=0 g0=2b g3=5a k=ab15  (15.28s)
+  (c) 601 hyps >= 5.0, best z=-8.59 nrm=0 g0=1d g3=24 k=df5b  (12.37s)
+  (t) best 3-round z=-16.76; 5183 of 749 x 601 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=0b8c695a EK1mid=2a15 DK6=1db26b24, z3=-16.70)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=2ec5dcdb1162a7fa (matches)
+### seed 1213
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 8adb50c6811fa487
+true EK0=5ee92406 EK1=dcc116ad EK2=5eef1906  DK7=aae93d40 DK6=2c69de75 DK5=aadd9340
+true candidate: e1=e9 e2=24 DK7=2ae93d40 d1=eb d2=5e
+expect (a): g0=5e g3=06 EK1 mid=c116 ; (c): g0=2e g3=75 DK5 mid=dd93 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=04 q0=dc
+  (a) 643 hyps >= 5.0, best z=6.93 nrm=0 g0=5e g3=06 k=c116  (12.87s)
+  (c) 549 hyps >= 5.0, best z=-8.33 nrm=1 g0=0e g3=75 k=dc13  (12.09s)
+  (t) best 3-round z=-13.95; 1067 of 643 x 549 pairs pass 8.0 (0.03s)
+  (e) key found at pair 3 (EK0=5ee92406 EK1mid=c116 DK6=2e6bde75, z3=-13.70)
+  (e) tried 4 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=8adb50c6811fa487 (matches)
+### seed 1214
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 0a6a57dfb4b2410b
+true EK0=33cf3add EK1=837bcac1 EK2=33e67ddd  DK7=c09d1c7b DK6=864efd87 DK5=c0e0c97b
+true candidate: e1=cf e2=3a DK7=409d1c7b d1=cc d2=7d
+expect (a): g0=33 g3=5d EK1 mid=7bc8 ; (c): g0=04 g3=07 DK5 mid=e2cb (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=76 q0=83
+  (a) 719 hyps >= 5.0, best z=-7.82 nrm=0 g0=33 g3=5d k=fb48  (15.47s)
+  (c) 274 hyps >= 5.0, best z=-7.18 nrm=1 g0=04 g3=07 k=624b  (7.58s)
+  (t) best 3-round z=15.29; 1229 of 719 x 274 pairs pass 8.0 (0.02s)
+  (e) key found at pair 0 (EK0=33cf3a5d EK1mid=fb48 DK6=044cfd07, z3=15.29)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=0a6a57dfb4b2410b (matches)
+### seed 1215
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 1a91a9be4bd631ce
+true EK0=e38a09eb EK1=3fd8168f EK2=e3667deb  DK7=c3e1062d DK6=5d0094a4 DK5=c35c392d
+true candidate: e1=8a e2=09 DK7=43e1062d d1=82 d2=14
+expect (a): g0=63 g3=6b EK1 mid=da14 ; (c): g0=5f g3=24 DK5 mid=5c3b (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=27 q0=3f
+  (a) 597 hyps >= 5.0, best z=-8.52 nrm=0 g0=63 g3=6b k=da14  (12.84s)
+  (c) 610 hyps >= 5.0, best z=7.18 nrm=1 g0=5f g3=24 k=5c3b  (12.86s)
+  (t) best 3-round z=-15.23; 1452 of 597 x 610 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=638a096b EK1mid=da14 DK6=5f029424, z3=-15.23)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=1a91a9be4bd631ce (matches)
+### seed 1216
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 41752dd97567f6e2
+true EK0=796f7368 EK1=ae60929c EK2=79bc6668  DK7=839c65c9 DK6=2eee392a DK5=831aedc9
+true candidate: e1=6f e2=73 DK7=039c6549 d1=ec d2=3b
+expect (a): g0=79 g3=68 EK1 mid=6092 ; (c): g0=2c g3=28 DK5 mid=1aed (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=4c q0=ae
+  (a) 827 hyps >= 5.0, best z=-6.99 nrm=0 g0=59 g3=68 k=6112  (17.27s)
+  (c) 838 hyps >= 5.0, best z=-8.08 nrm=0 g0=6c g3=28 k=996d  (11.98s)
+  (t) best 3-round z=15.36; 1466 of 827 x 838 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=796f7368 EK1mid=e012 DK6=2cec3b28, z3=15.17)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=41752dd97567f6e2 (matches)
+### seed 1217
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 12ba0e08a5f1e316
+true EK0=9aa0b78b EK1=f99bb456 EK2=9a6ca18b  DK7=0c9749e7 DK6=1764fa15 DK5=0c23cee7
+true candidate: e1=20 e2=37 DK7=0c974967 d1=e4 d2=78
+expect (a): g0=1a g3=0b EK1 mid=99b6 ; (c): g0=17 g3=17 DK5 mid=23ce (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=4b q0=f9
+  (a) 800 hyps >= 5.0, best z=8.72 nrm=1 g0=1a g3=0b k=1936  (14.34s)
+  (c) 352 hyps >= 5.0, best z=-8.27 nrm=1 g0=17 g3=17 k=a34e  (8.79s)
+  (t) best 3-round z=15.68; 1583 of 800 x 352 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=1aa0b70b EK1mid=1936 DK6=1764f817, z3=-15.61)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=12ba0e08a5f1e316 (matches)
+### seed 1218
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 6313320cc49d0097
+true EK0=93e2fc48 EK1=b5593c3b EK2=937f6948  DK7=69b1528d DK6=64ad73bc DK5=69e0008d
+true candidate: e1=62 e2=7c DK7=69b1520d d1=ad d2=71
+expect (a): g0=13 g3=48 EK1 mid=5b3c ; (c): g0=64 g3=3e DK5 mid=e002 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=29 q0=b5
+  (a) 426 hyps >= 5.0, best z=-6.29 nrm=1 g0=13 g3=48 k=5b3c  (13.23s)
+  (c) 721 hyps >= 5.0, best z=6.16 nrm=1 g0=51 g3=6c k=ba34  (11.77s)
+  (t) best 3-round z=6.74; 0 of 426 x 721 pairs pass 8.0 (0.04s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1219
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key b7b5a77a23ee8257
+true EK0=8d4815e6 EK1=c53d05db EK2=8d8d80e6  DK7=beef9291 DK6=853655a7 DK5=beeb2191
+true candidate: e1=48 e2=15 DK7=3eef9211 d1=34 d2=57
+expect (a): g0=0d g3=66 EK1 mid=3f07 ; (c): g0=07 g3=25 DK5 mid=e923 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=3f q0=c5
+  (a) 685 hyps >= 5.0, best z=-8.65 nrm=0 g0=0d g3=66 k=3f07  (11.75s)
+  (c) 439 hyps >= 5.0, best z=-7.31 nrm=0 g0=07 g3=25 k=e923  (11.62s)
+  (t) best 3-round z=-15.61; 2979 of 685 x 439 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=0d481566 EK1mid=3f07 DK6=07345725, z3=-15.42)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=b7b5a77a23ee8257 (matches)
+### seed 1220
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 73addec3c63b9d26
+true EK0=0caec31e EK1=68f6f8c3 EK2=0c9fac1e  DK7=4455de4c DK6=c74d5985 DK5=44a8e44c
+true candidate: e1=2e e2=43 DK7=4455de4c d1=4d d2=59
+expect (a): g0=0c g3=1e EK1 mid=f6f8 ; (c): g0=47 g3=05 DK5 mid=aae6 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=70 q0=68
+  (a) 458 hyps >= 5.0, best z=-6.03 nrm=0 g0=71 g3=7b k=6e62  (11.91s)
+  (c) 691 hyps >= 5.0, best z=-9.04 nrm=0 g0=47 g3=05 k=2a66  (13.14s)
+  (t) best 3-round z=6.23; 0 of 458 x 691 pairs pass 8.0 (0.03s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1221
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key a6364f8f6020be09
+true EK0=e033a6bd EK1=d004aaf9 EK2=e06829bd  DK7=a7981ccd DK6=bedeb756 DK5=a70729cd
+true candidate: e1=b3 e2=26 DK7=27981c4d d1=5c d2=35
+expect (a): g0=60 g3=3d EK1 mid=06a8 ; (c): g0=3c g3=54 DK5 mid=0529 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=5f q0=d0
+  (a) 414 hyps >= 5.0, best z=-7.63 nrm=1 g0=60 g3=3d k=8628  (11.28s)
+  (c) 441 hyps >= 5.0, best z=7.31 nrm=1 g0=3c g3=54 k=0529  (11.96s)
+  (t) best 3-round z=-15.23; 944 of 414 x 441 pairs pass 8.0 (0.02s)
+  (e) key found at pair 0 (EK0=6033a63d EK1mid=8628 DK6=3cdcb554, z3=-15.23)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=a6364f8f6020be09 (matches)
+### seed 1222
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 3f6c59c9327338af
+true EK0=a544573e EK1=3bab42eb EK2=a545053e  DK7=a9a83cdb DK6=9db25af9 DK5=a947a2db
+true candidate: e1=44 e2=57 DK7=29a83c5b d1=b0 d2=58
+expect (a): g0=25 g3=3e EK1 mid=a942 ; (c): g0=1f g3=7b DK5 mid=45a0 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=3d q0=3b
+  (a) 764 hyps >= 5.0, best z=8.52 nrm=0 g0=05 g3=3e k=2942  (12.97s)
+  (c) 1849 hyps >= 5.0, best z=8.91 nrm=0 g0=1f g3=7b k=c520  (12.85s)
+  (t) best 3-round z=-16.63; 3145 of 764 x 1849 pairs pass 8.0 (0.09s)
+  (e) key found at pair 0 (EK0=2544573e EK1mid=a942 DK6=1fb0587b, z3=-16.63)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=3f6c59c9327338af (matches)
+### seed 1223
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key acdead6277a9bae3
+true EK0=64e45f39 EK1=ae31c264 EK2=64ef8439  DK7=586d03e1 DK6=af216bea DK5=585fe3e1
+true candidate: e1=e4 e2=5f DK7=586d0361 d1=21 d2=69
+expect (a): g0=64 g3=39 EK1 mid=31c2 ; (c): g0=2f g3=68 DK5 mid=5de1 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=78 q0=ae
+  (a) 489 hyps >= 5.0, best z=8.01 nrm=0 g0=64 g3=39 k=b142  (14.06s)
+  (c) 884 hyps >= 5.0, best z=-8.91 nrm=0 g0=2f g3=68 k=dd61  (12.98s)
+  (t) best 3-round z=-16.19; 3682 of 489 x 884 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=64e45f39 EK1mid=b142 DK6=2f216968, z3=-16.00)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=acdead6277a9bae3 (matches)
+### seed 1224
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key fb45bc4d77cc54ba
+true EK0=ee19421d EK1=a635e85e EK2=eecbd11d  DK7=0ecf1cc7 DK6=eb51139c DK5=0e46cec7
+true candidate: e1=19 e2=42 DK7=0ecf1c47 d1=51 d2=11
+expect (a): g0=6e g3=1d EK1 mid=37e8 ; (c): g0=6b g3=1e DK5 mid=44cc (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=79 q0=a6
+  (a) 496 hyps >= 5.0, best z=8.21 nrm=0 g0=6e g3=1d k=b768  (12.88s)
+  (c) 363 hyps >= 5.0, best z=-6.86 nrm=0 g0=6b g3=1e k=c44c  (11.27s)
+  (t) best 3-round z=16.12; 594 of 496 x 363 pairs pass 8.0 (0.02s)
+  (e) key found at pair 0 (EK0=6e19421d EK1mid=b768 DK6=6b51111e, z3=16.12)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=fb45bc4d77cc54ba (matches)
+### seed 1225
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key ba341c51e9e4e6fd
+true EK0=abb9f443 EK1=6175ecdc EK2=abec3943  DK7=d79fc609 DK6=b103de89 DK5=d7bfac09
+true candidate: e1=39 e2=74 DK7=579fc609 d1=81 d2=5e
+expect (a): g0=2b g3=43 EK1 mid=77ec ; (c): g0=33 g3=09 DK5 mid=bdae (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=75 q0=61
+  (a) 804 hyps >= 5.0, best z=7.89 nrm=1 g0=2b g3=43 k=f76c  (15.87s)
+  (c) 438 hyps >= 5.0, best z=7.69 nrm=1 g0=33 g3=09 k=3d2e  (9.21s)
+  (t) best 3-round z=-15.42; 2026 of 804 x 438 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=2bb9f443 EK1mid=f76c DK6=3301de09, z3=-15.42)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=ba341c51e9e4e6fd (matches)
+### seed 1226
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key f61a6ab9ba9c46b5
+true EK0=0ef4a55f EK1=da2eda37 EK2=0e2e1d5f  DK7=6b99aafc DK6=6b995fd5 DK5=6b394cfc
+true candidate: e1=74 e2=25 DK7=6b99aa7c d1=99 d2=5d
+expect (a): g0=0e g3=5f EK1 mid=2eda ; (c): g0=6b g3=57 DK5 mid=394e (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=68 q0=da
+  (a) 715 hyps >= 5.0, best z=5.97 nrm=1 g0=64 g3=32 k=6073  (12.72s)
+  (c) 435 hyps >= 5.0, best z=-7.50 nrm=0 g0=6b g3=57 k=394e  (10.53s)
+  (t) best 3-round z=6.86; 0 of 715 x 435 pairs pass 8.0 (0.04s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1227
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key a53e2e40e9812873
+true EK0=dd538659 EK1=cbdf24ed EK2=dd981b59  DK7=3b3e8206 DK6=2837f983 DK5=3b66a006
+true candidate: e1=d3 e2=06 DK7=3b3e8206 d1=b7 d2=79
+expect (a): g0=5d g3=59 EK1 mid=dd24 ; (c): g0=28 g3=03 DK5 mid=66a2 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=21 q0=cb
+  (a) 324 hyps >= 5.0, best z=-7.12 nrm=1 g0=5d g3=59 k=dd24  (10.62s)
+  (c) 306 hyps >= 5.0, best z=6.10 nrm=1 g0=4f g3=68 k=8829  (12.21s)
+  (t) best 3-round z=6.16; 0 of 324 x 306 pairs pass 8.0 (0.03s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1228
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 8a17e8deb0992290
+true EK0=24ac6fe5 EK1=19050e77 EK2=246234e5  DK7=1e64b3af DK6=2e19123f DK5=1eec19af
+true candidate: e1=ac e2=6f DK7=1e64b32f d1=19 d2=10
+expect (a): g0=24 g3=65 EK1 mid=050c ; (c): g0=2e g3=3d DK5 mid=ec19 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=0a q0=19
+  (a) 314 hyps >= 5.0, best z=5.78 nrm=1 g0=03 g3=5a k=7619  (11.60s)
+  (c) 477 hyps >= 5.0, best z=-6.42 nrm=0 g0=19 g3=2c k=a47f  (11.33s)
+  (t) best 3-round z=-6.35; 0 of 314 x 477 pairs pass 8.0 (0.03s)
+  (e) tried 0 pair(s), no key (0.0s)
+TRUE candidate result: failed key=0000000000000000 (no match)
+### seed 1229
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key c467efcc7e3196bb
+true EK0=701db79e EK1=59e1ef45 EK2=7074b39e  DK7=a1db8661 DK6=4ac19d5b DK5=a1212f61
+true candidate: e1=9d e2=37 DK7=21db8661 d1=43 d2=1d
+expect (a): g0=70 g3=1e EK1 mid=e1ed ; (c): g0=48 g3=5b DK5 mid=212f (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=46 q0=59
+  (a) 700 hyps >= 5.0, best z=8.78 nrm=1 g0=70 g3=1e k=616d  (15.12s)
+  (c) 3236 hyps >= 5.0, best z=8.59 nrm=1 g0=48 g3=5b k=202f  (14.12s)
+  (t) best 3-round z=-17.02; 5130 of 700 x 3236 pairs pass 8.0 (0.14s)
+  (e) key found at pair 0 (EK0=701db71e EK1mid=616d DK6=48c39d5b, z3=16.95)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=c467efcc7e3196bb (matches)
+### seed 1230
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key f89cdc5a1bf5f0d7
+true EK0=b640b07f EK1=35d99131 EK2=b6e7947f  DK7=c8c593cb DK6=48bbcf52 DK5=c8275fcb
+true candidate: e1=c0 e2=30 DK7=48c5934b d1=39 d2=4d
+expect (a): g0=36 g3=7f EK1 mid=db91 ; (c): g0=4a g3=50 DK5 mid=275f (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=4d q0=35
+  (a) 479 hyps >= 5.0, best z=7.82 nrm=1 g0=36 g3=7f k=5b11  (14.29s)
+  (c) 598 hyps >= 5.0, best z=6.42 nrm=0 g0=60 g3=24 k=b649  (10.81s)
+  (t) best 3-round z=-15.42; 579 of 479 x 598 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=3640b07f EK1mid=5b11 DK6=4ab9cd50, z3=-15.42)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=f89cdc5a1bf5f0d7 (matches)
+### seed 1231
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key d30c122e35c2444c
+true EK0=5ca2d8a2 EK1=ea57aea2 EK2=5cda98a2  DK7=48a35826 DK6=d7cc3b85 DK5=48dc3326
+true candidate: e1=22 e2=58 DK7=48a35826 d1=cc d2=3b
+expect (a): g0=5c g3=22 EK1 mid=57ac ; (c): g0=57 g3=05 DK5 mid=de31 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=72 q0=ea
+  (a) 1209 hyps >= 5.0, best z=-7.57 nrm=1 g0=3c g3=22 k=572c  (13.79s)
+  (c) 485 hyps >= 5.0, best z=-6.80 nrm=0 g0=57 g3=05 k=de31  (9.35s)
+  (t) best 3-round z=-15.29; 2086 of 1209 x 485 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=5ca2d822 EK1mid=d72c DK6=57cc3b05, z3=-15.29)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=d30c122e35c2444c (matches)
+### seed 1232
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 94a0117fc658ea48
+true EK0=77185cfe EK1=8ab1eb3a EK2=77436dfe  DK7=a86244cb DK6=b84dedfd DK5=a87f48cb
+true candidate: e1=18 e2=5c DK7=2862444b d1=cf d2=6f
+expect (a): g0=77 g3=7e EK1 mid=b1e9 ; (c): g0=3a g3=7f DK5 mid=7d4a (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=7e q0=8a
+  (a) 256 hyps >= 5.0, best z=7.69 nrm=0 g0=77 g3=7e k=3169  (10.12s)
+  (c) 804 hyps >= 5.0, best z=-7.76 nrm=1 g0=3a g3=7f k=7d4a  (11.47s)
+  (t) best 3-round z=-17.40; 3957 of 256 x 804 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=77185c7e EK1mid=3169 DK6=3a4fef7f, z3=-17.40)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=94a0117fc658ea48 (matches)
+### seed 1233
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 6f5e8fa538b2990d
+true EK0=bcdbca55 EK1=6b987581 EK2=bcfc6555  DK7=bb979d09 DK6=11ae95d2 DK5=bbc64d09
+true candidate: e1=5b e2=4a DK7=3b979d09 d1=2c d2=15
+expect (a): g0=3c g3=55 EK1 mid=9a75 ; (c): g0=13 g3=52 DK5 mid=c64f (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=25 q0=6b
+  (a) 3183 hyps >= 5.0, best z=9.35 nrm=1 g0=3c g3=55 k=9a75  (10.24s)
+  (c) 1171 hyps >= 5.0, best z=-10.38 nrm=1 g0=13 g3=52 k=c64f  (9.77s)
+  (t) best 3-round z=-17.66; 22073 of 3183 x 1171 pairs pass 8.0 (0.17s)
+  (e) key found at pair 1 (EK0=3cdbca55 EK1mid=9a75 DK6=13ac9552, z3=-17.46)
+  (e) tried 2 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=6f5e8fa538b2990d (matches)
+### seed 1234
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 0bab45d9a0e3ae53
+true EK0=37eb5cf7 EK1=d0e86ed9 EK2=37778df7  DK7=e8b0f410 DK6=626145a0 DK5=e8e19710
+true candidate: e1=eb e2=5c DK7=68b0f410 d1=63 d2=45
+expect (a): g0=37 g3=77 EK1 mid=e86c ; (c): g0=60 g3=20 DK5 mid=e195 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=26 q0=d0
+  (a) 764 hyps >= 5.0, best z=9.16 nrm=0 g0=37 g3=77 k=e86c  (11.57s)
+  (c) 637 hyps >= 5.0, best z=8.40 nrm=0 g0=60 g3=20 k=6115  (9.16s)
+  (t) best 3-round z=-15.29; 4573 of 764 x 637 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=37eb5c77 EK1mid=e86c DK6=60634520, z3=-15.29)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=0bab45d9a0e3ae53 (matches)
+### seed 1235
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key a1f8fcbf7d296c2b
+true EK0=2a21db64 EK1=526accc1 EK2=2a280f64  DK7=a9437068 DK6=40220d4e DK5=a96bb068
+true candidate: e1=a1 e2=5b DK7=29437068 d1=20 d2=0d
+expect (a): g0=2a g3=64 EK1 mid=6acc ; (c): g0=42 g3=4e DK5 mid=6bb0 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=44 q0=52
+  (a) 1030 hyps >= 5.0, best z=-9.16 nrm=1 g0=2a g3=64 k=ea4c  (15.16s)
+  (c) 376 hyps >= 5.0, best z=-7.44 nrm=0 g0=42 g3=4e k=eb30  (11.86s)
+  (t) best 3-round z=15.74; 1328 of 1030 x 376 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=2a21db64 EK1mid=ea4c DK6=42200d4e, z3=-15.74)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=a1f8fcbf7d296c2b (matches)
+### seed 1236
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key e5c02284742c9323
+true EK0=d6474a0b EK1=5c45053b EK2=d60acc0b  DK7=70b9e57f DK6=4d1842dd DK5=70e9447f
+true candidate: e1=47 e2=4a DK7=70b9e57f d1=18 d2=42
+expect (a): g0=56 g3=0b EK1 mid=4705 ; (c): g0=4d g3=5d DK5 mid=e946 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=21 q0=5c
+  (a) 555 hyps >= 5.0, best z=7.69 nrm=0 g0=56 g3=0b k=4705  (11.65s)
+  (c) 378 hyps >= 5.0, best z=-6.42 nrm=0 g0=4d g3=5d k=e946  (10.49s)
+  (t) best 3-round z=15.10; 178 of 555 x 378 pairs pass 8.0 (0.03s)
+  (e) key found at pair 0 (EK0=56474a0b EK1mid=4705 DK6=4d18425d, z3=15.10)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=e5c02284742c9323 (matches)
+### seed 1237
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 7666ee644667c2dc
+true EK0=ce059931 EK1=038f574d EK2=ce3c7531  DK7=cd89ba59 DK6=89317051 DK5=cdbb8059
+true candidate: e1=85 e2=19 DK7=4d89ba59 d1=33 d2=70
+expect (a): g0=4e g3=31 EK1 mid=8d57 ; (c): g0=0b g3=51 DK5 mid=b980 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=15 q0=03
+  (a) 936 hyps >= 5.0, best z=-8.33 nrm=1 g0=4e g3=31 k=8d57  (13.34s)
+  (c) 1707 hyps >= 5.0, best z=-9.04 nrm=0 g0=0b g3=51 k=3900  (10.25s)
+  (t) best 3-round z=-15.68; 7164 of 936 x 1707 pairs pass 8.0 (0.09s)
+  (e) key found at pair 0 (EK0=4e059931 EK1mid=8d57 DK6=0b337051, z3=15.61)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=7666ee644667c2dc (matches)
+### seed 1238
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 04b76ee7a1180566
+true EK0=ebd70d99 EK1=4d633bd5 EK2=ebca5f99  DK7=079df818 DK6=8013bdec DK5=0737b818
+true candidate: e1=d7 e2=0d DK7=079df818 d1=93 d2=3d
+expect (a): g0=6b g3=19 EK1 mid=6139 ; (c): g0=00 g3=6c DK5 mid=35ba (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=33 q0=4d
+  (a) 717 hyps >= 5.0, best z=7.89 nrm=0 g0=6b g3=19 k=6139  (12.42s)
+  (c) 642 hyps >= 5.0, best z=9.16 nrm=1 g0=00 g3=6c k=b53a  (10.76s)
+  (t) best 3-round z=14.85; 2229 of 717 x 642 pairs pass 8.0 (0.04s)
+  (e) key found at pair 0 (EK0=6bd70d19 EK1mid=6139 DK6=0013bd6c, z3=-14.85)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=04b76ee7a1180566 (matches)
+### seed 1239
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 9f38f153f45eeac4
+true EK0=a2a85f6c EK1=320f8bfb EK2=a248dc6c  DK7=4d774475 DK6=cd4bebb4 DK5=4d826975
+true candidate: e1=a8 e2=5f DK7=4d774475 d1=cb d2=6b
+expect (a): g0=22 g3=6c EK1 mid=0d8b ; (c): g0=4d g3=34 DK5 mid=806b (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=71 q0=32
+  (a) 1070 hyps >= 5.0, best z=7.12 nrm=0 g0=02 g3=6c k=0d0b  (16.03s)
+  (c) 683 hyps >= 5.0, best z=7.38 nrm=1 g0=4d g3=34 k=806b  (8.88s)
+  (t) best 3-round z=16.12; 932 of 1070 x 683 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=22a85f6c EK1mid=8d0b DK6=4d4beb34, z3=16.12)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=9f38f153f45eeac4 (matches)
+### seed 1240
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=1
+key 6c468be196beb6ac
+true EK0=7c669e6c EK1=06906082 EK2=7c36576c  DK7=682e80d5 DK6=83319dc2 DK5=68d034d5
+true candidate: e1=e6 e2=1e DK7=682e8055 d1=b1 d2=1f
+expect (a): g0=7c g3=6c EK1 mid=9060 ; (c): g0=03 g3=40 DK5 mid=d236 (top bits of mid only via XOR)
+EFAST: restricting (e) to amb=38 q0=06
+  (a) 833 hyps >= 5.0, best z=-7.25 nrm=1 g0=7c g3=6c k=9060  (15.48s)
+  (c) 763 hyps >= 5.0, best z=9.48 nrm=1 g0=03 g3=40 k=d236  (10.80s)
+  (t) best 3-round z=-16.19; 2775 of 833 x 763 pairs pass 8.0 (0.05s)
+  (e) key found at pair 0 (EK0=7c669e6c EK1mid=9060 DK6=03319f40, z3=-16.19)
+  (e) tried 1 pair(s), key recovered (0.0s)
+TRUE candidate result: RECOVERED key=6c468be196beb6ac (matches)

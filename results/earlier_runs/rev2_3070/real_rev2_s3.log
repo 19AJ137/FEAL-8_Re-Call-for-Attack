@@ -1,0 +1,32 @@
+== Tue Nov 17 00:45:24 UTC 2026 lines=1 new=1
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=120 REVERSE
+processing 1 candidates from rev2_new.txt
+filter: 1 cands, pass(a)=1 (100.0%), pass(c)=1 (100.0% of a), pass(t)=0; wall 17.8s (17.840 s/cand wall), thread time 17.80 s/cand
+== Tue Nov 17 01:00:42 UTC 2026 lines=2 new=1
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=120 REVERSE
+processing 1 candidates from rev2_new.txt
+filter: 1 cands, pass(a)=1 (100.0%), pass(c)=1 (100.0% of a), pass(t)=0; wall 19.0s (18.957 s/cand wall), thread time 18.92 s/cand
+== Tue Nov 17 01:31:01 UTC 2026 lines=3 new=1
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=120 REVERSE
+processing 1 candidates from rev2_new.txt
+filter: 1 cands, pass(a)=1 (100.0%), pass(c)=1 (100.0% of a), pass(t)=0; wall 18.1s (18.053 s/cand wall), thread time 18.02 s/cand
+== Tue Nov 17 01:51:19 UTC 2026 lines=5 new=2
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=120 REVERSE
+processing 2 candidates from rev2_new.txt
+filter: 2 cands, pass(a)=2 (100.0%), pass(c)=2 (100.0% of a), pass(t)=0; wall 11.2s (5.582 s/cand wall), thread time 10.99 s/cand
+== Tue Nov 17 02:06:30 UTC 2026 lines=6 new=1
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=120 REVERSE
+processing 1 candidates from rev2_new.txt
+filter: 1 cands, pass(a)=1 (100.0%), pass(c)=1 (100.0% of a), pass(t)=0; wall 13.9s (13.932 s/cand wall), thread time 13.89 s/cand
+== Tue Nov 17 02:21:44 UTC 2026 lines=9 new=3
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=120 REVERSE
+processing 3 candidates from rev2_new.txt
+filter: 3 cands, pass(a)=3 (100.0%), pass(c)=3 (100.0% of a), pass(t)=0; wall 20.5s (6.818 s/cand wall), thread time 19.17 s/cand
+== Tue Nov 17 03:07:05 UTC 2026 lines=10 new=1
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=120 REVERSE
+processing 1 candidates from rev2_new.txt
+filter: 1 cands, pass(a)=1 (100.0%), pass(c)=1 (100.0% of a), pass(t)=0; wall 21.1s (21.065 s/cand wall), thread time 21.01 s/cand
+== Tue Nov 17 03:12:26 UTC 2026 lines=11 new=1
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=120 REVERSE
+processing 1 candidates from rev2_new.txt
+filter: 1 cands, pass(a)=1 (100.0%), pass(c)=1 (100.0% of a), pass(t)=0; wall 17.3s (17.341 s/cand wall), thread time 17.30 s/cand

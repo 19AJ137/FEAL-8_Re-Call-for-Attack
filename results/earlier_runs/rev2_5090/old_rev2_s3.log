@@ -1,0 +1,4 @@
+== Tue Nov 17 03:23:00 UTC 2026 old reverse candidates
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=300 REVERSE
+processing 14 candidates from old_rev2_cands.txt
+filter: 14 cands, pass(a)=14 (100.0%), pass(c)=14 (100.0% of a), pass(t)=0; wall 9.3s (0.662 s/cand wall), thread time 7.74 s/cand

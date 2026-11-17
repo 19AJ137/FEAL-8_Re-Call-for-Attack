@@ -1,0 +1,139 @@
+== Mon Nov 16 16:08:32 UTC 2026 lines=181211 tier_new=1100
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 1100 candidates from tier_new.txt
+filter: 1100 cands, pass(a)=1100 (100.0%), pass(c)=1100 (100.0% of a), pass(t)=0; wall 215.6s (0.196 s/cand wall), thread time 36.56 s/cand
+== Mon Nov 16 16:17:08 UTC 2026 lines=507366 tier_new=2075
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 2075 candidates from tier_new.txt
+filter: 2075 cands, pass(a)=2075 (100.0%), pass(c)=2075 (100.0% of a), pass(t)=0; wall 392.2s (0.189 s/cand wall), thread time 36.60 s/cand
+== Mon Nov 16 16:28:40 UTC 2026 lines=949253 tier_new=2831
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 2831 candidates from tier_new.txt
+filter: 2831 cands, pass(a)=2831 (100.0%), pass(c)=2831 (100.0% of a), pass(t)=0; wall 540.2s (0.191 s/cand wall), thread time 37.27 s/cand
+== Mon Nov 16 16:42:41 UTC 2026 lines=1476290 tier_new=3334
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 3334 candidates from tier_new.txt
+filter: 3334 cands, pass(a)=3334 (100.0%), pass(c)=3334 (100.0% of a), pass(t)=0; wall 633.5s (0.190 s/cand wall), thread time 37.10 s/cand
+== Mon Nov 16 16:58:15 UTC 2026 lines=2066694 tier_new=3937
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 3937 candidates from tier_new.txt
+filter: 3937 cands, pass(a)=3937 (100.0%), pass(c)=3937 (100.0% of a), pass(t)=0; wall 650.2s (0.165 s/cand wall), thread time 32.55 s/cand
+== Mon Nov 16 17:14:06 UTC 2026 lines=2666703 tier_new=4060
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4060 candidates from tier_new.txt
+filter: 4060 cands, pass(a)=4060 (100.0%), pass(c)=4060 (100.0% of a), pass(t)=0; wall 745.4s (0.184 s/cand wall), thread time 36.28 s/cand
+== Mon Nov 16 17:31:31 UTC 2026 lines=3296603 tier_new=4037
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4037 candidates from tier_new.txt
+filter: 4037 cands, pass(a)=4037 (100.0%), pass(c)=4037 (100.0% of a), pass(t)=0; wall 761.7s (0.189 s/cand wall), thread time 37.12 s/cand
+== Mon Nov 16 17:49:14 UTC 2026 lines=3969633 tier_new=4426
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4426 candidates from tier_new.txt
+filter: 4426 cands, pass(a)=4426 (100.0%), pass(c)=4426 (100.0% of a), pass(t)=0; wall 829.3s (0.187 s/cand wall), thread time 36.85 s/cand
+== Mon Nov 16 18:08:04 UTC 2026 lines=4682695 tier_new=4625
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4625 candidates from tier_new.txt
+filter: 4625 cands, pass(a)=4625 (100.0%), pass(c)=4625 (100.0% of a), pass(t)=0; wall 872.6s (0.189 s/cand wall), thread time 37.21 s/cand
+== Mon Nov 16 18:27:37 UTC 2026 lines=5433947 tier_new=4875
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4875 candidates from tier_new.txt
+filter: 4875 cands, pass(a)=4875 (100.0%), pass(c)=4875 (100.0% of a), pass(t)=0; wall 891.2s (0.183 s/cand wall), thread time 36.16 s/cand
+== Mon Nov 16 18:47:29 UTC 2026 lines=6185429 tier_new=4879
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4879 candidates from tier_new.txt
+filter: 4879 cands, pass(a)=4879 (100.0%), pass(c)=4879 (100.0% of a), pass(t)=0; wall 819.4s (0.168 s/cand wall), thread time 33.01 s/cand
+== Mon Nov 16 19:06:09 UTC 2026 lines=6890232 tier_new=4403
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4403 candidates from tier_new.txt
+filter: 4403 cands, pass(a)=4403 (100.0%), pass(c)=4403 (100.0% of a), pass(t)=0; wall 762.2s (0.173 s/cand wall), thread time 34.20 s/cand
+== Mon Nov 16 19:23:52 UTC 2026 lines=7561141 tier_new=4300
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4300 candidates from tier_new.txt
+filter: 4300 cands, pass(a)=4300 (100.0%), pass(c)=4300 (100.0% of a), pass(t)=0; wall 802.4s (0.187 s/cand wall), thread time 36.65 s/cand
+== Mon Nov 16 19:42:15 UTC 2026 lines=8261429 tier_new=4397
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4397 candidates from tier_new.txt
+filter: 4397 cands, pass(a)=4397 (100.0%), pass(c)=4397 (100.0% of a), pass(t)=0; wall 821.5s (0.187 s/cand wall), thread time 36.74 s/cand
+== Mon Nov 16 20:00:58 UTC 2026 lines=8980703 tier_new=4584
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4584 candidates from tier_new.txt
+  cand 4271 (z2=-7.38) passed 3-round test: z3=8.01, pairs 1
+filter: 4584 cands, pass(a)=4584 (100.0%), pass(c)=4584 (100.0% of a), pass(t)=1; wall 853.6s (0.186 s/cand wall), thread time 36.70 s/cand
+recovering from cand 4271:\n  (a) 339 hyps >= 5.0, best z=-5.84 nrm=1 g0=15 g3=47 k=ea7b  (8.75s)
+  (c) 540 hyps >= 5.0, best z=-6.10 nrm=0 g0=40 g3=0d k=1c28  (10.84s)
+  (t) best 3-round z=8.01; 1 of 339 x 540 pairs pass 8.0 (0.02s)
+  (e) tried 1 pair(s), no key (0.0s)
+== Mon Nov 16 20:20:32 UTC 2026 lines=9715481 tier_new=4659
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4659 candidates from tier_new.txt
+filter: 4659 cands, pass(a)=4659 (100.0%), pass(c)=4659 (100.0% of a), pass(t)=0; wall 856.1s (0.184 s/cand wall), thread time 36.36 s/cand
+== Mon Nov 16 20:39:49 UTC 2026 lines=10452109 tier_new=4767
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4767 candidates from tier_new.txt
+filter: 4767 cands, pass(a)=4767 (100.0%), pass(c)=4767 (100.0% of a), pass(t)=0; wall 759.5s (0.159 s/cand wall), thread time 31.45 s/cand
+== Mon Nov 16 20:57:29 UTC 2026 lines=11122921 tier_new=4247
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4247 candidates from tier_new.txt
+filter: 4247 cands, pass(a)=4247 (100.0%), pass(c)=4247 (100.0% of a), pass(t)=0; wall 786.0s (0.185 s/cand wall), thread time 36.55 s/cand
+== Mon Nov 16 21:15:36 UTC 2026 lines=11814168 tier_new=4525
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4525 candidates from tier_new.txt
+filter: 4525 cands, pass(a)=4525 (100.0%), pass(c)=4525 (100.0% of a), pass(t)=0; wall 852.6s (0.188 s/cand wall), thread time 37.14 s/cand
+== Mon Nov 16 21:34:50 UTC 2026 lines=12552941 tier_new=4737
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4737 candidates from tier_new.txt
+  cand 1232 (z2=-7.38) passed 3-round test: z3=-8.01, pairs 1
+filter: 4737 cands, pass(a)=4737 (100.0%), pass(c)=4737 (100.0% of a), pass(t)=1; wall 884.2s (0.187 s/cand wall), thread time 36.73 s/cand
+recovering from cand 1232:\n  (a) 492 hyps >= 5.0, best z=5.91 nrm=0 g0=22 g3=63 k=b11f  (9.31s)
+  (c) 491 hyps >= 5.0, best z=6.10 nrm=1 g0=42 g3=50 k=4921  (9.47s)
+  (t) best 3-round z=-8.01; 1 of 492 x 491 pairs pass 8.0 (0.03s)
+  (e) tried 1 pair(s), no key (0.0s)
+== Mon Nov 16 21:54:54 UTC 2026 lines=13316144 tier_new=4838
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4838 candidates from tier_new.txt
+filter: 4838 cands, pass(a)=4838 (100.0%), pass(c)=4838 (100.0% of a), pass(t)=0; wall 895.6s (0.185 s/cand wall), thread time 36.55 s/cand
+== Mon Nov 16 22:14:50 UTC 2026 lines=14069230 tier_new=4856
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4856 candidates from tier_new.txt
+filter: 4856 cands, pass(a)=4856 (100.0%), pass(c)=4856 (100.0% of a), pass(t)=0; wall 899.2s (0.185 s/cand wall), thread time 36.53 s/cand
+== Mon Nov 16 22:34:50 UTC 2026 lines=14834972 tier_new=4915
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4915 candidates from tier_new.txt
+  cand 2686 (z2=7.50) passed 3-round test: z3=8.01, pairs 1
+filter: 4915 cands, pass(a)=4915 (100.0%), pass(c)=4915 (100.0% of a), pass(t)=1; wall 783.2s (0.159 s/cand wall), thread time 31.49 s/cand
+recovering from cand 2686:\n  (a) 585 hyps >= 5.0, best z=-6.55 nrm=1 g0=46 g3=60 k=0e49  (6.50s)
+  (c) 305 hyps >= 5.0, best z=6.03 nrm=0 g0=2a g3=07 k=850a  (5.04s)
+  (t) best 3-round z=8.01; 1 of 585 x 305 pairs pass 8.0 (0.02s)
+  (e) tried 1 pair(s), no key (0.0s)
+== Mon Nov 16 22:53:06 UTC 2026 lines=15535871 tier_new=4573
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4573 candidates from tier_new.txt
+filter: 4573 cands, pass(a)=4573 (100.0%), pass(c)=4573 (100.0% of a), pass(t)=0; wall 839.0s (0.183 s/cand wall), thread time 36.19 s/cand
+== Mon Nov 16 23:12:06 UTC 2026 lines=16253713 tier_new=4668
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4668 candidates from tier_new.txt
+filter: 4668 cands, pass(a)=4668 (100.0%), pass(c)=4668 (100.0% of a), pass(t)=0; wall 739.0s (0.158 s/cand wall), thread time 31.31 s/cand
+== Mon Nov 16 23:29:25 UTC 2026 lines=16922731 tier_new=4258
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4258 candidates from tier_new.txt
+filter: 4258 cands, pass(a)=4258 (100.0%), pass(c)=4258 (100.0% of a), pass(t)=0; wall 683.0s (0.160 s/cand wall), thread time 31.60 s/cand
+== Mon Nov 16 23:45:50 UTC 2026 lines=17546023 tier_new=3975
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 3975 candidates from tier_new.txt
+filter: 3975 cands, pass(a)=3975 (100.0%), pass(c)=3975 (100.0% of a), pass(t)=0; wall 720.3s (0.181 s/cand wall), thread time 35.79 s/cand
+== Tue Nov 17 00:02:51 UTC 2026 lines=18197396 tier_new=4031
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 4031 candidates from tier_new.txt
+filter: 4031 cands, pass(a)=4031 (100.0%), pass(c)=4031 (100.0% of a), pass(t)=0; wall 638.8s (0.158 s/cand wall), thread time 31.23 s/cand
+== Tue Nov 17 00:18:30 UTC 2026 lines=18792792 tier_new=3741
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 3741 candidates from tier_new.txt
+filter: 3741 cands, pass(a)=3741 (100.0%), pass(c)=3741 (100.0% of a), pass(t)=0; wall 599.4s (0.160 s/cand wall), thread time 31.38 s/cand
+== Tue Nov 17 00:33:31 UTC 2026 lines=19369535 tier_new=3614
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 3614 candidates from tier_new.txt
+filter: 3614 cands, pass(a)=3614 (100.0%), pass(c)=3614 (100.0% of a), pass(t)=0; wall 668.0s (0.185 s/cand wall), thread time 36.27 s/cand
+== Tue Nov 17 00:49:40 UTC 2026 lines=19611613 tier_new=1580
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=200
+processing 1580 candidates from tier_new.txt
+filter: 1580 cands, pass(a)=1580 (100.0%), pass(c)=1580 (100.0% of a), pass(t)=0; wall 296.9s (0.188 s/cand wall), thread time 36.13 s/cand

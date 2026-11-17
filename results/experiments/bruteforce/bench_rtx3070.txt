@@ -1,0 +1,6 @@
+GPU NVIDIA GeForce RTX 3070, SMs 46, clock 1755 MHz; keys per launch 2^36
+test 0: key be6a36374160d49b  no error  found 1 (CL matches 19, expect ~16)  -> FOUND
+test 1: key f69d16de9954d388  no error  found 1 (CL matches 19, expect ~16)  -> FOUND
+test 2: key 8e2076aeed51c648  no error  found 1 (CL matches 19, expect ~16)  -> FOUND
+GPU NVIDIA GeForce RTX 3070, SMs 46, clock 1755 MHz; keys per launch 2^36
+bench: 6 launches, 5.411 s, 7.620e+10 keys/s; 2^63 keys -> 3.84 years

@@ -1,0 +1,2 @@
+GPU NVIDIA GeForce RTX 5090, SMs 170, clock 2550 MHz; keys per launch 2^36
+bench: 20 launches, 3.606 s, 3.811e+11 keys/s; 2^63 keys -> 0.77 years

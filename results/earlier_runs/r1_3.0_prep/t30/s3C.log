@@ -1,0 +1,18 @@
+N=981 T1=1.00 T2=4.50 T3=8.00 threads=180
+processing 40 candidates from t30/C.txt
+  cand 4 (z2=9.76) passed 3-round test: z3=-8.21, pairs 7
+  cand 33 (z2=9.93) passed 3-round test: z3=8.84, pairs 3
+  cand 25 (z2=11.30) passed 3-round test: z3=-15.74, pairs 8734
+  cand 36 (z2=9.08) passed 3-round test: z3=8.65, pairs 6
+  cand 26 (z2=10.39) passed 3-round test: z3=-8.01, pairs 1
+filter: 40 cands, pass(a)=40 (100.0%), pass(c)=40 (100.0% of a), pass(t)=5; wall 56.3s (1.408 s/cand wall), thread time 54.14 s/cand
+recovering from cand 4:\n  (a) 4096 hyps >= 4.5, best z=8.46 nrm=1 g0=1e g3=63 k=aa78  (27.17s)
+  (c) 4096 hyps >= 4.5, best z=-5.91 nrm=1 g0=5b g3=2a k=e867  (25.94s)
+  (t) best 3-round z=-8.21; 7 of 4096 x 4096 pairs pass 8.0 (0.20s)
+  (e) tried 7 pair(s), no key (0.6s)
+recovering from cand 25:\n  (a) 4096 hyps >= 4.5, best z=8.46 nrm=1 g0=1e g3=63 k=aa78  (27.21s)
+  (c) 4096 hyps >= 4.5, best z=-7.63 nrm=0 g0=01 g3=40 k=ed73  (26.58s)
+  (t) best 3-round z=-15.74; 8734 of 4096 x 4096 pairs pass 8.0 (0.20s)
+  (e) key found at pair 1 (EK0=3ee3cf63 EK1mid=2a78 DK6=01a01840, z3=-15.48)
+  (e) tried 2 pair(s), key recovered (0.2s)
+KEY 39287fc26939a7df\n

@@ -1,0 +1,11 @@
+N=981 T1=2.00 T2=5.00 T3=8.00 threads=96 REVERSE
+processing 25 candidates from candD_DP.txt
+  cand 14 (z2=11.71) passed 3-round test: z3=-15.23, pairs 1590
+filter: 25 cands, pass(a)=25 (100.0%), pass(c)=25 (100.0% of a), pass(t)=1; wall 8.6s (0.346 s/cand wall), thread time 7.48 s/cand
+recovering from cand 14:\n  (a) 352 hyps >= 5.0, best z=8.33 nrm=1 g0=3e g3=63 k=2a78  (3.73s)
+  (c) 468 hyps >= 5.0, best z=-7.76 nrm=0 g0=01 g3=40 k=ed73  (3.86s)
+  (t) best 3-round z=-15.23; 1590 of 352 x 468 pairs pass 8.0 (0.01s)
+  (e) key found with the OTHER mapping (data satisfies Y = E(X))
+  (e) key found at pair 0 (EK0=3ee3cf63 EK1mid=2a78 DK6=01a01840, z3=-15.23)
+  (e) tried 1 pair(s), key recovered (0.2s)
+KEY 39287fc26939a7df\n

@@ -1,0 +1,60 @@
+1002 | true key in candidates: yes zA=-7.056; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-7.056 z1=-7.950 r=10.630
+1001 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=6.737 z1=8.205 r=10.617
+1003 | true key in candidates: yes zA=-8.589; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-8.589 z1=5.907 r=10.424
+1004 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-5.907 z1=-6.992 r=9.153
+1005 | true key in candidates: yes zA=-9.099; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-9.099 z1=-8.078 r=12.167
+1006 | true key in candidates: yes zA=7.056; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=7.056 z1=9.355 r=11.717
+1007 | true key in candidates: yes zA=8.716; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=8.716 z1=8.269 r=12.015
+1008 | true key in candidates: yes zA=-6.737; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-6.737 z1=-8.844 r=11.117
+1009 | true key in candidates: yes zA=-8.716; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-8.716 z1=-9.163 r=12.647
+1010 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: no
+1012 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-8.014 z1=5.907 r=9.955
+1011 | true key in candidates: yes zA=9.035; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=9.035 z1=-7.950 r=12.035
+1013 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-8.078 z1=-9.099 r=12.167
+1014 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=9.738 z1=-8.780 r=13.112
+1015 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=7.631 z1=9.227 r=11.974
+1016 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-8.269 z1=-8.589 r=11.922
+1018 | true key in candidates: yes zA=-9.163; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-9.163 z1=-7.695 r=11.965
+1017 | true key in candidates: yes zA=-7.695; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-7.695 z1=8.142 r=11.202
+1020 | true key in candidates: yes zA=6.801; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=6.801 z1=-8.844 r=11.156
+1019 | true key in candidates: yes zA=-7.758; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-7.758 z1=8.333 r=11.386
+1021 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: no
+1022 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: no
+1024 | true key in candidates: yes zA=-8.014; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-8.014 z1=6.801 r=10.510
+1023 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=7.184 z1=-8.589 r=11.197
+1025 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-7.375 z1=8.525 r=11.272
+1026 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-6.737 z1=8.269 r=10.666
+1027 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=6.992 z1=-8.525 r=11.025
+1028 | true key in candidates: yes zA=-6.928; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-6.928 z1=9.035 r=11.386
+1030 | true key in candidates: yes zA=7.439; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=7.439 z1=-7.822 r=10.795
+1029 | true key in candidates: yes zA=8.078; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=8.078 z1=6.481 r=10.356
+1032 | true key in candidates: yes zA=8.780; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=8.780 z1=8.333 r=12.105
+1031 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: no
+1033 | true key in candidates: yes zA=-8.908; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-8.908 z1=-8.652 r=12.418
+1034 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=6.417 z1=7.184 r=9.633
+1036 | true key in candidates: yes zA=-10.313; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-10.313 z1=-8.908 r=13.627
+1035 | true key in candidates: yes zA=8.333; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=8.333 z1=8.078 r=11.606
+1037 | true key in candidates: yes zA=-9.291; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-9.291 z1=-7.886 r=12.187
+1038 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-6.481 z1=6.864 r=9.441
+1039 | true key in candidates: yes zA=6.609; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=6.609 z1=-6.928 r=9.575
+1040 | true key in candidates: yes zA=9.099; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=9.099 z1=-6.481 r=11.172
+1041 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=6.098 z1=-6.992 r=9.278
+1042 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=8.525 z1=-8.142 r=11.788
+1044 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-8.461 z1=-8.014 r=11.654
+1043 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-4.693 z1=9.610 r=10.695
+1046 | true key in candidates: yes zA=8.525; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=8.525 z1=-8.972 r=12.376
+1045 | true key in candidates: yes zA=-9.355; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-9.355 z1=6.226 r=11.237
+1047 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=8.525 z1=-7.184 r=11.148
+1048 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: no
+1049 | true key in candidates: yes zA=8.205; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=8.205 z1=-9.929 r=12.881
+1050 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=6.609 z1=-8.461 r=10.736
+1051 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: no
+1052 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-8.269 z1=-7.248 r=10.996
+1053 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: no
+1054 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: no
+1055 | true key in candidates: yes zA=-10.057; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-10.057 z1=-7.822 r=12.741
+1056 | true key in candidates: yes zA=-8.333; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-8.333 z1=-8.525 r=11.921
+1057 | true key in candidates: yes zA=-7.758; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-7.758 z1=-7.120 r=10.530
+1058 | true key in candidates: yes zA=9.482; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=9.482 z1=-6.737 r=11.632
+1059 | true key in candidates: no zA=0.000; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=-8.397 z1=-7.695 r=11.389
+1060 | true key in candidates: yes zA=9.993; wrong candidates with |z|>=|z_true| in processed set: 0 | true key in candidates: z0=9.993 z1=-8.333 r=13.012

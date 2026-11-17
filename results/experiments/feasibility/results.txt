@@ -1,0 +1,96 @@
+# corr check
+test vector: ceef2c86f2490752 (expect ceef2c86f2490752) OK
+equivalent representation (EK0/DK7/DK6, 200 keys): OK
+5-round approx corr -0.2500 (expect +-0.25), 6-round approx corr 0.03157 (expect +-1/32=0.03125)
+8-bit partition capacity (mean e_g^2) = 0.2004 (survey: 0.200)
+
+# correct-key statistics (50000 keys each)
+real N=981 keys=50000  (theory: A=sqrt(N)/4=7.83, B=3.50)
+  A    |z| mean 7.83 sd 0.97  P(|z|>=6.5)=0.912  P(|z|>=7.0)=0.798
+  B    |z| mean 3.51 sd 0.99  P(|z|>=3.0)=0.695  P(|z|>=3.5)=0.504
+  6r   |z| mean 1.16 sd 0.79  P(|z|>=2.0)=0.162
+  joint: P(B>=3.0 & A>=6.5)=0.662  P(B>=3.0 & A256>=2 & A>=6.5)=0.657  P(B>=3.5 & A>=6.5)=0.487
+  reverse: mean |zA| 7.83 |zB| 3.51  P(rev success)=0.663  P(fwd or rev)=0.887
+real N=725 keys=20000  (theory: A=sqrt(N)/4=6.73, B=3.01)
+  A    |z| mean 6.73 sd 0.96  P(|z|>=6.5)=0.582  P(|z|>=7.0)=0.401
+  B    |z| mean 3.01 sd 1.00  P(|z|>=3.0)=0.505  P(|z|>=3.5)=0.314
+  6r   |z| mean 1.07 sd 0.76  P(|z|>=2.0)=0.126
+  joint: P(B>=3.0 & A>=6.5)=0.364  P(B>=3.0 & A256>=2 & A>=6.5)=0.363  P(B>=3.5 & A>=6.5)=0.243
+  reverse: mean |zA| 6.74 |zB| 3.02  P(rev success)=0.372  P(fwd or rev)=0.600
+real N=256 keys=20000  (theory: A=sqrt(N)/4=4.00, B=1.79)
+  A    |z| mean 4.01 sd 0.97  P(|z|>=6.5)=0.006  P(|z|>=7.0)=0.001
+  B    |z| mean 1.83 sd 0.94  P(|z|>=3.0)=0.113  P(|z|>=3.5)=0.043
+  6r   |z| mean 0.89 sd 0.67  P(|z|>=2.0)=0.082
+  joint: P(B>=3.0 & A>=6.5)=0.003  P(B>=3.0 & A256>=2 & A>=6.5)=0.003  P(B>=3.5 & A>=6.5)=0.002
+  reverse: mean |zA| 4.00 |zB| 1.83  P(rev success)=0.003  P(fwd or rev)=0.006
+rand N=981 keys=50000  (theory: A=sqrt(N)/4=7.83, B=3.50)
+  A    |z| mean 7.83 sd 0.96  P(|z|>=6.5)=0.913  P(|z|>=7.0)=0.799
+  B    |z| mean 3.51 sd 0.99  P(|z|>=3.0)=0.696  P(|z|>=3.5)=0.502
+  6r   |z| mean 1.16 sd 0.80  P(|z|>=2.0)=0.166
+  joint: P(B>=3.0 & A>=6.5)=0.663  P(B>=3.0 & A256>=2 & A>=6.5)=0.657  P(B>=3.5 & A>=6.5)=0.485
+  reverse: mean |zA| 7.83 |zB| 3.50  P(rev success)=0.667  P(fwd or rev)=0.888
+rand N=1024 keys=50000  (theory: A=sqrt(N)/4=8.00, B=3.58)
+  A    |z| mean 8.00 sd 0.97  P(|z|>=6.5)=0.943  P(|z|>=7.0)=0.856
+  B    |z| mean 3.57 sd 0.99  P(|z|>=3.0)=0.717  P(|z|>=3.5)=0.533
+  6r   |z| mean 1.18 sd 0.80  P(|z|>=2.0)=0.170
+  joint: P(B>=3.0 & A>=6.5)=0.696  P(B>=3.0 & A256>=2 & A>=6.5)=0.690  P(B>=3.5 & A>=6.5)=0.522
+  reverse: mean |zA| 8.00 |zB| 3.58  P(rev success)=0.702  P(fwd or rev)=0.909
+
+# plaintext pair differences
+unique blocks 981 pairs 480690 distinct 64-bit diffs 480684 max multiplicity 2
+max multiplicity of round-0 F-input difference 3 ; pairs with F-input diff 0: 0  0x80800000: 0
+# wrong-key distributions
+key 0: true zA=8.97 zB=4.33 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 6.99, #>=6.5: 4 ; max zB 4.25, #zB>=3: 210
+key 1: true zA=7.76 zB=2.85 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 6.61, #>=6.5: 2 ; max zB 4.48, #zB>=3: 582
+key 2: true zA=8.52 zB=4.11 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 7.25, #>=6.5: 2 ; max zB 4.26, #zB>=3: 140
+key 3: true zA=6.42 zB=2.71 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 6.48, #>=6.5: 0 ; max zB 4.18, #zB>=3: 180
+key 4: true zA=9.93 zB=4.58 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 8.72, #>=6.5: 14 ; max zB 4.35, #zB>=3: 296
+key 5: true zA=7.63 zB=4.47 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 7.50, #>=6.5: 4 ; max zB 4.94, #zB>=3: 560
+key 6: true zA=8.40 zB=2.89 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 8.14, #>=6.5: 6 ; max zB 4.03, #zB>=3: 152
+key 7: true zA=9.93 zB=4.95 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 9.48, #>=6.5: 12 ; max zB 5.31, #zB>=3: 778
+key 8: true zA=7.06 zB=2.01 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 6.42, #>=6.5: 0 ; max zB 5.25, #zB>=3: 330
+key 9: true zA=7.69 zB=4.20 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 6.74, #>=6.5: 4 ; max zB 4.51, #zB>=3: 200
+key 10: true zA=7.25 zB=2.86 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 6.16, #>=6.5: 0 ; max zB 4.12, #zB>=3: 280
+key 11: true zA=6.74 zB=1.51 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 5.40, #>=6.5: 0 ; max zB 4.15, #zB>=3: 82
+key 12: true zA=5.97 zB=2.53 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 5.14, #>=6.5: 0 ; max zB 4.06, #zB>=3: 214
+key 13: true zA=6.86 zB=2.79 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 6.86, #>=6.5: 2 ; max zB 4.02, #zB>=3: 184
+key 14: true zA=7.12 zB=4.56 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 6.48, #>=6.5: 0 ; max zB 5.11, #zB>=3: 216
+key 15: true zA=5.91 zB=2.84 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 5.01, #>=6.5: 0 ; max zB 4.11, #zB>=3: 154
+
+null (fully wrong) real N=981
+  A: 536870912 hyps, E[z^2]=1.0026 max 5.97
+  B: 34603008 hyps, E[z^2]=1.0021 max 5.18
+  thr   P_A(obs)    P_B(obs)    P_normal
+  3.0  2.707e-03  2.670e-03  2.700e-03
+  4.0  5.660e-05  6.017e-05  6.334e-05
+  4.5  7.685e-06  5.895e-06  6.795e-06
+  5.0  6.221e-07  1.734e-07  5.733e-07
+  5.5  2.235e-08  0.000e+00  3.798e-08
+  6.0  0.000e+00  0.000e+00  1.973e-09
+key 0: true zA=9.29 zB=4.17 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 7.57, #>=6.5: 10 ; max zB 4.15, #zB>=3: 188
+key 1: true zA=7.38 zB=4.18 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 7.69, #>=6.5: 2 ; max zB 4.43, #zB>=3: 532
+key 2: true zA=7.63 zB=1.84 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 5.91, #>=6.5: 0 ; max zB 3.77, #zB>=3: 120
+key 3: true zA=6.35 zB=1.98 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 5.97, #>=6.5: 0 ; max zB 3.82, #zB>=3: 164
+key 4: true zA=8.84 zB=4.74 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 8.01, #>=6.5: 12 ; max zB 4.01, #zB>=3: 172
+key 5: true zA=5.78 zB=3.37 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 4.82, #>=6.5: 0 ; max zB 4.10, #zB>=3: 238
+key 6: true zA=7.06 zB=2.06 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 6.42, #>=6.5: 0 ; max zB 5.28, #zB>=3: 790
+key 7: true zA=7.31 zB=4.76 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 5.84, #>=6.5: 0 ; max zB 4.69, #zB>=3: 268
+key 8: true zA=8.84 zB=5.39 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 7.18, #>=6.5: 8 ; max zB 5.00, #zB>=3: 858
+key 9: true zA=9.10 zB=5.65 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 8.27, #>=6.5: 14 ; max zB 5.97, #zB>=3: 460
+key 10: true zA=7.06 zB=3.00 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 6.93, #>=6.5: 8 ; max zB 4.35, #zB>=3: 156
+key 11: true zA=7.12 zB=2.71 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 5.59, #>=6.5: 0 ; max zB 4.70, #zB>=3: 162
+key 12: true zA=7.44 zB=4.12 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 6.16, #>=6.5: 0 ; max zB 4.08, #zB>=3: 150
+key 13: true zA=6.16 zB=2.40 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 5.97, #>=6.5: 0 ; max zB 4.67, #zB>=3: 538
+key 14: true zA=8.01 zB=3.56 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 6.67, #>=6.5: 6 ; max zB 4.32, #zB>=3: 238
+key 15: true zA=6.23 zB=1.54 | EK0 values giving identical/complement p-vector: 2 of 65536 | wrong EK0 with right cipher side: max zA 5.27, #>=6.5: 0 ; max zB 3.66, #zB>=3: 116
+
+null (fully wrong) rand N=981
+  A: 536870912 hyps, E[z^2]=0.9986 max 5.91
+  B: 34603008 hyps, E[z^2]=1.0024 max 5.32
+  thr   P_A(obs)    P_B(obs)    P_normal
+  3.0  2.646e-03  2.770e-03  2.700e-03
+  4.0  5.571e-05  6.184e-05  6.334e-05
+  4.5  6.951e-06  5.722e-06  6.795e-06
+  5.0  5.774e-07  3.468e-07  5.733e-07
+  5.5  3.353e-08  0.000e+00  3.798e-08
+  6.0  0.000e+00  0.000e+00  1.973e-09

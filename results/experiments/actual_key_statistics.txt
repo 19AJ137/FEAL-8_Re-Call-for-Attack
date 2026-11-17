@@ -1,0 +1,19 @@
+# Statistics of the correct key, computed from the true intermediate values
+#   KEY=a5ea6ec2fb0cc741 src/analysis/refstat data/plaintext.bin 1 0
+# columns: key | forward: zA0 zA1 zB0 zB1 pre0 pre1 | reverse: zA0 zA1 zB0 zB1 pre0 pre1
+#   zA_f : 5-round (method A) statistic of family f over all 981 distinct pairs (stage 2)
+#   zB_f : 8-bit partitioning statistic of family f (stage 1)
+#   pre_f: method A statistic over the first 256 pairs (stage-2 pre-filter)
+a5ea6ec2fb0cc741 -7.1198 -7.4391 -3.4705 -1.5402 -2.8750 -2.3750 -7.4391 -6.9283 -2.3072 -2.7793 -4.7500 -3.7500
+
+# Derived values and the thresholds used in the searches
+#                         forward            reverse
+# stage 1  sqrt(zB0^2+zB1^2)   3.80               3.61     pass if >= r1 (3.9175 or 3.44)
+# stage 1  |zB0| (one family)  3.47               2.31     pass if >= 3.5 (one-family run)
+# pre      sqrt(pre0^2+pre1^2) 3.73               6.05     pass if >= 2.486
+# stage 2  sqrt(zA0^2+zA1^2)  10.30              10.17     pass if >= 8.5
+#
+# - Forward, one family, |zB0| >= 3.5 (RTX 3070 run): missed at stage 1 (3.47).
+# - Forward and reverse, two families, r1 = 3.9175: missed at stage 1 (3.80 and 3.61).
+# - Reverse, two families, r1 = 3.44: passed (3.61), stage-2 r = 10.17 -> key recovered.
+#   The forward direction at r1 = 3.44 would also have passed (3.80).

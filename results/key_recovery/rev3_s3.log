@@ -1,0 +1,46 @@
+== Tue Nov 17 04:29:02 UTC 2026 raw=2 new=0
+== Tue Nov 17 04:31:02 UTC 2026 raw=2 new=0
+== Tue Nov 17 04:33:02 UTC 2026 raw=3 new=1
+N=981 T1=1.00 T2=4.50 T3=8.00 threads=240 REVERSE
+processing 1 candidates from rev3_new.txt
+filter: 1 cands, pass(a)=1 (100.0%), pass(c)=1 (100.0% of a), pass(t)=0; wall 56.9s (56.891 s/cand wall), thread time 56.86 s/cand
+== Tue Nov 17 04:35:59 UTC 2026 raw=2 new=0
+== Tue Nov 17 04:37:59 UTC 2026 raw=1 new=0
+== Tue Nov 17 04:39:59 UTC 2026 raw=5 new=0
+== Tue Nov 17 04:41:59 UTC 2026 raw=4 new=0
+== Tue Nov 17 04:43:59 UTC 2026 raw=6 new=3
+N=981 T1=1.00 T2=4.50 T3=8.00 threads=240 REVERSE
+processing 3 candidates from rev3_new.txt
+filter: 3 cands, pass(a)=3 (100.0%), pass(c)=3 (100.0% of a), pass(t)=0; wall 55.4s (18.452 s/cand wall), thread time 54.55 s/cand
+== Tue Nov 17 04:46:55 UTC 2026 raw=4 new=0
+== Tue Nov 17 04:48:55 UTC 2026 raw=1 new=0
+== Tue Nov 17 04:50:55 UTC 2026 raw=2 new=1
+N=981 T1=1.00 T2=4.50 T3=8.00 threads=240 REVERSE
+processing 1 candidates from rev3_new.txt
+filter: 1 cands, pass(a)=1 (100.0%), pass(c)=1 (100.0% of a), pass(t)=0; wall 57.4s (57.371 s/cand wall), thread time 57.34 s/cand
+== Tue Nov 17 04:53:52 UTC 2026 raw=7 new=1
+N=981 T1=1.00 T2=4.50 T3=8.00 threads=240 REVERSE
+processing 1 candidates from rev3_new.txt
+filter: 1 cands, pass(a)=1 (100.0%), pass(c)=1 (100.0% of a), pass(t)=0; wall 54.1s (54.078 s/cand wall), thread time 54.05 s/cand
+== Tue Nov 17 04:56:46 UTC 2026 raw=3 new=0
+== Tue Nov 17 04:58:46 UTC 2026 raw=2 new=1
+N=981 T1=1.00 T2=4.50 T3=8.00 threads=240 REVERSE
+processing 1 candidates from rev3_new.txt
+filter: 1 cands, pass(a)=1 (100.0%), pass(c)=1 (100.0% of a), pass(t)=0; wall 54.8s (54.786 s/cand wall), thread time 54.76 s/cand
+== Tue Nov 17 05:01:41 UTC 2026 raw=6 new=2
+N=981 T1=1.00 T2=4.50 T3=8.00 threads=240 REVERSE
+processing 2 candidates from rev3_new.txt
+filter: 2 cands, pass(a)=2 (100.0%), pass(c)=2 (100.0% of a), pass(t)=0; wall 57.2s (28.598 s/cand wall), thread time 54.63 s/cand
+== Tue Nov 17 05:04:39 UTC 2026 raw=13 new=9
+N=981 T1=1.00 T2=4.50 T3=8.00 threads=240 REVERSE
+processing 9 candidates from rev3_new.txt
+  cand 8 (z2=8.76) passed 3-round test: z3=11.53, pairs 18
+  cand 6 (z2=9.12) passed 3-round test: z3=9.04, pairs 3
+  cand 5 (z2=10.17) passed 3-round test: z3=-16.25, pairs 2566
+filter: 9 cands, pass(a)=9 (100.0%), pass(c)=9 (100.0% of a), pass(t)=3; wall 57.6s (6.405 s/cand wall), thread time 54.73 s/cand
+recovering from cand 5:\n  (a) 4096 hyps >= 4.5, best z=7.12 nrm=1 g0=69 g3=4b k=ba3f  (28.31s)
+  (c) 4096 hyps >= 4.5, best z=-8.72 nrm=0 g0=49 g3=11 k=8120  (26.42s)
+  (t) best 3-round z=-16.25; 2566 of 4096 x 4096 pairs pass 8.0 (0.21s)
+  (e) key found at pair 0 (EK0=69faef4b EK1mid=ba3f DK6=492d7611, z3=16.12)
+  (e) tried 1 pair(s), key recovered (0.0s)
+KEY a5ea6ec2fb0cc741\n
