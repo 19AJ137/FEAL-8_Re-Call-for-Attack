@@ -1,4 +1,4 @@
-/* 方式C（2族版）：attackC.c に崎小山ら（IEICE 2016）の第2族の近似（ΓY2=04011904、ΓY6=04011804）を足したもの
+/* 方式C（2族版）：attackC.c に先小山ら（IEICE 2016）の第2族の近似（ΓY2=04011904、ΓY6=04011804）を足したもの
  *
  *   ./attackC2 self  plaintext.bin seed nd [r1 rpre r2]
  *   ./attackC2 real  plaintext.bin ciphertext.bin start count out.txt [r1 rpre r2]

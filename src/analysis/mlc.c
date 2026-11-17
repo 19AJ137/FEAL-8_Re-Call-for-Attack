@@ -1,4 +1,4 @@
-/* 崎小山ら（IEICE 2016）4.3 の第1段階（6段近似 8本の MLC）を FEAL-8 で再現し、
+/* 先小山ら（IEICE 2016）4.3 の第1段階（6段近似 8本の MLC）を FEAL-8 で再現し、
  * 正解 (mK1 15bit, mK8 22bit) の 2^37 中の順位を見積もる。
  *
  *   ./mlc real plaintext.bin ntrials logS seed

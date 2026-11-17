@@ -1,7 +1,7 @@
 // 方式C（2族版）の段階1・2、GPU 版。attackC2.c（CPU）と同じ統計量・同じ出力
 //   ./attackC2_gpu self plaintext.bin seed nd [r1 rpre r2]
 //   ./attackC2_gpu real plaintext.bin ciphertext.bin start count out.txt [r1 rpre r2]
-// 族 f=0（現行：ΓY6=04031004）と f=1（崎小山ら第2族：ΓY2=04011904, ΓY6=04011804）
+// 族 f=0（現行：ΓY6=04031004）と f=1（先小山ら第2族：ΓY2=04011904, ΓY6=04011804）
 //   平文側   p_f = <00010504,L1> ^ <a1_f,R1>、a1 = {04031004, 04011804}
 //   暗号文側 c_f = <a6_f,R7> ^ <00000404,L7>、a6 = {04031004, 04011804}
 //   分割表 e_f と ROW 表は第6段の出力マスク a6_f で作る

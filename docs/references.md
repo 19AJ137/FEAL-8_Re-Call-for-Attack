@@ -27,7 +27,7 @@
    https://doi.org/10.1007/978-3-319-13051-4_4
    — Equivalent representation, the 5- and 6-round approximations, partitioning, and the 2^10-pair
    attack of Section 5.
-7. Y. Sakikoyama, Y. Todo, K. Aoki, M. Morii, "Efficient Implementations for Practical Linear
+7. S. Sakikoyama, Y. Todo, K. Aoki, M. Morii, "Efficient Implementations for Practical Linear
    Cryptanalysis and Its Application to FEAL-8X", IEICE Trans. Fundamentals, Vol. E99-A, No. 1,
    pp. 31–38, 2016. https://doi.org/10.1587/transfun.E99.A.31
    — Multiple linear cryptanalysis with 2^10 pairs; the second family of approximations

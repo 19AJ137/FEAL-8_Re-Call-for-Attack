@@ -24,7 +24,7 @@ python3 src/verify_key.py A5EA6EC2FB0CC741 data/plaintext.bin data/ciphertext.bi
 
 ## 求め方
 
-分割（partitioning）を組み合わせた既知平文の線形解読である。Biham–Carmeli（SAC 2014）と崎小山ら（IEICE 2016）の手法（どちらも FEAL-8X が対象）を組み合わせた。詳しくは [docs/attack.ja.md](docs/attack.ja.md)。
+分割（partitioning）を組み合わせた既知平文の線形解読である。Biham–Carmeli（SAC 2014）と先小山ら（IEICE 2016）の手法（どちらも FEAL-8X が対象）を組み合わせた。詳しくは [docs/attack.ja.md](docs/attack.ja.md)。
 
 1. **データ**：1024 ブロック、異なる組は 981（既知平文 2^10 組。選択平文攻撃は使えない）
 2. **段階 1**：EK0（15 ビット）、DK7（22 ビット）、DK6 の 8 ビットの仮説 2^45 個すべてについて、第 6 段の 8 ビット分割統計量を、2 つの族の 5 段線形近似で同時に計算し、z0² + z1² ≥ r1² のものを残す
