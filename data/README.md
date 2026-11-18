@@ -4,11 +4,12 @@
 |---|---|
 | `plaintext.bin` | Plaintext, 8192 bytes = 1024 blocks (付図6) |
 | `ciphertext.bin` | Ciphertext, 8192 bytes = 1024 blocks (付図7) |
-| `key.txt` | Recovered key `A5EA6EC2FB0CC741` |
+| `key.bin` | Recovered key, 8 bytes (raw) |
+| `key.txt` | Recovered key in hex: `A5EA6EC2FB0CC741` |
 | `plaintext.hex`, `ciphertext.hex` | One block per line: block number, byte offset, 64-bit block in hex |
 | `plaintext_text.txt` | Bytes 0x0000–0x17FE of the plaintext decoded from Shift-JIS (CP932) to UTF-8, CR+LF → LF |
 | `mac_fig8.txt`, `mac_fig9.txt` | CBC-MAC values printed with the problem for the plaintext (付図8) and the ciphertext (付図9) |
-| `sha256sum.txt` | SHA-256 of the files above (`sha256sum -c sha256sum.txt`) |
+| `sha256sum.txt` | SHA-256 of `plaintext.bin`, `ciphertext.bin` and `key.bin` (`sha256sum -c sha256sum.txt`) |
 
 The ciphertext is FEAL-8 in ECB mode: `C_i = E_K(P_i)` for every block, with K = `A5EA6EC2FB0CC741`.
 The first block is `0909814081408265` → `0B2CA544E0C77E30`.
